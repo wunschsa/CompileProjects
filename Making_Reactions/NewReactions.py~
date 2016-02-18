@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+#
+# Written by: Shaun Norris & Steven Wunch - VCU Bioinformatics
+#
+import re, psycopg2
+from collections import defaultdict
+genedict = defaultdict()
+
+try:
+    conn = psycopg2.connect("dbname='metabolicrxn' user='wunschsa' password='Roxy123Pid' host='localhost'")#password='testing!@3'") # open that database connection  #other user snake password pyth0n! dbname='reactions'
+except:
+    print "Unable to connect to database"
+    quit()
+cur = conn.cursor()
+dict = []
+thefile = open('/Users/stephenwunsch/Programming/PaeruginosaWorking.reactions')
+outfile = open('/Users/stephenwunsch/Programming/outfile.txt','w')
+outfile2 = open('/Users/stephenwunsch/Programming/outfile2.txt','w')
+num = 5
+numint = int(num)
+for rxn in thefile:
+    rxnid = rxn.split()[0]
+    reaction = rxn.split("\t")
+    cnum = reaction[5]
+    cnum3 = re.sub('\[[a-z]\]|:','',cnum)
+    if cnum3:
+        cur.execute("Select keggrxn from kegg_reactions where to_tsvector(c_reaction) @@ to_tsquery('%s');" % rxnid)
+        print cur.fetchall()
+        outfile2.write(rxnid + "\t" + cnum3 + "\n")
+    

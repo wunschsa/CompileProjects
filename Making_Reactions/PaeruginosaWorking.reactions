@@ -1,0 +1,1005 @@
+R_MMM	methylmalonyl-CoA mutase	False	Isoleucine Catabolism	5.4.99.2	[c] : C01213 --> C00091
+R_TREH	alpha,alpha-trehalase	False	; Starch and sucrose metabolism 	3.2.1.28	[c] : C00001 + C01083 --> 2 C00031
+R_FGLU	formimidoylglutamase	False	Energy metabolism	3.5.3.8	[c] : C00439 + C00001 --> C00488 + C00025
+R_CTPS2	CTP synthase (glutamine)	False	Purine and Pyrimidine Biosynthesis	6.3.4.2	[c] : C00002 + C00064 + C00001 + C00075 --> C00008 + C00063 + C00025 + 2 C00080 + C00009
+R_MG2abci	magnesium transport via ABC system irreversible	False	Transport, Extracellular	3.6.3.12, TC-3.A.3	C00002[c] + C00001[c] + C00305[e] --> C00008[c] + C00080[c] + C00305[c] + C00009[c]
+R_LYSDC	lysine decarboxylase	False	Threonine and Lysine Metabolism	4.1.1.18	[c] : C00080 + C00047 --> C01672 + C00011
+R_ALDD2x	aldehyde dehydrogenase (acetaldehyde, NAD)	False	Alternate Carbon Metabolism	1.2.1.3	[c] : C00084 + C00001 + C00003 --> C00033 + 2 C00080 + C00004
+R_MME	methylmalonyl-CoA epimerase	True	Alternate Carbon Metabolism	5.1.99.1	[c] : C01213 <==> C00683
+R_1PYRRD	1-pyrroline dehydrogenase	False	arginine catabolism		[c] : C03912 + 2 C00001 + C00003 --> C00334 + C00080 + C00004
+R_NACODA	N-acetylornithine deacetylase	False	Proline Biosynthesis		[c] : C01250 + C00001 --> C00033 + C01165
+R_UGLT	UDPglucose--hexose-1-phosphate uridylyltransferase	True	Galactose metabolism ; ; Pentose and glucuronate interconversions ; Nucleotide sugars metabolism ; Starch and sucrose metabolism 	2.7.7.12	[c] : C00446 + C00029 <==> C00103 + C00052
+R_IZPN	imidazolonepropionase	False	; Amino acid biosynthesis and metabolism 	3.5.2.7	[c] : C03680 + C00001 --> C00439
+R_PRPPS	phosphoribosylpyrophosphate synthetase	True	Histidine Metabolism	2.7.6.1	[c] : C00002 + C00117 <==> C00020 + C00080 + C00119
+R_OMMBLHX	2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase	False	Quinone Biosynthesis, Ubiquinone		[c] : C90448 + 0.5 C00007 --> C90447
+R_13DAMPPOX	1,3-diaminopropane oxidase	False	Spermidine Metabolism		[c] : C00986 + C00001 + C00007 --> C91732 + C00080 + C00027 + C01342
+R_TYRt6i	L-tyrosine transport in/out via proton symport	False	Transport, Extracellular	TC-2.A.3.1	C00080[e] + C00082[e] --> C00080[c] + C00082[c]
+R_ADCS	4-amino-4-deoxychorismate synthase	False	Folate Metabolism		[c] : C00251 + C00064 --> C11355 + C00025
+R_ASNN	L-asparaginase	False	Amino Acid Degradation	3.5.1.1	[c] : C00152 + C00001 --> C00049 + C01342
+R_4HBZt	4-Hydroxybenzoate transport	True	; Aromatic compound catabolism 		C00156[e] + C00080[e] <==> C00156[c] + C00080[c]
+R_mg2t	mg2transport	False	Transport Database	.	C00305[e] --> C00305[c]
+R_mant	mantransport	False	Transport Database	.	C00936[e] --> C00936[c]
+R_PYDXNO	pyridoxine oxidase	True	Pyridoxine Metabolism	1.4.3.5	[c] : C00007 + C00314 <==> C00027 + C00250
+R_PYDXNK	pyridoxal kinase (Pyridoxine)	False	Pyridoxine Metabolism	2.7.1.35	[c] : C00002 + C00314 --> C00008 + C00080 + C00627
+R_PANTS	pantothenate synthase	False	Coenzyme A Biosynthesis	6.3.2.1	[c] : C00099 + C00002 + C00522 --> C00020 + C00080 + C00864 + C00013
+R_GDPMR	GDP-4-dehydro-6-deoxy-D-mannose reductase	True	Cell Envelope Biosynthesis- O-antigen	1.1.1.187	[c] : C03117 + C00006 <==> C01222 + 3 C00080 + C00005
+R_GLYBTM	glycine betaine transmethylase	True	; Choline, betaine and methionine metabolism 		[c] : C00719 + C00155 <==> C01026 + C00073
+R_LYSTRS	Lysyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Lysine biosynthesis 	6.1.1.6	[c] : C00002 + C00047 + C01646 --> C00020 + C01931 + C00013
+R_3HBUTDH	3-hydroxybutyrate dehydrogenase	True	; Carbon compound catabolism 	1.1.1.30	[c] : C01089 + C00003 <==> C00164 + C00080 + C00004
+R_VALt2na	L-valine transport in via proton symport	False	Transport, Extracellular	TC-2.A.26	C01330[e] + C00183[e] --> C01330[c] + C00183[c]
+R_GLYCL	Glycine Cleavage System	False	Glycine, serine and threonine metabolism ; 		[c] : C00037 + C00003 + C00101 --> C00011 + C00143 + C00004 + C01342
+R_GLYCK	glycerate kinase	False	Energy metabolism	2.7.1.31	[c] : C00002 + C00258 --> C00197 + C00008 + C00080
+R_ADCL	4-aminobenzoate synthase	False	Folate Metabolism		[c] : C11355 --> C00568 + C00080 + C00022
+R_PUTA	Proline dehydrogenase	False	Arginine and proline metabolism ; ; Glutamate metabolism 	1.5.99.8	[c] : C00016 + C00001 + C00148 --> C01352 + C01165
+R_HTDR6	3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	; Fatty acid and phospholipid metabolism 	1.1.1.100	[c] : C05759 + C00080 + C00005 --> C04688 + C00006
+R_MGt5i	magnesium transport into cell	False	Transport, Extracellular		C00305[e] --> C00305[c]
+R_SPMS	spermidine synthase	False	Arginine, Putriscine, and Spermidine Metabolism	2.5.1.16	[c] : C01137 + C00134 --> C00170 + C00080 + C00315
+R_PHAC	poly(3-hydroxyalkanoic acid) synthase	False	Rhamnolipid synthesis		[c] : 2 C05264 --> C91737 + C00010
+R_TSULST	thiosulfate sulfurtransferase	False	; Adaptation, Protection 	2.8.1.1	[c] : C01326 + C00320 --> C00080 + C00094 + C01755
+R_MAN1PT2_r	mannose-1-phosphate guanylyltransferase (GDP) reversible	True	Cell Envelope Biosynthesis- O-antigen	2.7.7.22	[c] : C00035 + C00080 + C00636 <==> C00096 + C00009
+R_DHPS3	dihydropteroate synthase	False	Folate Metabolism	2.5.1.15	[c] : C04807 + C00568 --> C00921 + C00013
+R_cellobioset	cellobiosetransport	False	Transport Database	.	C00185[e] --> C00185[c]
+R_urit	uritransport	False	Transport Database	.	C00299[e] --> C00299[c]
+R_HBZOPT	4-hydroxybenzoate octaprenyltransferase	False	Quinone Biosynthesis, Ubiquinone		[c] : C00156 + C04146 --> C05809 + C00013
+R_TREHS	maltose alpha-D-glucosyltransferase;	False	Starch and sucrose metabolism	5.4.99.16	[c] : C00208 --> C01083
+R_LCAD	lactaldehyde dehydrogenase	True	Alternate Carbon Metabolism	1.2.1.22	[c] : C00001 + C00424 + C00003 <==> 2 C00080 + C00186 + C00004
+R_MFNAcPPUNDs	Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-undecap synthesis	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : uacman2NAc*A + C91683 --> C91682 + C00105
+R_FCLT	Heme B synthesis reaction	False	Tetrapyrrole Biosynthesis	4.99.1.1	[c] : C00023 + C02191 --> C00080 + C00032
+R_ORNabc	ornithine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00002[c] + C00001[c] + orn-L[e] --> C00008[c] + C00080[c] + orn-L[c] + C00009[c]
+R_3MBT	S-(3-Methylbutanoyl)-dihydrolipoamide	False	; Citrate cycle (TCA cycle) ; Lysine degradation 	2.3.1	[c] : C05119 + C00010 --> C00579 + C02939
+R_DEMAT4	Decanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C05754 + C00080 + C00004 --> C05755 + C00003
+R_MUCtr	muconate transport in via proton symport	True	Transport, Extracellular		C00080[e] + C02480[e] <==> C00080[c] + C02480[c]
+R_MLACI	maleylacetoacetate isomerase	False	; Aromatic compound catabolism 	5.2.1.2	[c] : C01036 --> C01061
+R_CAT	catalase	False	; Methane metabolism ; Tryptophan metabolism 	1.11.1.6	[c] : 2 C00027 --> 2 C00001 + C00007
+R_HPPK	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	False	Folate Metabolism	2.7.6.3	[c] : C01300 + C00002 --> C04807 + C00020 + C00080
+R_cd2t	cd2transport	False	Transport Database	.	C01413[e] --> C01413[c]
+R_FMNAT	FMN adenylyltransferase	False	Riboflavin Metabolism	2.7.7.2	[c] : C00002 + C00061 + C00080 --> C00016 + C00013
+R_HHYR2	(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	Fatty acid biosynthesis	1.1.1.100	[c] : C05746 + C00080 + C00005 --> C05747 + C00006
+R_SERTRS	Seryl-tRNA synthetase	False	Glycine, serine and threonine metabolism ; ; Aminoacyl-tRNA biosynthesis 	6.1.1.11	[c] : C00002 + C00065 + C01650 --> C00020 + C00013 + C02553
+R_DAHPS	3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	False	Aromatic Amino Acids	4.1.2.15	[c] : C00279 + C00001 + C00074 --> C04691 + C00009
+R_HMGL	hydroxymethylglutaryl-CoA lyase	False	Acyclic isoprenoid and branched-chain amino acids catabolism ; 	4.1.3.4	[c] : C00356 --> C00164 + C00024
+R_ptrct	ptrctransport	False	Transport Database	.	C00134[e] --> C00134[c]
+R_EDA	2-dehydro-3-deoxy-phosphogluconate aldolase	False	Pentose Phosphate Cycle	4.1.2.14	[c] : C04442 --> C00661 + C00022
+R_G6PDHy	glucose 6-phosphate dehydrogenase	True	Pentose Phosphate Cycle	1.1.1.49	[c] : C00092 + C00006 <==> C01236 + C00080 + C00005
+R_FUMACA	fumarylacetoacetase	False	; Aromatic compound catabolism 	3.7.1.2	[c] : C01061 + C00001 --> C00164 + C00122 + C00080
+R_PDHe3c	pyruvate dehydrogenase (dihydrolipoamide dehydrogenase)	False	Glycine, serine and threonine metabolism ; Citrate cycle (TCA cycle) ; ; Pyruvate metabolism ; Glycolysis / Gluconeogenesis 	1.8.1.4	[c] : C00579 + C00003 --> C00080 + C00248 + C00004
+R_GLUTARt	glutarate transport via h+ symport	False	Transport, Extracellular		C00489[e] + C00080[e] --> C00489[c] + C00080[c]
+R_lac_Dt	lac-Dtransport	True	Transport Database	.	C00256[c] <==> C00256[e]
+R_mn2t	mn2transport	False	Transport Database	.	C00034[e] --> C00034[c]
+R_OMPHHX	2-octaprenyl-6-methoxyphenol hydroxylase	False	Quinone Biosynthesis, Ubiquinone		[c] : C05812 + 0.5 C00007 --> C05811
+R_HMPCCDO	homoprotocatechuate 2,3-dioxygenase	True	; Aromatic compound catabolism 		[c] : C01161 + C00007 <==> C04642 + 2 C00080
+R_TMKr	thiamine kinase	True	Thiamine Metabolism	2.7.1.89	[c] : C00002 + C00378 <==> C00008 + C00080 + C01081
+R_SERD_D	D-serine deaminase	False	Amino Acid Degradation	4.3.1.18	[c] : C00740 --> C01342 + C00022
+R_DGK1	deoxyguanylate kinase (dGMP:ATP)	True	Salvage Pathways	2.7.4.8	[c] : C00002 + C00362 <==> C00008 + C00361
+R_CHRPL	chorismate pyruvate lyase	False	Quinone Biosynthesis, Ubiquinone		[c] : C00251 --> C00156 + C00022
+R_CBMLPTAH	N-carbamoylputrescine amidohydrolase	False	Arginine and proline metabolism ; 		[c] : C00436 + C00080 + C00001 --> C00011 + C00014 + C00134
+R_SERD_L	L-serine deaminase	False	Amino Acid Degradation	4.3.1.17	[c] : C00065 --> C01342 + C00022
+R_HEXSabc	hexanesulfonate transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + hexs[e] --> C00008[c] + C00080[c] + hexs[c] + C00009[c]
+R_NO2t3	nitrite transport out via proton antiport	False	; Nitrogen metabolism 		C00080[e] + C00088[c] --> C00080[c] + C00088[e]
+R_COBALTt5	cobalt transport in/out via permease (no H+)	True	Transport, Extracellular	TC-1.A.35	C00175[c] <==> C00175[e]
+R_SDPDS	succinyl-diaminopimelate desuccinylase	False	Threonine and Lysine Metabolism	3.5.1.18	[c] : C00001 + C04421 --> C00666 + C00042
+R_GDPDP3PH	guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase	False	; Purine metabolism 		[c] : C01228 + C00001 --> C00035 + C00013
+R_avite1t	avite1transport	False	Transport Database	.	avite1[e] --> avite1[c]
+R_DHNPA	dihydroneopterin aldolase	False	Folate Metabolism	4.1.2.25	[c] : C04874 --> C01300 + C00266
+R_HGENDO	homogentisate 1,2-dioxygenase	False	; Aromatic compound catabolism 	1.13.11.5	[c] : C00544 + C00007 --> C01036 + C00080
+R_ATPM	ATP maintenance requirment	False	Transport, Extracellular	3.6.1.15	[c] : C00002 + C00001 --> C00008 + C00080 + C00009
+R_ADCOBASr	adenosylcobinamide-phosphate synthase	True	; Cobalamin biosynthesis 		[c] : C05771 + C06507 <==> C06508 + C00001
+R_ILEt2na	L-isoleucine transport in via proton symport	False	Transport, Extracellular	TC-2.A.26	C00407[e] + C01330[e] --> C00407[c] + C01330[c]
+R_PIt6	phosphate transport in/out via proton symporter	True	Transport, Extracellular	TC-2.A.20	C00080[e] + C00009[e] <==> C00080[c] + C00009[c]
+R_GLXCBL	glyoxalate carboligase	False	; Glyoxylate and dicarboxylate metabolism 	4.1.1.47	[c] : 2 C00048 + C00080 --> C01146 + C00011
+R_DIHYP	dihydropyrimidinase	True	; Nucleotide biosynthesis and metabolism 		[c] : C00429 + C00001 <==> C02642 + C00080
+R_PRFGS	phosphoribosylformylglycinamidine synthase	False	Purine and Pyrimidine Biosynthesis	6.3.5.3	[c] : C00002 + C04376 + C00064 + C00001 --> C00008 + C04640 + C00025 + 2 C00080 + C00009
+R_RHLB	rhamnosyltransferase chain B	False	Rhamnolipid synthesis		[c] : C91731 + C00688 + C00080 --> C00363 + C91700
+R_PAPSR	phosphoadenylyl-sulfate reductase (thioredoxin)	False	Cysteine Metabolism		[c] : C00053 + C00342 --> 2 C00080 + C00054 + C00094 + C00343
+R_ALLTAH	allantoicase	False	purine degradation	3.5.3.4	[c] : C00499 + C00001 --> C00603 + C00086
+R_CITt10	citrate transport in via Mg complex	False	Transport, Extracellular		C00158[e] + C00080[e] + C00305[e] --> C00158[c] + C00080[c] + C00305[c]
+R_PPND	prephenate dehydrogenase	False	Aromatic Amino Acids	1.3.1.12	[c] : C00003 + C00254 --> C01179 + C00011 + C00004
+R_CPPPGOAN	Oxygen Independent coproporphyrinogen-III oxidase	False	; Biosynthesis of cofactors, prosthetic groups and carriers 		[c] : 2 C00019 + C03263 + 2 fdxo-4:2 + 2 C00005 --> 2 C00011 + 2 C05198 + 2 fdxr-4:2 + 2 C00080 + 2 C00073 + 2 C00006 + C01079
+R_PDH	pyruvate dehydrogenase	False	Glycolysis/Gluconeogenesis	1.2.1.51	[c] : C00010 + C00003 + C00022 --> C00024 + C00011 + C00004
+R_MOBDabc	molybdate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.8	C00002[c] + C00001[c] + C06232[e] --> C00008[c] + C00080[c] + C06232[c] + C00009[c]
+R_asp_Lt	asp-Ltransport	False	Transport Database	.	C00049[e] --> C00049[c]
+R_GUAPRT	guanine phosphoribosyltransferase	False	Salvage Pathways		[c] : C00242 + C00119 --> C00144 + C00013
+R_ILEabc	L-isoleucine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00407[e] --> C00008[c] + C00080[c] + C00407[c] + C00009[c]
+R_NTD9	5'-nucleotidase (GMP)	False	Salvage Pathways	3.1.3.5	[c] : C00144 + C00001 --> C00387 + C00009
+R_NTD8	5'-nucleotidase (dGMP)	False	Salvage Pathways	3.1.3.5	[c] : C00362 + C00001 --> C00330 + C00009
+R_ACODA	acetylornithine deacetylase	False	Arginine, Putriscine, and Spermidine Metabolism	3.5.1.16	[c] : C00437 + C00001 --> C00033 + C00077
+R_NIt5	nickel transport in/out via permease (no H+)	True	Transport, Extracellular	TC-1.A.35	C00291[c] <==> C00291[e]
+R_NTD1	5'-nucleotidase (dUMP)	False	Salvage Pathways	3.1.3.5	[c] : C00365 + C00001 --> C00526 + C00009
+R_NTD3	5'-nucleotidase (dCMP)	False	Salvage Pathways	3.1.3.5	[c] : C00239 + C00001 --> C00881 + C00009
+R_HSAT	Acetyl-CoA:L-homoserine O-acetyltransferase	True	Methionine Metabolism	2.3.1.31	[c] : C00024 + C00263 <==> C01077 + C00010
+R_NTD5	5'-nucleotidase (dTMP)	False	Salvage Pathways	3.1.3.5	[c] : C00364 + C00001 --> C00009 + C00214
+R_NTD4	5'-nucleotidase (CMP)	False	Salvage Pathways	3.1.3.5	[c] : C00055 + C00001 --> C00475 + C00009
+R_NTD7	5'-nucleotidase (AMP)	False	Salvage Pathways	3.1.3.5	[c] : C00020 + C00001 --> C00212 + C00009
+R_NTD6	5'-nucleotidase (dAMP)	False	Salvage Pathways	3.1.3.5	[c] : C00360 + C00001 --> C00559 + C00009
+R_ALAR	alanine racemase	True	Alanine Biosynthesis	5.1.1.1	[c] : C00041 <==> C00133
+R_AOXS	8-amino-7-oxononanoate synthase	True	Biotin Biosynthesis	2.3.1.47	[c] : C00041 + C00080 + C01063 <==> C01092 + C00011 + C00010
+R_GLUDy	glutamate dehydrogenase (NADP)	True	Glutamate and Glutamine Biosynthesis	1.4.1.4	[c] : C00025 + C00001 + C00006 <==> C00026 + C00080 + C00005 + C01342
+R_OHPHM	R04988	False	Quinone Biosynthesis, Ubiquinone	2.1.1.64	[c] : C05811 + C00019 --> C05812 + C00021 + C00080
+R_SARCO	sarcosine oxidase	False	; Carbon compound catabolism 	1.5.3.1	[c] : C00001 + C00007 + C00213 --> C00067 + C00037 + C00027
+R_CYSTabc	L-cystine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00002[c] + cyst-L[e] + C00001[c] --> C00008[c] + cyst-L[c] + C00080[c] + C00009[c]
+R_PRAMPC	phosphoribosyl-AMP cyclohydrolase	False	Histidine Metabolism	3.5.4.19	[c] : C00080 + C00001 + C02741 --> C04896
+R_FEETERabc	Ferroxamine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.14	C00002[c] + C06230[e] + C00001[c] --> C00008[c] + C06230[c] + C00080[c] + C00009[c]
+R_FNOR	ferredoxin-NADP reductase	True	Porphyrin and chlorophyll metabolism ; 	1.18.1.2	[c] : fdxr-4:2 + C00080 + C00006 <==> fdxo-4:2 + C00005
+R_AKGD	2-oxoglutarate dehydrogenase	False	Citrate Cycle (TCA)	1.2.4.2	[c] : C00026 + C00010 + C00003 --> C00011 + C00004 + C00091
+R_PHE1Cs	phenazine-1-carboxamide synthetase	False	; Phenazine biosynthesis 		[c] : C00002 + C00064 + C00001 + C91698 --> C00020 + C00025 + 2 C00080 + C91697 + C00013
+R_G5SADs	L-glutamate 5-semialdehyde dehydratase (spontaneous)	True	Proline Biosynthesis		[c] : C01165 <==> C03912 + C00080 + C00001
+R_MALNtir	malonate transport	False	Transport, Extracellular		C00383[e] + C01330[e] --> C00383[c] + C01330[c]
+R_UACMAN3ND	UDP-N-acetyl-mannosamine-3-N dehydrogenase	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : C91685 --> C00080 + uacman2NAc3NA
+R_DAD-5t	deoxyadenosine transport	True	Transport, Extracellular		C05198[c] <==> C05198[e]
+R_OCTDPS	Octaprenyl pyrophosphate synthase	False	Isoprenoid Biosynthesis		[c] : C00448 + 5 C00129 --> C04146 + 5 C00013
+R_btnt	btntransport	False	Transport Database	.	C00120[e] --> C00120[c]
+R_PGDH	phosphogluconate dehydrogenase	False	Pentose Phosphate Cycle	1.1.1.44	[c] : C00345 + C00006 --> C00011 + C00005 + C00199
+R_NO3t2	nitrate transport in via proton symport	False	; Nitrogen metabolism 		C00080[e] + C00244[e] --> C00080[c] + C00244[c]
+R_lctst	lctstransport	False	Transport Database	.	C00243[e] --> C00243[c]
+R_VALabc	L-valine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00183[e] --> C00008[c] + C00080[c] + C00009[c] + C00183[c]
+R_ASP1DC	aspartate 1-decarboxylase	False	Coenzyme A Biosynthesis	4.1.1.11	[c] : C00049 + C00080 --> C00099 + C00011
+R_TTDA10COAR	2,4-dienoyl-CoA reductase (C10)	True	; Fatty acid and phospholipid metabolism 		[c] : C00080 + C00005 + C00320 <==> C00006 + C91692
+R_ACHBS	2-aceto-2-hydroxybutanoate synthase	False	Branched Chain Amino Acid Biosynthesis		[c] : C00109 + C00080 + C00022 --> C06006 + C00011
+R_fmnt	fmntransport	False	Transport Database	.	C00061[e] --> C00061[c]
+R_UDPG4E	UDPglucose 4-epimerase	True	Alternate Carbon Metabolism	5.1.3.2	[c] : C00029 <==> C00052
+R_RHA3GLCNACPPUNDs	Rha-(a1,3)-Rha-(a1,3)-Rha-(a1,3)-GlcNac-pyrophosphorylundecaprenol synthesis	False	Lipopolysaccharide biosynthesis, A-band O-antigen		[c] : 2 C03117 + C91695 --> 2 C00144 + C91694
+R_CYSabc	L-cysteine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00097[e] + C00001[c] --> C00008[c] + C00097[c] + C00080[c] + C00009[c]
+R_GBBTNabc	gamma-butyrobetaine transport in via ABC system	False	Transport, Extracellular		C00002[c] + C01181[e] + C00001[c] --> C00008[c] + C01181[c] + C00080[c] + C00009[c]
+R_GLUTRS	Glutamyl-tRNA synthetase	False	Tetrapyrrole Biosynthesis	6.1.1.17	[c] : C00002 + C00025 + C01641 --> C00020 + C02987 + C00013
+R_GLUTRR	glutamyl-tRNA reductase	False	Tetrapyrrole Biosynthesis		[c] : C02987 + C00080 + C00005 --> C03741 + C00006 + C01641
+R_GLCabc	D-glucose transport via ABC system	False	Transport, Extracellular		C00002[c] + C00267[e] + C00001[c] --> C00008[c] + C00267[c] + C00080[c] + C00009[c]
+R_GLYCt5	glycerol transport in/out via diffusion reversible	True	Transport, Extracellular		C00116[c] <==> C00116[e]
+R_G5SD	glutamate-5-semialdehyde dehydrogenase	False	Proline Biosynthesis	1.2.1.41	[c] : C03287 + C00080 + C00005 --> C01165 + C00006 + C00009
+R_DHPPDA2	diaminohydroxyphosphoribosylaminopyrimidine deaminase	False	Riboflavin Metabolism	3.5.4.26	[c] : C01304 + C00080 + C00001 --> C01268 + C01342
+R_ACPS1	acyl-carrier protein synthase	False	Coenzyme A Biosynthesis	2.7.8.7	[c] : C03688 + C00010 --> C00229 + C00080 + C00054
+R_sucrt	sucrtransport	False	Transport Database	.	C00089[e] --> C00089[c]
+R_HODHL8	(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier-protein] hydro-lyase	False	; Fatty acid metabolism 	4.2.1.58	[c] : C04620 --> C05748 + C00001
+R_UACMAN3Ns	UDP-N-acetyl-mannosamine aminase	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : C01342 + C01170 --> C00080 + C91685
+R_RIBB	3,4 Dihydroxy-2-butanone-4-phosphate synthase	False	Riboflavin Metabolism		[c] : C00117 --> C00131 + C00058 + C00080
+R_HSTPT	histidinol-phosphate transaminase	False	Histidine Metabolism	2.6.1.9	[c] : C00025 + C01267 --> C00026 + C00080 + C01100
+R_O2t	O2 transport in via diffusion	True	Transport, Extracellular		C00007[e] <==> C00007[c]
+R_ile_Lt	ile-Ltransport	False	Transport Database	.	C00407[e] --> C00407[c]
+R_ADSL2r	adenylosuccinate lyase	True	Purine and Pyrimidine Biosynthesis	4.3.2.2	[c] : C04823 <==> C04677 + C00122
+R_xyltt	xylttransport	False	Transport Database	.	C00379[e] --> C00379[c]
+R_GLU5K	glutamate 5-kinase	False	Proline Biosynthesis	2.7.2.11	[c] : C00002 + C00025 --> C00008 + C03287
+R_PA_LPS_Bs	Pseudomonas aeruginosa LPS B band synthesis	False	Lipopolysaccharide biosynthesis, 		[c] : C91716 + C91681 --> C91724 + C04574
+R_coat	coatransport	False	Transport Database	.	C00010[e] --> C00010[c]
+R_GLUt6	L-glutamate transport in/out via proton symporter	True	Transport, Extracellular	TC-2.A.23	C00025[e] + C00080[e] <==> C00025[c] + C00080[c]
+R_MTAP	5'-methylthioadenosine phosphorylase	False	; Methionine metabolism 	2.4.2.28	[c] : C00170 + C00009 --> C04188 + C00147
+R_FACOAL140(n)t	fatty-acid--CoA ligase (n-C14:0) transport	True	; Fatty acid metabolism 	6.2.1.3, 	C00002[c] + C00010[c] + myrt[e] <==> C00020[c] + C00013[c] + C02593[c]
+R_ACAC	acetoacetyl-CoAsynthetase	False	Butanoate metabolism	6.2.1.16	[c] : C00164 + C00002 + C00010 --> C00332 + C00020 + C00013
+R_ICHORT	isochorismatase	False	Quinone Biosynthesis	3.3.2.1	[c] : C00001 + C00885 --> C04171 + C00022
+R_TMDS	thymidylate synthase	False	Salvage Pathways	2.1.1.45	[c] : C00365 + C00143 --> C00415 + C00364
+R_DPCOAK	dephospho-CoA kinase	False	Coenzyme A Biosynthesis	2.7.1.24	[c] : C00002 + C00882 --> C00008 + C00010 + C00080
+R_ASPTA1	aspartate transaminase	True	Asparagine metabolism	2.6.1.1	[c] : C00026 + C00049 <==> C00025 + C00036
+R_PA_CORE5s	L-rhamnotransferase	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91720 + 2 C03319 --> C91719 + 2 C00363
+R_KBL1	Threonine dehydrogenase	False	Urea cycle and metabolism of amino groups ; ; Methane metabolism 	Undetermined	[c] : C00010 + C00188 --> C00024 + C00037 + C00282
+R_FRUK	fructokinase	False	Fructose and mannose metabolism ; 	2.7.1.4	[c] : C00002 + C00095 --> C00008 + C00085 + C00080
+R_TRPO2	L-Tryptophan:oxygen 2,3-oxidoreductase (decyclizing)	False	Quorum sensing, PQS	1.13.11.11	[c] : C00007 + C00078 --> C02700 + C00080
+R_PNTK	pantothenate kinase	False	Coenzyme A Biosynthesis	2.7.1.33	[c] : C00002 + C00864 --> C03492 + C00008 + C00080
+R_FCLPA	L-fuculose 1-phosphate aldolase	True	Alternate Carbon Metabolism	4.1.2.17	[c] : C01099 <==> C00111 + C00424
+R_PA_MOAT	3-deoxy-D-manno-octulosonic acid transferase	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C91715 + C04121 --> C91726 + C00055 + C00080
+R_GALUi	UTP-glucose-1-phosphate uridylyltransferase (irreversible)	False	Cell Envelope Biosynthesis	2.7.7.9	[c] : C00103 + C00080 + C00075 --> C00013 + C00029
+R_galt	galtransport	False	Transport Database	.	C00124[e] --> C00124[c]
+R_pro_Lt	pro-Ltransport	False	Transport Database	.	C00148[e] --> C00148[c]
+R_HDDR5	3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	Fatty acid biosynthesis	1.1.1.100	[c] : C05756 + C00080 + C00005 --> C05757 + C00006
+R_guat	guatransport	False	Transport Database	.	C00242[e] --> C00242[c]
+R_ca2t	ca2transport	False	Transport Database	.	C00076[e] --> C00076[c]
+R_NADPHQO	NADPH quinone oxidoreductase	False	Biosynthesis of steroids		[c] : C00080 + C00005 + C17569 --> C00006 + C90627
+R_ORNDC	ornithine decarboxylase	False	Arginine, Putriscine, and Spermidine Metabolism	4.1.1.17	[c] : C00080 + C00077 --> C00011 + C00134
+R_FERRICHabc	ferrichrome transport via ABC system	False	Transport, Extracellular		C00002[c] + C06228[e] + C00001[c] --> C00008[c] + C06228[c] + C00080[c] + C00009[c]
+R_ICDHy	isocitrate dehydrogenase (NADP)	True	Citrate Cycle (TCA)	1.1.1.42	[c] : C00311 + C00006 <==> C00026 + C00011 + C00005
+R_DHDPRy	dihydrodipicolinate reductase (NADPH)	False	Threonine and Lysine Metabolism	1.3.1.26	[c] : C03340 + C00080 + C00005 --> C00006 + C03972
+R_GF6PTA	glutamine-fructose-6-phosphate transaminase	False	Cell Envelope Biosynthesis	2.6.1.16	[c] : C00085 + C00064 --> C00352 + C00025
+R_glc_Dt	glc-Dtransport	False	Transport Database	.	C00267[e] --> C00267[c]
+R_MAT6	Myristoyl-[acyl-carrier protein] synthase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C00080 + C00004 + C90387 --> C05761 + C00003
+R_ser_Lt	ser-Ltransport	False	Transport Database	.	C00716[e] --> C00716[c]
+R_PROTRS	Prolyl-tRNA synthetase	False	Arginine and proline metabolism ; ; Aminoacyl-tRNA biosynthesis 	6.1.1.15	[c] : C00002 + C00148 + C01649 --> C00020 + C00013 + C02702
+R_THFGLUS	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)	True	; Biosynthesis of cofactors, prosthetic groups and carriers 	6.3.2.17	[c] : C00002 + C00025 + C00101 <==> C00008 + C00080 + C00009 + C03541
+R_HSK	homoserine kinase	False	Threonine and Lysine Metabolism	2.7.1.39	[c] : C00002 + C00263 --> C00008 + C00080 + C01102
+R_a_D_glucoset	a-D-glucosetransport	False	Transport Database	.	C00267[e] --> C00267[c]
+R_FAO4	fatty acid oxidation (Butanoyl-CoA )	False	Lysine Catabolism		[c] : C00136 + C00016 + C00001 + C00003 --> C00332 + C01352 + C00080 + C00004
+R_HHDR7	(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	; Fatty acid metabolism 	1.1.1.100	[c] : C05762 + C00080 + C00005 --> C04633 + C00006
+R_glyt	glytransport	False	Transport Database	.	C00037[e] --> C00037[c]
+R_vitd2t	vitd2transport	False	Transport Database	.	vitd2[e] --> vitd2[c]
+R_TPI	triose-phosphate isomerase	True	Glycolysis/Gluconeogenesis	5.3.1.1	[c] : C00111 <==> C00661
+R_pyrt	pyrtransport	True	Transport Database	.	C00022[c] <==> C00022[e]
+R_fe2t	fe2transport	False	Transport Database	.	C14818[e] --> C14818[c]
+R_GRTT	geranyltranstransferase	False	Isoprenoid Biosynthesis	2.5.1.10	[c] : C00341 + C00129 --> C00448 + C00013
+R_xant	xantransport	False	Transport Database	.	C00385[e] --> C00385[c]
+R_GDPMD	GDPmannose 4,6-dehydratase	False	Cell Envelope Biosynthesis- O-antigen	4.2.1.47	[c] : C00096 --> C01222 + C00001
+R_zymstt	zymsttransport	False	Transport Database	.	C05437[e] --> C05437[c]
+R_NDPK8	nucleoside-diphosphate kinase (ATP:dADP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00206 <==> C00008 + C00131
+R_NDPK7	nucleoside-diphosphate kinase (ATP:dCDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00705 <==> C00008 + C00458
+R_NDPK6	nucleoside-diphosphate kinase (ATP:dUDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C01346 <==> C00008 + C00460
+R_NDPK5	nucleoside-diphosphate kinase (ATP:dGDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00361 <==> C00008 + C00286
+R_NDPK4	nucleoside-diphosphate kinase (ATP:dTDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00363 <==> C00008 + C00459
+R_NDPK3	nucleoside-diphosphate kinase (ATP:CDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00112 <==> C00008 + C00063
+R_NDPK2	nucleoside-diphosphate kinase (ATP:UDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00015 <==> C00008 + C00075
+R_NDPK1	nucleoside-diphosphate kinase (ATP:GDP)	True	Salvage Pathways	2.7.4.6	[c] : C00002 + C00035 <==> C00008 + C00044
+R_DUTPDP	dUTP diphosphatase	False	Salvage Pathways	3.6.1.23	[c] : C00460 + C00001 --> C00365 + C00080 + C00013
+R_ASPt6	L-aspartate transport in via proton symport	True	Transport, Extracellular		C00049[e] + C00080[e] <==> C00049[c] + C00080[c]
+R_ALCDUBQ8	alcohol dehydrogenase (ethanol, ubq8)	True	ethanol metabolism		[c] : C00469 + C17569 <==> C00084 + C90627
+R_HSST	homoserine O-succinyltransferase	False	Methionine Metabolism	2.3.1.46	[c] : C00263 + C00091 --> C00010 + C01118
+R_M1PD	mannitol-1-phosphate 5-dehydrogenase	True	Alternate Carbon Metabolism	1.1.1.17	[c] : C00644 + C00003 <==> C00085 + C00080 + C00004
+R_GLNabc	L-glutamine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00002[c] + C00064[e] + C00001[c] --> C00008[c] + C00064[c] + C00080[c] + C00009[c]
+R_PGDHY	phosphogluconate dehydratase	False	Pentose Phosphate Cycle	4.2.1.12	[c] : C00345 --> C04442 + C00001
+R_HDDHL5	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	False	Fatty acyl elongation	4.2.1.58	[c] : C05757 --> C05758 + C00001
+R_PTHPS	6-pyruvoyltetrahydropterin synthase	False	; Biosynthesis of cofactors, prosthetic groups and carriers 	4.2.3.12	[c] : C04895 --> C03684 + C00536
+R_PA_CORE4s	alpha 1,3-glucosyltransferase	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C01045 + 3 C00029 --> C91720 + 3 C00015
+R_PC	pyruvate carboxylase	False	; Pyruvate metabolism ; Citrate cycle (TCA cycle) 	6.4.1.1	[c] : C00002 + C00288 + C00022 --> C00008 + C00080 + C00036 + C00009
+R_ala_Lt	ala-Ltransport	False	Transport Database	.	C00041[e] --> C00041[c]
+R_PNS1	purine nucleosidase (adenosine)	False	purine degradation	3.2.2.1	[c] : C00212 + C00001 --> C00147 + C00121
+R_HEX1	hexokinase (D-glucose:ATP)	False	Glycolysis/Gluconeogenesis	2.7.1.2	[c] : C00002 + C00031 --> C00008 + C00092 + C00080
+R_PNS3	purine nucleosidase (inosine)	False	purine degradation	3.2.2.1	[c] : C00001 + C00294 --> C00262 + C00121
+R_UDPGD	UDPglucose 6-dehydrogenase	True	colanic acid synthesis	1.1.1.22	[c] : C00001 + 2 C00003 + C00029 <==> 3 C00080 + 2 C00004 + C00167
+R_ENO	enolase	True	Glycolysis/Gluconeogenesis	4.2.1.11	[c] : C00631 <==> C00001 + C00074
+R_HISD1r	histidase	True	; Amino acid biosynthesis and metabolism 	4.3.1.3	[c] : C00135 <==> C01342 + C00785
+R_TYRTA	tyrosine transaminase	True	Tyrosine, Tryptophan, and Phenylalanine Metabolism	2.6.1.5	[c] : C00026 + C00082 <==> C01179 + C00025
+R_ASAD	aspartate-semialdehyde dehydrogenase	True	Threonine and Lysine Metabolism	1.2.1.11	[c] : C00441 + C00006 + C00009 <==> C03082 + C00080 + C00005
+R_ACMAT1	Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C03939 + C00080 + C01209 --> C00229 + C05744 + C00011
+R_AMPN	AMP nucleosidase	False	Salvage Pathways	3.2.2.4	[c] : C00020 + C00001 --> C00147 + C00117
+R_TTDA8COAR	2,4-dienoyl-CoA reductase (C8)	True	; Fatty acid and phospholipid metabolism 	1.3.1.34	[c] : C00080 + C00005 + C91690 <==> C00006 + C91691
+R_NO3abc	nitrate transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00244[e] --> C00008[c] + C00080[c] + C00244[c] + C00009[c]
+R_ACCOACr	acetyl-CoA carboxylase	True	Membrane Lipid Metabolism	6.4.1.2	[c] : C00024 + C00002 + C00288 <==> C00008 + C00080 + C00083 + C00009
+R_RNTR2	ribonucleoside-triphosphate reductase (GTP)	False	Salvage Pathways	1.17.4.2	[c] : C00044 + C00342 --> C00286 + C00001 + C00343
+R_RNTR3	ribonucleoside-triphosphate reductase (CTP)	False	Salvage Pathways	1.17.4.2	[c] : C00063 + C00342 --> C00458 + C00001 + C00343
+R_RNTR1	ribonucleoside-triphosphate reductase (ATP)	False	Salvage Pathways	1.17.4.2	[c] : C00002 + C00342 --> C00131 + C00001 + C00343
+R_MSO3abc	methanesulfonate transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C11145[e] --> C00008[c] + C00080[c] + C11145[c] + C00009[c]
+R_NMNAT	nicotinamide-nucleotide adenylyltransferase	False	NAD Biosynthesis	2.7.7.1	[c] : C00002 + C00080 + C00455 --> C00003 + C00013
+R_UDPDPS	undecaprenyl-diphosphate synthase	False	Cell wall / LPS / capsule ; ; Biosynthesis of cofactors, prosthetic groups and carriers 	2.5.1.31	[c] : C04509 + C00129 --> C00013 + C04574
+R_PC11M	precorrin-4 C11-methyltransferase	False	; Cobalamin biosynthesis 	2.1.1.133	[c] : C00019 + C06407 --> C00021 + C00080 + C06416
+R_pit	pitransport	False	Transport Database	.	C00009[e] --> C00009[c]
+R_PYDXK	pyridoxal kinase (Pyridoxal)	False	Pyridoxine Metabolism	2.7.1.35	[c] : C00002 + C00250 --> C00008 + 2 C00080 + C00018
+R_GLUK	Glucokinase	False	Glycolysis/Gluconeogenesis	2.7.1.2	[c] : C00002 + C00031 --> C00008 + C01172 + C00080
+R_PYDXO	pyridoxal oxidase	True	Pyridoxine Metabolism	1.4.3.5	[c] : 2 C00001 + C01342 + 0.5 C00007 + C00250 <==> C00080 + 2 C00027 + C00534
+R_GLUN	glutaminase	False	Glutamate Metabolism	3.5.1.2	[c] : C00064 + C00001 --> C00025 + C01342
+R_amett	amettransport	False	Transport Database	.	C00019[e] --> C00019[c]
+R_GLU-Dt2	D-glutamate transport in via proton symport	False	; Glutamate metabolism 		C00217[e] + C00080[e] --> C00217[c] + C00080[c]
+R_NADH11	NADH dehydrogenase (ubiquinone-8 & 2 protons)	False	; Oxidative phosphorylation 	1.6.5.3, 	3 C00080[c] + C00004[c] + ubq8[c] --> 2 C00080[e] + C00003[c] + ubq8h2[c]
+R_ADSL1r	adenylsuccinate lyase	True	Purine and Pyrimidine Biosynthesis	4.3.2.2	[c] : C03794 <==> C00020 + C00122
+R_4abzt	4abztransport	False	Transport Database	.	C00568[e] --> C00568[c]
+R_ASCt2	ascorbate transport in via proton symport	False	Transport, Extracellular	TC-2.A.40	C00072[e] + C00080[e] --> C00072[c] + C00080[c]
+R_PTAr	phosphotransacetylase	True	; Pyruvate metabolism 	2.3.1.8	[c] : C00024 + C00009 <==> C00227 + C00010
+R_OCBT	ornithine carbamoyltransferase	True	Arginine, Putriscine, and Spermidine Metabolism	2.1.3.3	[c] : C00169 + C00077 <==> C00327 + C00080 + C00009
+R_ribflvt	ribflvtransport	False	Transport Database	.	C00255[e] --> C00255[c]
+R_ALARi	alanine racemase (irreversible)	False	Alanine Biosynthesis	5.1.1.1	[c] : C00041 --> C00133
+R_DAAD	D-Amino acid dehydrogenase	False	Alanine Metabolism	1.4.99.1	[c] : C00133 + C00016 + C00001 --> C01352 + C01342 + C00022
+R_ACOAD8	isovaleryl-coA dehydrogenase	False	; Acyclic isoprenoid catabolism 	1.3.99.10	[c] : C00016 + C02939 --> C03069 + C01352
+R_NTD11	5'-nucleotidase (IMP)	False	Salvage Pathways	3.1.3.5	[c] : C00001 + C00130 --> C00294 + C00009
+R_RNDR1	ribonucleoside-diphosphate reductase (ADP)	False	Salvage Pathways	1.17.4.1	[c] : C00008 + C00342 --> C00206 + C00001 + C00343
+R_CO2t	CO2 transport out via diffusion	True	Transport, Extracellular		C00011[e] <==> C00011[c]
+R_PA_CORE6s	b-D-glucosyltransferase	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91719 + C00029 --> C91718 + C00015
+R_arab_Dt	arab-Dtransport	False	Transport Database	.	C00216[e] --> C00216[c]
+R_ACOAD10	Acyl-CoA dehydrogenase (2-Methylbutanoyl - trans-2-methylbut)	True	Isoleucine Catabolism	1.3.99.3	[c] : C01033 + C00016 <==> C03345 + C01352
+R_ARGAGMt	Arginine:Agmatine antiporter	True	Transport, Extracellular		C00179[c] + C00062[e] <==> C00179[e] + C00062[c]
+R_PA_LIPDA	Pseudomonas Lipid A Reaction	False	Lipopolysaccharide biosynthesis, Lipid A 	Undetermined	[c] : C91735 + C91713 + C00881 --> 2 C00229 + C91715
+R_HDER4r	(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	True	; Fatty acid biosynthesis (path 1) 	1.1.1.100	[c] : C05753 + C00080 + C00005 <==> C04619 + C00006
+R_na1t	na1transport	False	Transport Database	.	C01330[e] --> C01330[c]
+R_ICL	Isocitrate lyase	False	Oxidative phosphorylation	4.1.3.1	[c] : C00311 --> C00048 + C00042
+R_ABTA	4-aminobutyrate transaminase	False	Amino Acid Degradation	2.6.1.19	[c] : C00334 + C00026 --> C00025 + C00232
+R_G1Dy2	glucose 1-dehydrogenase (NADP) extracellular	False	Pentose Phosphate Cycle	1.1.1.119, 	C00267[e] + C00006[c] --> C00198[e] + C00080[c] + C00005[c]
+R_NTPTP2	Nucleoside triphosphate tripolyhydrolase	False	Salvage Pathways	3.1.5.1	[c] : C00044 + C00001 --> C00387 + C00536
+R_OMBZLM	2-Octaprenyl-6-methoxy-benzoquinol methylase	False	Quinone Biosynthesis, Ubiquinone		[c] : C05811 + C00019 --> C90448 + C00021 + C00080
+R_PC8XM	precorrin-8X methylmutase	False	; Cobalamin biosynthesis 	5.4.1.2	[c] : C00080 + C06408 --> C06399
+R_PPTGS	Peptidoglycan subunit synthesis	False	Cell Envelope Biosynthesis		[c] : C05898 --> C00080 + C90708 + C04574
+R_TMPKr	thiamine-phosphate kinase	True	Thiamine Metabolism	2.7.4.16	[c] : C00002 + C01081 <==> C00008 + C00068
+R_ENTCS	enterochelin synthase	False	Enterochelin Biosynthesis		[c] : 3 C04030 + 3 C05820 --> 6 C00020 + C05821 + 9 C00080
+R_GLGC	glucose-1-phosphate adenylyltransferase	False	Glycogen biosynthesis	2.7.7.27	[c] : C00002 + C00103 + C00080 --> C00498 + C00013
+R_urat	uratransport	False	Transport Database	.	C00106[e] --> C00106[c]
+R_ILEt2	L-isoleucine transport in via proton symport	False	Transport, Extracellular		C00080[e] + C00407[e] --> C00080[c] + C00407[c]
+R_CYOO3_2	cytochrome-c oxidase	False	Oxidative phosphorylation	1.9.3.1, 	2 C01071[c] + 4 C00080[c] + 0.5 C00007[c] --> 2 C01070[c] + 2 C00080[e] + C00001[c]
+R_ASPO8	L-aspartate oxidase	False	NAD Biosynthesis		[c] : C00049 + C00111 + C00016 --> C01352 + C00080 + 2 C00001 + C00009 + C03722
+R_HHQs	HHQ synthesis	False	Quorum sensing, PQS		[c] : C05753 + C00108 + C00080 --> C00229 + C00011 + C00001 + C91703
+R_FDH	formate dehydrogenase	False	; Methane metabolism ; Glyoxylate and dicarboxylate metabolism 	1.2.1.2	[c] : C00058 + C00003 --> C00011 + C00004
+R_GLNS_i	glutamine synthetase	False	Glutamate and Glutamine Biosynthesis	6.3.1.2	[c] : C00002 + C00025 + C01342 --> C00008 + C00064 + C00080 + C00009
+R_NADK	NAD kinase	False	NAD Biosynthesis	2.7.1.23	[c] : C00002 + C00003 --> C00008 + C00080 + C00006
+R_GLYK	glycerol kinase	False	Alternate Carbon Metabolism	2.7.1.30	[c] : C00002 + C00116 --> C00008 + C00093 + C00080
+R_SSALy	succinate-semialdehyde dehydrogenase (NADP)	True	Amino Acid Degradation	1.2.1.16	[c] : C00001 + C00006 + C00232 <==> 2 C00080 + C00005 + C00042
+R_SSALx	succinate-semialdehyde dehydrogenase (NAD)	False	Arginine and proline metabolism ; ; Glutamate metabolism ; Butanoate metabolism 	1.2.1.16	[c] : C00001 + C00003 + C00232 --> 2 C00080 + C00004 + C00042
+R_BTNC	Biotin carboxylase	False	Biotin Biosynthesis	6.3.4.14	[c] : C00002 + C06250 + C00288 --> C00008 + C04419 + C00080 + C00009
+R_PA_CORE1s	heptosyltransferase I	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91727 + C06398 --> C91723 + C00008
+R_ASPO6	L-aspartate oxidase	False	NAD Biosynthesis		[c] : C00049 + C00007 --> C00080 + C00027 + C05840
+R_2DGLCNRy2i	2-dehydro-D-gluconate reductase extracellular (NADPH) (irreversible)	False	Central Metabolism	1.1.1.215, 	glcn-D[e] + C00006[c] --> C06473[e] + C00080[c] + C00005[c]
+R_MGt5	magnesium transport in/out via permease (no H+)	True	Transport, Extracellular	TC-1.A.35	C00305[c] <==> C00305[e]
+R_gsnt	gsntransport	False	Transport Database	.	C00387[e] --> C00387[c]
+R_UGMDDS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase	False	Cell Envelope Biosynthesis	6.3.2.15	[c] : C00993 + C00002 + C04877 --> C00008 + C00080 + C00009 + C04882
+R_PA_LPADSS	pseudomonas Lipid A disaccaride synthase	False	Lipopolysaccharide biosynthesis, Lipid A 	2.4.1.182	[c] : C91712 + C91711 --> C91714 + C00080 + C00015
+R_TYRTA2	tyrosine transaminase	True	Arginine, Putriscine, and Spermidine Metabolism	2.6.1.5	[c] : C00026 + C00073 <==> C01180 + C00025
+R_VALTA	valine transaminase	True	; Valine, leucine and isoleucine degradation ; Valine, leucine and isoleucine biosynthesis ; Pantothenate and CoA biosynthesis 	2.6.1.42	[c] : C00026 + C00183 <==> C00141 + C00025
+R_BPNT	3',5'-bisphosphate nucleotidase	False	Cysteine Metabolism	3.1.3.7	[c] : C00001 + C00054 --> C00020 + C00009
+R_ILETRS	Isoleucyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Valine, leucine and isoleucine biosynthesis 	6.1.1.5	[c] : C00002 + C00407 + C01644 --> C00020 + C03127 + C00013
+R_PHETA1	phenylalanine transaminase	True	Aromatic Amino Acids	2.6.1.58	[c] : C00026 + C00079 <==> C00025 + C00166
+R_DMQMT	3-Dimethylubiquinonol 3-methyltransferase	False	Quinone Biosynthesis, Ubiquinone		[c] : C90447 + C00019 --> C00021 + C00080 + C90627
+R_IGPS	indole-3-glycerol-phosphate synthase	False	Aromatic Amino Acids	4.1.1.48	[c] : C01302 + C00080 --> C03506 + C00011 + C00001
+R_gln_Lt	gln-Ltransport	False	Transport Database	.	C00064[e] --> C00064[c]
+R_GAPDy1	glyceraldehyde-3-phosphate dehydrogenase (NADP)	False	; Glycolysis / Gluconeogenesis 	1.2.1.9	[c] : C00661 + C00001 + C00006 --> C00197 + 2 C00080 + C00005
+R_cytdt	cytdtransport	False	Transport Database	.	cytd[e] --> cytd[c]
+R_MDH	malate dehydrogenase	True	Glycolysis/Gluconeogenesis	1.1.1.37	[c] : C00149 + C00003 <==> C00080 + C00004 + C00036
+R_GSADH	L-glutamate 5-semialdehyde dehydrogenase	False	Amino Acid Degradation	1.5.1.12	[c] : C01165 + C00001 + C00003 --> C00025 + 2 C00080 + C00004
+R_ADSS_i	adenylosuccinate synthetase	False	Purine and Pyrimidine Biosynthesis	6.3.4.4	[c] : C00049 + C00044 + C00130 --> C03794 + C00035 + 2 C00080 + C00009
+R_AGDC	N-acetylglucosamine-6-phosphate deacetylase	False	Alternate Carbon Metabolism	3.5.1.25	[c] : C00357 + C00001 --> C00033 + C00352
+R_ARGDC	arginine decarboxylase	False	Arginine, Putriscine, and Spermidine Metabolism	4.1.1.19	[c] : C00062 + C00080 --> C00179 + C00011
+R_FKYNH	N-Formyl-L-kynurenine amidohydrolase	False	Quorum sensing, PQS	3.5.1.9	[c] : C02700 + C00001 --> C00058 + C00080 + C00328
+R_ARGDE	arginine deiminase	True	Arginine and proline metabolism ; 		[c] : C00062 + C00001 <==> C00327 + C00080 + C00014
+R_PCAIJ	3-oxoadipate CoA-transferase	True	Benzoate Degradation	2.8.3.6	[c] : C00846 + C00091 <==> C02232 + C00042
+R_ILETA	isoleucine transaminase	True	Branched Chain Amino Acid Biosynthesis	2.6.1.42	[c] : C00026 + C00407 <==> C00671 + C00025
+R_PGM	phosphoglycerate mutase	True	Glycolysis/Gluconeogenesis	5.4.2.1	[c] : C00197 <==> C00631
+R_HMBS	hydroxymethylbilane synthase	False	Tetrapyrrole Biosynthesis	4.3.1.8	[c] : C00001 + 4 C00931 --> C01024 + 4 C01342
+R_PGK	phosphoglycerate kinase	True	Glycolysis/Gluconeogenesis	2.7.2.3	[c] : C00236 + C00008 <==> C00197 + C00002
+R_HHDHL7	(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase	False	; Fatty acid metabolism 	4.2.1.58	[c] : C04633 --> C00001 + C05764
+R_PTRCabc	putrescine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.11	C00002[c] + C00001[c] + C00134[e] --> C00008[c] + C00080[c] + C00009[c] + C00134[c]
+R_UGLYCH	Ureidoglycolate hydrolase	False	purine degradation	3.5.3.19	[c] : 2 C00080 + C00001 + C00603 --> C00011 + C00048 + 2 C01342
+R_o2t	o2transport	False	Transport Database	.	C00007[e] --> C00007[c]
+R_PC6AR	precorrin-6A reductase	False	; Cobalamin biosynthesis 	1.3.1.54	[c] : C00080 + C00005 + C06320 --> C00006 + C06319
+R_H2Ot5	H2O transport via diffusion	True	Transport, Extracellular		C00001[e] <==> C00001[c]
+R_URCN	urocanase	False	; Amino acid biosynthesis and metabolism 	4.2.1.49	[c] : C00001 + C00785 --> C03680
+R_TRPS1	tryptophan synthase (indoleglycerol phosphate)	False	Aromatic Amino Acids	4.2.1.20	[c] : C03506 + C00065 --> C00661 + C00001 + C00078
+R_PPPGOan	protoporphyrinogen oxidase anaerobic	False	Tetrapyrrole Biosynthesis	1.3.3.4	[c] : C01079 --> 6 C00080 + C02191
+R_GLTCOAD	glutaryl-CoA dehydrogenase	False	; Fatty acid metabolism ; Tryptophan metabolism ; Lysine degradation 	1.3.99.7	[c] : C00016 + C00527 + C00080 --> C00877 + C00011 + C01352
+R_Kabc	potassium transport via ABC system	False	Transport, Extracellular	3.6.3.12, TC-3.A.3	C00002[c] + C00001[c] + C00238[e] --> C00008[c] + C00080[c] + C00238[c] + C00009[c]
+R_folt	foltransport	False	Transport Database	.	C00504[e] --> C00504[c]
+R_APRAUR	5-amino-6-(5-phosphoribosylamino)uracil reductase	False	Riboflavin Metabolism	1.1.1.193	[c] : C01268 + C00080 + C00005 --> C04454 + C00006
+R_MCCc	Methylcrotonoyl-CoA carboxylase	False	; Acyclic isoprenoid catabolism 	6.4.1.4	[c] : C03069 + C00002 + C00288 --> C03231 + C00008 + C00080 + C00009
+R_3H3H	unknown enzyme	False	Rhamnolipid synthesis		[c] : C91737 + C00001 --> C91731 + C00010
+R_VALDHr	valine dehydrogenase	True	Branched Chain Amino Acid Biosynthesis	1.4.1.9	[c] : C00001 + C00003 + C00183 <==> C00141 + C00080 + C00004 + C01342
+R_METSR-S1	L-methionine-S-oxide reductase (trdrd)	False	; Translation, post-translational modification, degradation 		[c] : C02989 + C00342 --> C00001 + C00073 + C00343
+R_GLUTCOAs	glutaryl-coa synthetase	False	Lysine Catabolism	6.2.1.6	[c] : C00002 + C00010 + C00489 --> C00008 + C00527 + C00009
+R_GMPS2	GMP synthase (glutamine-hydrolysing)	False	Purine and Pyrimidine Biosynthesis	6.3.5.2	[c] : C00002 + C00064 + C00001 + C00655 --> C00020 + C00025 + C00144 + 2 C00080 + C00013
+R_AGPR	N-acetyl-g-glutamyl-phosphate reductase	True	Arginine, Putriscine, and Spermidine Metabolism	1.2.1.38	[c] : C01250 + C00006 + C00009 <==> C04133 + C00080 + C00005
+R_nact	nactransport	False	Transport Database	.	C11486[e] --> C11486[c]
+R_SHKK	shikimate kinase	False	Aromatic Amino Acids	2.7.1.71	[c] : C00002 + C00493 --> C00008 + C00080 + C03175
+R_KARA2i	ketol-acid reductoisomerase (2-Aceto-2-hydroxybutanoate)	False	Branched Chain Amino Acid Biosynthesis	1.1.1.86	[c] : C06006 + C00080 + C00005 --> C06007 + C00006
+R_TRDR	thioredoxin reductase (NADPH)	False	Oxidative phosphorylation	1.8.1.9	[c] : C00080 + C00005 + C00343 --> C00006 + C00342
+R_FE2abc	iron (II) transport via ABC system	False	Transport, Extracellular		C00002[c] + C14818[e] + C00001[c] --> C00008[c] + C14818[c] + C00080[c] + C00009[c]
+R_UAGDP	UDP-N-acetylglucosamine diphosphorylase	False	Cell Envelope Biosynthesis	2.7.7.23	[c] : C04256 + C00080 + C00075 --> C00013 + C00043
+R_ARGN	arginase	False	Amino Acid Degradation	3.5.3.1	[c] : C00062 + C00001 --> C00077 + C00086
+R_ACACT10rr	acetyl-CoA C-acyltransferase (2-Methyl-3-acetoacetyl-CoA)	True	Isoleucine Catabolism	2.3.1.16	[c] : C03344 + C00010 <==> C00024 + C00100
+R_CSNt2	cytosine transport in via proton symport	False	Transport, Extracellular		C00380[e] + C00080[e] --> C00380[c] + C00080[c]
+R_3ABUTabc	4-Aminobutyrate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00334[e] + C00002[c] + C00001[c] --> C00334[c] + C00008[c] + C00080[c] + C00009[c]
+R_PA_U23GAAT	Pseudomonas UDP-3-O-(acyl)glucosamine acyltransferase	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C05757 + C91709 --> C00229 + C91711 + C00080
+R_DHHAs	phenazine-1-carboxylic acid synthesis, step 2	False	; Phenazine biosynthesis 		[c] : C91708 + C00001 --> C91704 + C00080 + C00022
+R_ALAALA	D-alanine-D-alanine ligase (reversible)	True	Cell Envelope Biosynthesis	6.3.2.4	[c] : 2 C00133 + C00002 <==> C00008 + C00993 + C00080 + C00009
+R_hxant	hxantransport	False	Transport Database	.	C00262[e] --> C00262[c]
+R_UREA2	urease	False	Arginine, Putriscine, and Spermidine Metabolism	3.5.1.5	[c] : 2 C00080 + C00001 + C00086 --> C00011 + 2 C01342
+R_ASPTRS	Aspartyl-tRNA synthetase	False	tRNA Charging	6.1.1.12	[c] : C00049 + C00002 + C01638 --> C00020 + C02984 + C00013
+R_thft	thftransport	False	Transport Database	.	C00101[e] --> C00101[c]
+R_MAN6PI	mannose-6-phosphate isomerase	True	Alternate Carbon Metabolism	5.3.1.8	[c] : C00275 <==> C00085
+R_PCAHG	Protocatechuate 3,4-dioxygenase	False	; Aromatic compound catabolism 	1.13.11.3	[c] : C00230 + C00007 --> C01163 + 2 C00080
+R_GMHEPPA	D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase	False	Lipopolysaccharide biosynthesis, core		[c] : C11472 + C00001 --> C07838 + C00009
+R_LEUt2na	L-leucine transport in via proton symport	False	Transport, Extracellular	TC-2.A.26	C00123[e] + C01330[e] --> C00123[c] + C01330[c]
+R_PA_LPS_As	Pseudomonas aeruginosa LPS A-band synthesis	False	Lipopolysaccharide biosynthesis, 	Undetermined	[c] : C91716 + C91693 --> C91716 + C04574
+R_TAL	transaldolase	True	Pentose Phosphate Cycle	2.2.1.2	[c] : C00661 + C05382 <==> C00279 + C00085
+R_UAG4E	UDP-N-acetylglucosamine 4-epimerase	False	Lipopolysaccharide biosynthesis, B-band O-antigen	5.1.3.7	[c] : C00043 --> C00203
+R_LGTHL	lactoylglutathione lyase	False	; Pyruvate metabolism 	4.4.1.5	[c] : C00051 + C00546 --> C03451
+R_SUCBZL	o-succinylbenzoate-CoA ligase	False	Quinone Biosynthesis, Menaquinone	6.2.1.26	[c] : C00002 + C00010 + C02730 --> C00020 + C00013 + C03160
+R_TRPTRS	Tryptophanyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Tryptophan metabolism 	6.1.1.2	[c] : C00002 + C01652 + C00078 --> C00020 + C00013 + C03512
+R_LDH_D	D-lactate dehydrogenase	True	Oxidative phosphorylation	1.1.1.28	[c] : C00256 + C00003 <==> C00080 + C00004 + C00022
+R_pnto_Rt	pnto-Rtransport	False	Transport Database	.	C00864[e] --> C00864[c]
+R_thymt	thymtransport	False	Transport Database	.	C00178[e] --> C00178[c]
+R_BADH	betaine-aldehyde dehydrogenase	False	Glycine, serine and threonine metabolism ; 	1.2.1.8	[c] : C00576 + C00001 + C00003 --> C00719 + 2 C00080 + C00004
+R_METDabc	D-methionine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00855[e] --> C00008[c] + C00080[c] + C00855[c] + C00009[c]
+R_PA_CORE2s	heptosyltransferase II	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91723 + C06398 --> C91722 + C00008
+R_POBA	4-hydroxybenzoate 3-monooxygenase	False	; Aromatic compound catabolism 	1.14.13.2	[c] : C00156 + C00080 + C00005 + C00007 --> C00230 + C00001 + C00006
+R_HSDy	homoserine dehydrogenase (NADPH)	True	Threonine and Lysine Metabolism	1.1.1.3	[c] : C00263 + C00006 <==> C00441 + C00080 + C00005
+R_PROabc	L-proline transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00148[e] --> C00008[c] + C00080[c] + C00009[c] + C00148[c]
+R_NADS1	NAD synthase (nh4)	False	NAD Biosynthesis	6.3.1.5	[c] : C00002 + C00857 + C01342 --> C00020 + C00080 + C00003 + C00013
+R_csnt	csntransport	False	Transport Database	.	C00380[e] --> C00380[c]
+R_AGMT	agmatinase	False	Arginine, Putriscine, and Spermidine Metabolism	3.5.3.11	[c] : C00179 + C00001 --> C00134 + C00086
+R_PSERT	phosphoserine transaminase	False	Serine & Glycine Biosynthesis	2.6.1.52	[c] : C03232 + C00025 --> C00026 + C01005
+R_SERabc	L-Serine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.11	C00002[c] + C00001[c] + C00716[e] --> C00008[c] + C00080[c] + C00009[c] + C00716[c]
+R_5MPCAs	probable phenazine-specific methyltransferase	False	; Phenazine biosynthesis 		[c] : C00019 + C91698 --> C04582 + C00021
+R_ascb_Lt	ascb-Ltransport	False	Transport Database	.	C00072[e] --> C00072[c]
+R_MALS	malate synthase	False	Anaplerotic reactions	4.1.3.2	[c] : C00024 + C00048 + C00001 --> C00010 + C00080 + C00149
+R_BUTSabc	butanesulfonate transport via ABC system	False	Transport, Extracellular		C00002[c] + buts[e] + C00001[c] --> C00008[c] + buts[c] + C00080[c] + C00009[c]
+R_ALDD1x	aldehyde dehydrogenase (formaldehyde, NAD)	False	Urea cycle and metabolism of amino groups ; ; Methane metabolism 	1.2.1.46	[c] : C00067 + C00001 + C00003 --> C00058 + 2 C00080 + C00004
+R_IMPD	IMP dehydrogenase	False	Purine and Pyrimidine Biosynthesis	1.1.1.205	[c] : C00001 + C00130 + C00003 --> C00080 + C00004 + C00655
+R_ETHSabc	ethanesulfonate transport via ABC system	False	Transport, Extracellular		C00002[c] + eths[e] + C00001[c] --> C00008[c] + eths[c] + C00080[c] + C00009[c]
+R_IMPC	IMP cyclohydrolase	True	Purine and Pyrimidine Biosynthesis	3.5.4.10	[c] : C00001 + C00130 <==> C04734
+R_LLEUDr	L-leucine dehydrogenase	True	; Amino acid biosynthesis and metabolism 	1.4.1.9	[c] : C00001 + C00123 + C00003 <==> C00233 + C00080 + C00004 + C01342
+R_CATC	Muconolactone delta-isomerase	True	; Aromatic compound catabolism 	5.3.3.4	[c] : C04105 <==> C03586
+R_ht	htransport	False	Transport Database	.	C00080[c] --> C00080[e]
+R_CATA	Catechol 1,2-dioxygenase	False	; Aromatic compound catabolism 	1.13.11.1	[c] : C00090 + C00007 --> C00546
+R_UPPRT	uracil phosphoribosyltransferase	False	Salvage Pathways	2.4.2.9	[c] : C00119 + C00106 --> C00013 + C00105
+R_DHORTS	dihydroorotase	True	Purine and Pyrimidine Biosynthesis	3.5.2.3	[c] : C00337 + C00001 <==> C00438 + C00080
+R_UMPK	UMP kinase	True	Salvage Pathways		[c] : C00002 + C00105 <==> C00008 + C00015
+R_ACONT	aconitase	True	Citrate Cycle (TCA)	4.2.1.3	[c] : C00158 <==> C00311
+R_GLUR	glutamate racemase	True	Cell Envelope Biosynthesis	5.1.1.3	[c] : C00217 <==> C00025
+R_PPNDH	prephenate dehydratase	False	Aromatic Amino Acids	4.2.1.51	[c] : C00080 + C00254 --> C00011 + C00001 + C00166
+R_PEPDabc	peptide transport in via ABC transport	False	Transport, Extracellular		C00002[c] + C00001[c] + C00012[e] --> C00008[c] + C00080[c] + C00012[c] + C00009[c]
+R_UAMAS	UDP-N-acetylmuramoyl-L-alanine synthetase	False	Cell Envelope Biosynthesis	6.3.2.8	[c] : C00041 + C00002 + C01050 --> C00008 + C00080 + C00009 + C01212
+R_PYOs	pyocyanin synthesis	False	; Phenazine biosynthesis 		[c] : C04582 + C00080 + C00004 + C00007 --> C00011 + C00001 + C00003 + C01748
+R_ALGD	GDP-mannose 6-dehydrogenase	True	Fructose and mannose metabolism ; ; Alginate biosynthesis 	1.1.1.132	[c] : C00096 + C00001 + 2 C00003 <==> C00976 + 3 C00080 + 2 C00004
+R_MCMAT5	Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C05755 + C00080 + C01209 --> C05756 + C00229 + C00011
+R_AGMTNDMN	agmatine deiminase	False	Arginine and proline metabolism ; 		[c] : C00179 + C00001 --> C00436 + C00080 + C00014
+R_MCMAT3	Hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C00080 + C05749 + C01209 --> C05750 + C00229 + C00011
+R_MCMAT2	Butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein]C-acyltransferase (decarboxylating)	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C05745 + C00080 + C01209 --> C05746 + C00229 + C00011
+R_TAURabc	taurine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.17	C00002[c] + C00001[c] + C00245[e] --> C00008[c] + C00080[c] + C00009[c] + C00245[c]
+R_PC6YM	precorrin-6Y C5,15-methyltransferase (decarboxylating)	False	; Cobalamin biosynthesis 	2.1.1.132	[c] : 2 C00019 + C06319 --> 2 C00021 + C00011 + 2 C00080 + C06408
+R_NNDMBRT	nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase	False	; Cobalamin biosynthesis 	2.4.2.21	[c] : C03114 + C01185 --> C04778 + C00080 + C00253
+R_CYSTLr	cystathionine b-lyase reversible	True	Methionine Metabolism	4.4.1.8	[c] : C02291 + C00001 <==> C00155 + C01342 + C00022
+R_4HPHAC3MO	4-hydroxyphenylacetate 3-monooxygenase	True	; Aromatic compound catabolism 		[c] : C00642 + C00080 + C00004 + C00007 <==> C01161 + C00001 + C00003
+R_OCMAT3	Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C05751 + C00080 + C00004 --> C00003 + C05752
+R_MCMAT8	Hexadecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase	False	; Fatty acid metabolism 	2.3.1.41	[c] : C00080 + C01209 + C02232 --> C05750 + C00229 + C00011
+R_ARSNR	arsenate reductase	True	; Transport of small molecules ; Adaptation, Protection 		[c] : C01478 + C90549 <==> C06697 + C07293
+R_lac_Lt	lac-Ltransport	True	Transport Database	.	C00186[c] <==> C00186[e]
+R_PGC2Di	Phosphogluconate 2-dehydrogenase	False	Pentose phosphate pathway	1.1.1.43	[c] : C01218 + C00080 + C00005 --> C00345 + C00006
+R_MALNDC	malonate decarboxylase	False	Carbon compound catabolism		[c] : C00080 + C00383 --> C00033 + C00011
+R_DPR	2-dehydropantoate 2-reductase	False	Coenzyme A Biosynthesis	1.1.1.169	[c] : C00966 + C00080 + C00005 --> C00006 + C00522
+R_DHBSr	2,3-dihydroxybenzoate adenylate synthase	True	Enterochelin Biosynthesis	2.7.7.58	[c] : C00196 + C00002 + C00080 <==> C04030 + C00013
+R_HODR8	(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	; Fatty acid metabolism 	1.1.1.100	[c] : C05750 + C00080 + C00005 --> C04620 + C00006
+R_GMHEPAT	D-glycero-D-manno-hepose 1-phosphate adenyltransferase	False	Lipopolysaccharide biosynthesis, core		[c] : C00002 + C07838 + C00080 --> C06397 + C00013
+R_SADT2	sulfate adenylyltransferase	False	Cysteine Metabolism	2.7.7.4	[c] : C00002 + C00044 + C00001 + C00059 --> C00224 + C00035 + C00009 + C00013
+R_AMAA	N-acetylmuramoyl-L-alanine amidase	False	Cell wall / LPS / capsule ; 	3.5.1.28	[c] : C02999 + C00001 --> C90062 + C00041
+R_CDPMEK	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase	False	; Terpenoid biosynthesis 		[c] : C11435 + C00002 --> C11436 + C00008 + C00080
+R_CBMK2	Carbamate kinase	False	Arginine, Putriscine, and Spermidine Metabolism	2.7.2.2	[c] : C00002 + C00011 + C01342 --> C00008 + C00169 + 2 C00080
+R_ME1x_D	D-malate dehydrogenase (NAD)	False	; Valine, leucine and isoleucine biosynthesis 	1.1.1.83	[c] : C00497 + C00003 --> C00011 + C00004 + C00022
+R_12DAG3Ps_PA	1,2-diacyl-sn-glycerol 3-phosphate synthesis	False	Phospholipid Biosynthesis	2.3.1.15	[c] : 0.51 C05748 + 0.5 C00093 + 0.13 C05764 + 0.03 C00036 + 0.33 C02232 --> 0.01 C00416 + C00229
+R_mal_Lt	mal-Ltransport	True	Transport Database	.	C00711[c] <==> C00711[e]
+R_PPNCL2	phosphopantothenate-cysteine ligase	False	Coenzyme A Biosynthesis	6.3.2.5	[c] : C03492 + C00063 + C00097 --> C04352 + C00055 + C00080 + C00013
+R_5MTAti	5mta transport irreversible, extracellular	False	Transport, Extracellular		C00170[c] --> C00170[e]
+R_FORAMD	formamidase	False	; Carbon compound catabolism 	3.5.1.49	[c] : C00488 + C00001 --> C00058 + C01342
+R_ALATA_L2	alanine transaminase	False	Pyridoxine Metabolism		[c] : C00041 + C00018 --> C00647 + C00022
+R_PC20M	precorrin-2 C20-methyltransferase	False	; Cobalamin biosynthesis 	2.1.1.130	[c] : C00019 + C02463 --> C00021 + C00080 + C05772
+R_retinolt	retinoltransport	False	Transport Database	.	C00473[e] --> C00473[c]
+R_fumt	fumtransport	True	Transport Database	.	C00122[c] <==> C00122[e]
+R_MTHFR2	5,10-methylenetetrahydrofolate reductase (NADH)	False	One Carbon Metabolism		[c] : 2 C00080 + C00143 + C00004 --> C00440 + C00003
+R_ANPRT	anthranilate phosphoribosyltransferase	False	Aromatic Amino Acids	2.4.2.18	[c] : C00108 + C00119 --> C00013 + C04302
+R_ATPS4r	ATP synthase (four protons for one ATP)	True	Oxidative phosphorylation	3.6.3.14, 	C00008[c] + 4 C00080[e] + C00009[c] <==> C00002[c] + 3 C00080[c] + C00001[c]
+R_PASR	Phosphoadenylyl-sulfate reductase (thioredoxin).	True	; Amino acid biosynthesis and metabolism 	1.8.4.8	[c] : C00053 + C00342 <==> 2 C00080 + C00054 + C00094 + C00343
+R_DDMAT5	Dodecanoyl-[acyl-carrier protein]: malonyl-CoA  C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C05758 + C00080 + C00004 --> C00881 + C00003
+R_AHMMPS	4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase	False	Thiamine Metabolism		[c] : C03373 + C00001 --> C01279 + C00266 + 0.5 C00007 + C00009
+R_G1PTMT	glucose-1-phosphate thymidylyltransferase	False	Cell Envelope Biosynthesis- O-antigen	2.7.7.24	[c] : C00459 + C00103 + C00080 --> C00842 + C00013
+R_ASNabc	L-asparagine transport via ABC system	False	Transport, Extracellular		C00152[e] + C00002[c] + C00001[c] --> C00008[c] + C00152[c] + C00080[c] + C00009[c]
+R_thr_Lt	thr-Ltransport	False	Transport Database	.	C00188[e] --> C00188[c]
+R_GLYO1	glycine oxidase	False	Thiamine metabolism		[c] : C00037 + C00001 + C00007 --> C00048 + C00027 + C01342
+R_UNK7	2-keto-4-methylthiobutyrate transamination	False	; Methionine metabolism 		[c] : C01180 + C00064 --> C91729 + C00073
+R_GPDDA2	Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)	False	Glycerolipid metabolism ; ; Phospholipid degradation 	3.1.4.46	[c] : C01233 + C00001 --> C00189 + C00093 + C00080
+R_GPDDA1	Glycerophosphodiester phosphodiesterase (sn-Glycero-3-phosphocholine)	False	Glycerolipid metabolism ; ; Phospholipid degradation 	3.1.4.46	[c] : C00670 + C00001 --> C00114 + C00093 + C00080
+R_UNK4	2-keto-4-methylthiobutyrate transamination	False	; Methionine metabolism 		[c] : C01180 + C00079 --> C05810 + C00073
+R_asn_Lt	asn-Ltransport	False	Transport Database	.	C00152[e] --> C00152[c]
+R_GAPD	glyceraldehyde-3-phosphate dehydrogenase (NAD)	True	Glycolysis/Gluconeogenesis	1.2.1.12	[c] : C00661 + C00003 + C00009 <==> C00236 + C00080 + C00004
+R_HHYHL2	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	False	; Fatty acid biosynthesis (path 1) 	4.2.1.58	[c] : C05747 --> C05748 + C00001
+R_3AMPADH	3-aminopropanaldehyde dehydrogenase	False	Amino Acid Degradation		[c] : C91732 + C00001 + C00003 --> C00099 + C00080 + C00004
+R_HTDHL6	(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase	False	Fatty acyl elongation	4.2.1.58	[c] : C04688 --> C00001 + C90387
+R_CYSTGL	cystathionine g-lyase	False	Methionine Metabolism	4.4.1.1	[c] : C02291 + C00001 --> C00109 + C00097 + C01342
+R_DMOCT	3-deoxy-manno-octulosonate cytidylyltransferase	False	Lipopolysaccharide biosynthesis, Lipid A 	2.7.7.38	[c] : C00063 + C01187 --> C04121 + C00013
+R_RNDR4	ribonucleoside-diphosphate reductase (UDP)	False	Salvage Pathways	1.17.4.1	[c] : C00342 + C00015 --> C01346 + C00001 + C00343
+R_ORPT	orotate phosphoribosyltransferase	True	Purine and Pyrimidine Biosynthesis	2.4.2.10	[c] : C01103 + C00013 <==> C00295 + C00119
+R_RNDR3	ribonucleoside-diphosphate reductase (CDP)	False	Salvage Pathways	1.17.4.1	[c] : C00112 + C00342 --> C00705 + C00001 + C00343
+R_FMETDF	formylmethionine deformylase	False	; Translation, post-translational modification, degradation 	3.5.1.31	[c] : C03145 + C00001 --> C00058 + C00073
+R_GLYOS	glycine oxidase, sarcosine	False	; Amino acid biosynthesis and metabolism 		[c] : C00001 + C00007 + C00213 --> C00048 + C00027 + C00218
+R_PRAGSr	phosphoribosylglycinamide synthase	True	Purine and Pyrimidine Biosynthesis	6.3.4.13	[c] : C00002 + C00037 + C03090 <==> C00008 + C03838 + C00080 + C00009
+R_GARFTi	phosphoribosylglycinamide formyltransferase, irreversible	False	Purine and Pyrimidine Biosynthesis	2.1.2.2	[c] : C00234 + C03838 --> C04376 + C00080 + C00101
+R_DHGLCNKi	Dehydrogluconokinase	False	; Carbon compound catabolism 	2.7.1.13	[c] : C90001 + C00002 --> C01218 + C00008 + C00080
+R_PYK	pyruvate kinase	False	Glycolysis/Gluconeogenesis	2.7.1.40	[c] : C00008 + C00080 + C00074 --> C00002 + C00022
+R_THDPS	tetrahydropicolinate succinylase	False	Threonine and Lysine Metabolism	2.3.1.117	[c] : C00001 + C00091 + C03972 --> C00010 + C04462
+R_CHORS	chorismate synthase	False	Aromatic Amino Acids	4.2.3.5	[c] : C01269 --> C00251 + C00009
+R_CPPPGO	coproporphyrinogen oxidase	False	Tetrapyrrole Biosynthesis	1.3.3.3	[c] : C03263 + 2 C00080 + C00007 --> 2 C00011 + 2 C00001 + C01079
+R_BENA	Benzoate dioxygenase (complex)	False	; Aromatic compound catabolism 	1.14.12.10	[c] : C00180 + 2 C00080 + C00004 + C00007 --> C00002 + C00003
+R_DCTPD	dCTP deaminase	False	Salvage Pathways	3.5.4.13	[c] : C00458 + C00080 + C00001 --> C00460 + C01342
+R_PGAMT	phosphoglucosamine mutase	True	Cell Envelope Biosynthesis	5.4.2.10	[c] : C06156 <==> C00352
+R_BENZ	benzoylformate decarboxylase	True	; Aromatic compound catabolism 		[c] : C02137 <==> C00261 + C00011
+R_HCO3E	carbonate dehydratase (HCO3 equilibration reaction)	True	spontaneous	4.2.1.1	[c] : C00011 + C00001 <==> C00080 + C00288
+R_XANDa	xanthine dehydrogenase	False	purine degradation	1.1.1.204	[c] : C00001 + C00262 + C00003 --> C00080 + C00004 + C00385
+R_ACGS	N-acetylglutamate synthase	False	Arginine, Putriscine, and Spermidine Metabolism	2.3.1.1	[c] : C00024 + C00025 --> C00624 + C00010 + C00080
+R_CHORM	chorismate mutase	False	Aromatic Amino Acids	5.4.99.5	[c] : C00251 --> C00254
+R_ATPPRT	ATP phosphoribosyltransferase	False	Histidine Metabolism	2.4.2.17	[c] : C00002 + C00119 --> C00013 + C02739
+R_RBFSb	riboflavin synthase	False	Riboflavin Metabolism	2.5.1.9	[c] : 2 C04332 --> C04732 + C00255
+R_RBFSa	riboflavin synthase	False	Riboflavin Metabolism	2.5.1.9	[c] : C04732 + C00131 --> C04332 + 2 C00001 + C00009
+R_UACMAN*s	UDP-N-acetyl-mannosamine (2NAc3N) acid (CH3C=NH) addase	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : uacman2NAc3NA --> uacman2NAc*A
+R_THTRIi	thymidine-triphosphatase irreversible	False	; Histidine metabolism 	3.6.1.39	[c] : C00459 + C00001 --> C00363 + C00080 + C00009
+R_THRD_L	L-threonine deaminase	False	Glycine, serine and threonine metabolism ; 		[c] : C00188 --> C00109 + C01342
+R_PPS	phosphoenolpyruvate synthase	False	Glycolysis/Gluconeogenesis	2.7.9.2	[c] : C00002 + C00001 + C00022 --> C00020 + 2 C00080 + C00074 + C00009
+R_etoht	etohtransport	False	Transport Database	.	C00469[c] --> C00469[e]
+R_FUM	fumarase	True	Citrate Cycle (TCA)	4.2.1.2	[c] : C00122 + C00001 <==> C00149
+R_ODHi	3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring).	False	; Valine, leucine and isoleucine degradation 	1.2.4.4	[c] : C00233 + C00080 + C00248 --> C05119 + C00011
+R_4HTHRS	4-Hydroxy-L-threonine synthase	False	Pyridoxine Metabolism	4.2.3.1	[c] : C00001 + C06055 --> C06056 + C00009
+R_PTPATi	pantetheine-phosphate adenylyltransferase	False	Coenzyme A Biosynthesis	2.7.7.3	[c] : C00002 + C00080 + C01134 --> C00882 + C00013
+R_PA_UHGADA	UDP-3-0-acyl N-acetylglucosamine deacetylase	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C91710 + C00001 --> C91709 + C00033
+R_xyl_Dt	xyl-Dtransport	False	Transport Database	.	C01394[e] --> C01394[c]
+R_SULR	sulfite reductase (NADPH2)	True	Cysteine Metabolism	1.8.1.2	[c] : 3 C00001 + C00283 + 3 C00006 <==> 4 C00080 + 3 C00005 + C00094
+R_PA_USHD	UDP-sugar hydrolase	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C91711 + C00001 --> C91712 + 2 C00080 + C00105
+R_GTPCI	GTP cyclohydrolase I	False	Folate Metabolism	3.5.4.16	[c] : C00044 + C00001 --> C04895 + C00058 + C00080
+R_ODH2i	3-Methyl-2-oxopentanoate:lipoamide oxidoreductase(decarboxylating and acceptor-2-methylpropanoylating)	False	; Valine, leucine and isoleucine degradation 	1.2.4.4	[c] : C00671 + C00080 + C00248 --> C05118 + C00011
+R_GTHS	glutathione synthase	False	Glutathione Biosynthesis	6.3.2.3	[c] : C00002 + C00669 + C00037 --> C00008 + C00051 + C00080 + C00009
+R_PHEt6	L-phenylalanine transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.3.1	C00080[e] + C00079[e] <==> C00080[c] + C00079[c]
+R_frut	frutransport	False	Transport Database	.	C10906[e] --> C10906[c]
+R_GALU	UTP-glucose-1-phosphate uridylyltransferase	True	Alternate Carbon Metabolism	2.7.7.9	[c] : C00103 + C00080 + C00075 <==> C00013 + C00029
+R_kt	ktransport	False	Transport Database	.	C00238[e] --> C00238[c]
+R_CITt6	citrate transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.1.6	C00158[e] + C00080[e] <==> C00158[c] + C00080[c]
+R_his_Lt	his-Ltransport	False	Transport Database	.	C00135[e] --> C00135[c]
+R_ergstt	ergsttransport	False	Transport Database	.	C01694[e] --> C01694[c]
+R_SELNPSr	Selenophosphate synthase	True	; Selenoamino acid metabolism 	2.7.9.3	[c] : C00002 + C00001 + C01528 <==> C00020 + C00009 + C05172
+R_ALATRS	Alanyl-tRNA synthetase	True	tRNA Charging	6.1.1.7	[c] : C00041 + C00002 + C01635 <==> C00886 + C00020 + C00013
+R_MACPD	Malonyl-ACP decarboxylase	False	Membrane Lipid Metabolism		[c] : C00080 + C01209 --> C03939 + C00011
+R_ADSK	adenylyl-sulfate kinase	False	Cysteine Metabolism	2.7.1.25	[c] : C00224 + C00002 --> C00008 + C00080 + C00053
+R_G6PI	Glucose-6-phosphate isomerase	True	Glycolysis/Gluconeogenesis	5.3.1.9	[c] : C00092 <==> C01172
+R_3OCHLA	3-oxo-C12-homoserine lactone acylase	False	Quorum sensing, AHL		[c] : C00001 + C91699 --> C02367 + C00080 + C02926
+R_PCAC	4-carboxymuconolactone decarboxylase	True	; Aromatic compound catabolism 	4.1.1.44	[c] : C01278 + C00080 <==> C03586 + C00011
+R_PCAB	3-carboxy-cis,cis-muconate cycloisomerase	True	; Aromatic compound catabolism 	5.5.1.2	[c] : C01163 + C00080 <==> C01278
+R_THD5	NAD transhydrogenase	False	Oxidative phosphorylation	Undetermined	[c] : C00003 + C00005 --> C00004 + C00006
+R_GNK	gluconokinase	False	Alternate Carbon Metabolism	2.7.1.12	[c] : C00002 + C00257 --> C00345 + C00008 + C00080
+R_PCAD	3-oxoadipate enol-lactonase	True	; Aromatic compound catabolism 	3.1.1.24	[c] : C03586 + C00001 <==> C00846 + C00080
+R_PA_MOAT2	3-deoxy-D-manno-octulosonic acid transferase	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C91726 + C04121 --> C91727 + C00055 + C00080
+R_DTMPK	dTMP kinase	True	Salvage Pathways	2.7.4.9	[c] : C00002 + C00364 <==> C00008 + C00363
+R_MNLDH	mannitol 2-dehydrogenase	True	Fructose and mannose metabolism ; 		[c] : C00392 + C00003 <==> C00095 + C00080 + C00004
+R_succt	succtransport	True	Transport Database	.	C00042[c] <==> C00042[e]
+R_HDER4	(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	; Fatty acid and phospholipid metabolism 	1.1.1.100	[c] : C05753 + C00080 + C00005 --> C04619 + C00006
+R_PCAs	phenazine-1-carboxylic acid synthesis, step 3	False	; Phenazine biosynthesis 		[c] : 2 C91704 --> C00011 + 4 C00080 + 2 C00001 + C91698
+R_PGLYCP	phosphoglycolate phosphatase	False	Alternate Carbon Metabolism	3.1.3.18	[c] : C00988 + C00001 --> C00160 + C00009
+R_ACOTA	acetylornithine transaminase	True	Arginine, Putriscine, and Spermidine Metabolism	2.6.1.11	[c] : C00437 + C00026 <==> C01250 + C00025
+R_MAL_Dt2	D-malate transport in via proton symport	False	Transport, Extracellular		C00080[e] + C00497[e] --> C00080[c] + C00497[c]
+R_uratet	uratetransport	False	Transport Database	.	C00366[e] --> C00366[c]
+R_SHK3D	shikimate dehydrogenase	True	Aromatic Amino Acids	1.1.1.25	[c] : C02637 + C00080 + C00005 <==> C00006 + C00493
+R_ALAabc	L-alanine transport via ABC system	False	Transport, Extracellular		C00041[e] + C00002[c] + C00001[c] --> C00008[c] + C00041[c] + C00080[c] + C00009[c]
+R_CVXCXPPM	carboxyphosphonoenolpyruvate phosphonomutase	False	Glycerolipid metabolism ; Aminophosphonate metabolism ; ; Aminosugars metabolism 		[c] : C06367 + 0.5 C00282 --> C06368 + C00011
+R_MOHMT	3-methyl-2-oxobutanoate hydroxymethyltransferase	False	Coenzyme A Biosynthesis	2.1.2.11	[c] : C00141 + C00001 + C00143 --> C00966 + C00101
+R_ACLS	acetolactate synthase (Also catalyzes ACHBS)	False	Branched Chain Amino Acid Biosynthesis	4.1.3.18	[c] : C00080 + 2 C00022 --> C06010 + C00011
+R_SPMDDH	Spermidine dehydrogenase	False	Urea cycle and metabolism of amino groups ; ; Methane metabolism 	1.5.99.6	[c] : C00016 + C00001 + C00315 --> C00986 + C00555 + C01352
+R_OCDMAT8	Octadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase	False	; Fatty acid metabolism 	1.3.1.10	[c] : C05748 + C00080 + C00004 --> C00003 + C00036
+R_P3Bs	precorrin-3B synthase	True	Biosynthesis of cofactors		[c] : 2 C00080 + C00004 + C00007 + C05772 <==> C00001 + C00003 + C06406
+R_CDGPTr_PA	CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase reversible	True	Phospholipid Biosynthesis		[c] : 0.02 C00269 + C00093 <==> C00055 + C00080 + 0.02 C03892
+R_GLUt2	L-glutamate transport in via proton symport	False	; Glutamate metabolism 		C00025[e] + C00080[e] --> C00025[c] + C00080[c]
+R_DHQS	3-dehydroquinate synthase	False	Aromatic Amino Acids	4.2.3.4	[c] : C04691 --> C00944 + C00009
+R_GLCS1	glycogen synthase (ADPGlc)	False	Glycolysis/Gluconeogenesis	2.4.1.21	[c] : C00498 --> C00008 + C00182 + C00080
+R_ALGE	Alginate production outer membrane protein	False	; Alginate biosynthesis 		algna[c] --> algna[e]
+R_ARGTRS	Arginyl-tRNA synthetase	False	Arginine and proline metabolism ; ; Aminoacyl-tRNA biosynthesis 	6.1.1.19	[c] : C00062 + C00002 + C01636 --> C00020 + C02163 + C00013
+R_GLYt7	probable AGCS sodium/alanine/glycine symporter	True	Transport, Extracellular	TC-2.A.25	C00037[e] + C01330[e] <==> C00037[c] + C01330[c]
+R_GTPDPK	GTP diphosphokinase	False	Cofactor and Prosthetic Group Biosynthesis	2.7.6.5	[c] : C00002 + C00044 --> C00020 + C04494 + C00080
+R_A5PISO	arabinose-5-phosphate isomerase	True	Alternate Carbon Metabolism	5.3.1.13	[c] : C00199 <==> C01112
+R_RHLA	rhamnosyltransferase chain A	False	Rhamnolipid synthesis		[c] : C04619 + C00010 --> C05264 + C00229
+R_MDRPD	5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	False	Arginine, Putriscine, and Spermidine Metabolism		[c] : C04582 --> C05512 + C00001
+R_inostt	inosttransport	False	Transport Database	.	C00137[e] --> C00137[c]
+R_h2ot	h2otransport	True	Transport Database	.	C00001[c] <==> C00001[e]
+R_HPPDO1	4-hydroxyphenylpyruvate dioxygenase	False	; Phenylalanine metabolism 	1.13.11.27	[c] : C01179 + C00007 --> C00011 + C00544
+R_THD2	NAD(P) transhydrogenase	False	Oxidative phosphorylation	1.6.1.1, 	2 C00080[e] + C00004[c] + C00006[c] --> 2 C00080[c] + C00003[c] + C00005[c]
+R_fe3t	fe3transport	False	Transport Database	.	C14819[e] --> C14819[c]
+R_HSLAC	homoserine lactonase	False	Quorum sensing, AHL		[c] : C00001 + C02926 --> C00263
+R_ALGLi	Poly(beta-d-mannuronate) lyase precursor	False	; Alginate biosynthesis 	Undetermined	[c] : 2 C00976 --> C01768 + 2 C00035
+R_ala-Bt2	beta-Alanine transport in via proton symport	False	Transport, Extracellular		C00099[e] + C00080[e] --> C00099[c] + C00080[c]
+R_PAPPT3	phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)	False	Cell Envelope Biosynthesis	2.7.8.13	[c] : C00348 + C04882 --> C05897 + C00105
+R_SPMDabc	spermidine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.11	C00002[c] + C00001[c] + C00315[e] --> C00008[c] + C00080[c] + C00009[c] + C00315[c]
+R_PPBNGS	porphobilinogen synthase	False	Tetrapyrrole Biosynthesis	4.2.1.24	[c] : 2 C00430 --> C00080 + 2 C00001 + C00931
+R_CYTK1	cytidylate kinase (CMP)	True	Salvage Pathways	2.7.4.14	[c] : C00002 + C00055 <==> C00008 + C00112
+R_RBFK	riboflavin kinase	False	Riboflavin Metabolism	2.7.1.26	[c] : C00002 + C00255 --> C00008 + C00061 + C00080
+R_tcyntt	tcynttransport	False	Transport Database	.	C01755[e] --> C01755[c]
+R_PA_TDSK	Pseudomonas Tetraacyldisaccharide 4'kinase	False	Lipopolysaccharide biosynthesis, Lipid A 	2.7.1.130	[c] : C91714 + C00002 --> C91713 + C00008 + C00080
+R_pydxnt	pydxntransport	False	Transport Database	.	C00314[e] --> C00314[c]
+R_UNK6	2-keto-4-methylthiobutyrate transamination	False	; Methionine metabolism 		[c] : C01180 + C00082 --> C91702 + C00073
+R_URAt6	uracil transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.40	C00080[e] + C00106[e] <==> C00080[c] + C00106[c]
+R_UPP3MT	uroporphyrinogen methyltransferase	False	Tetrapyrrole Biosynthesis	2.1.1.107	[c] : 2 C00019 + C01051 --> 2 C00021 + C00080 + C02463
+R_CYRUBQ8	cytochrome-c reductase (ubiquinone)	False	Oxidative phosphorylation		2 C01070[c] + ubq8h2[c] --> 2 C01071[c] + 2 C00080[e] + ubq8[c]
+R_CRNabc	L-carnitine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00318[e] + C00001[c] --> C00008[c] + C00318[c] + C00080[c] + C00009[c]
+R_P5CR	pyrroline-5-carboxylate reductase	False	Proline Biosynthesis	1.5.1.2	[c] : C03912 + 2 C00080 + C00005 --> C00006 + C00148
+R_AKP1	alkaline phosphatase (Dihydroneopterin)	False	Folate Metabolism	3.1.3.1	[c] : C04895 + 3 C00001 --> C04874 + 2 C00080 + 3 C00009
+R_LEUTRS	Leucyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Valine, leucine and isoleucine biosynthesis 	6.1.1.4	[c] : C00002 + C00123 + C01645 --> C00020 + C02047 + C00013
+R_THRA	threonine aldolase	True	Threonine and Lysine Metabolism	4.1.2.5	[c] : C00188 <==> C00084 + C00037
+R_G3PD5	glycerol-3-phosphate dehydrogenase (ubiquinone-8)	False	Oxidative phosphorylation	1.1.99.5	[c] : C00093 + C17569 --> C00111 + C90627
+R_G3PD2	glycerol-3-phosphate dehydrogenase (NADP)	True	Alternate Carbon Metabolism	1.1.1.94	[c] : C00093 + C00006 <==> C00111 + C00080 + C00005
+R_THRD	L-threonine dehydrogenase (w/ AOBUTDs)	False	Serine & Glycine Biosynthesis	1.1.1.103	[c] : C00003 + C00188 --> C03508 + C00080 + C00004
+R_AIRC3	phosphoribosylaminoimidazole carboxylase (mutase rxn)	True	Purine and Pyrimidine Biosynthesis		[c] : C04751 <==> C15667
+R_2DGLCNDH	2-deoxy-D-gluconate 3-dehydrogenase	False	Pentose and glucuronate interconversions		[c] : C02782 + C00003 --> C03926 + C00080 + C00004
+R_CYNTAH	Cyanate aminohydrolase	False	; Nitrogen metabolism 		[c] : C01417 + 3 C00080 + C00288 --> 2 C00011 + C01342
+R_PYAM5PO	pyridoxamine-phosphate oxidase	False	Pyridoxine Metabolism	1.4.3.5	[c] : C00001 + C00007 + C00647 --> C00027 + C01342 + C00018
+R_PPC	phosphoenolpyruvate carboxylase	False	Anaplerotic reactions	4.1.1.31	[c] : C00011 + C00001 + C00074 --> C00080 + C00036 + C00009
+R_cholt	choltransport	False	Transport Database	.	C00114[e] --> C00114[c]
+R_UPP3S	uroporphyrinogen-III synthase	False	Tetrapyrrole Biosynthesis	4.2.1.75	[c] : C01024 --> C00001 + C01051
+R_NOR	nitric-oxide reductase	False	Denitrification ; 		[c] : 2 C00533 + C90627 --> C00001 + C00887 + C17569
+R_HKatp	H+/K+-exchanging ATPase	False	Transport, Extracellular	3.6.3.10, TC-3.A.3	C00002[c] + C00080[c] + C00001[c] + C00238[e] --> C00008[c] + 2 C00080[e] + C00238[c] + C00009[c]
+R_CLPNS2_PA	cardiolipin synthase reversible	True	Membrane Lipid Metabolism		[c] : 0.04 C00344 <==> 0.02 C05980 + C00116
+R_SUCD4	succinate dehyrdogenase	True	Oxidative phosphorylation	Undetermined	[c] : C01352 + C17569 <==> C00016 + C90627
+R_3OXACOA	3-oxoadipyl-CoA thiolase	False	; Aromatic compound catabolism 		[c] : C00010 + C02232 --> C00024 + C00091
+R_TDPDRR	dTDP-4-dehydrorhamnose reductase	True	Lipopolysaccharide biosynthesis, core	1.1.1.133	[c] : C03319 + C00006 <==> C00688 + C00080 + C00005
+R_SUCD1	succinate dehydrogenase	True	Citrate Cycle (TCA)	1.3.99.1	[c] : C00016 + C00042 <==> C01352 + C00122
+R_MNLabc	D-mannitol transport via ABC system	False	Transport, Extracellular	TC-3.A.1.1	C00002[c] + C00001[c] + C00392[e] --> C00008[c] + C00080[c] + C00392[c] + C00009[c]
+R_LYSt6	L-lysine transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.3	C00080[e] + C00047[e] <==> C00080[c] + C00047[c]
+R_ALAt7	probable AGCS sodium/alanine/glycine symporter	True	Transport, Extracellular	TC-2.A.25	C00041[e] + C01330[e] <==> C00041[c] + C01330[c]
+R_met_Lt	met-Ltransport	False	Transport Database	.	C00073[e] --> C00073[c]
+R_DGTPH	dGTPase	False	Salvage Pathways	3.1.5.1	[c] : C00286 + C00001 --> C00330 + C00536
+R_POX	pyruvate oxidase	False	Oxidative phosphorylation	1.2.2.2	[c] : C00001 + C00022 + C17569 --> C00033 + C00011 + C90627
+R_S7PI	sedoheptulose 7-phosphate isomerase	True	Lipopolysaccharide biosynthesis, core		[c] : C05382 <==> C07836
+R_nmnt	nmntransport	False	Transport Database	.	C00455[e] --> C00455[c]
+R_DAPDC	diaminopimelate decarboxylase	False	Threonine and Lysine Metabolism	4.1.1.20	[c] : C00680 + C00080 --> C00011 + C00047
+R_lys_Lt	lys-Ltransport	False	Transport Database	.	C00047[e] --> C00047[c]
+R_PQSr	PQS release	True	Transport, Extracellular		pqs[c] <==> pqs[e]
+R_PIabc	phosphate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.7	C00002[c] + C00001[c] + C00009[e] --> C00008[c] + C00080[c] + 2 C00009[c]
+R_GLYC3Pt6	Glycerol-3-phosphate : phosphate antiporter	False	Transport, Extracellular		C00623[e] + C00009[c] --> C00623[c] + C00009[e]
+R_FMETabc	N-formyl-L-methionine transport via ABC system	False	Transport, Extracellular		C00002[c] + C03145[e] + C00001[c] --> C00008[c] + C03145[c] + C00080[c] + C00009[c]
+R_AMMQT8_2	S-adenosylmethione:2-demethylmenaquinone methyltransferase	False	Quinone Biosynthesis, Menaquinone		[c] : C05818 + C00019 --> C00021 + C00080 + C00828
+R_METabc	L-methionine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00073[e] --> C00008[c] + C00080[c] + C00073[c] + C00009[c]
+R_IGPDH	imidazoleglycerol-phosphate dehydratase	False	Histidine Metabolism	4.2.1.19	[c] : C04666 + C00080 --> C00001 + C01267
+R_PHE4MOi3	phenylalanine 4-monooxygenase	False	; Phenylalanine, tyrosine and tryptophan biosynthesis 	1.14.16.1	[c] : C00007 + C00079 + C00272 --> C00642 + C00082
+R_GLYTRS	Glycyl-tRNA synthetase	False	Glycine, serine and threonine metabolism ; ; Aminoacyl-tRNA biosynthesis 	6.1.1.14	[c] : C00002 + C00037 + C01642 --> C00020 + C02412 + C00013
+R_G6PI2	Glucose-6-phosphate isomerase	True	Glycolysis/Gluconeogenesis	5.3.1.9	[c] : C01172 <==> C05345
+R_AIRCr	phosphoribosylaminoimidazole carboxylase	True	Purines, pyrimidines, nucleosides, and nucleotides	4.1.1.21	[c] : C03373 + C00011 <==> C04751 + C00080
+R_XYLK	xylulokinase	False	Alternate Carbon Metabolism	2.7.1.17	[c] : C00002 + C00310 --> C00008 + C00080 + C00231
+R_ETOHt1	ethanol transport in/out via diffusion	True	Transport, Extracellular		C00469[e] <==> C00469[c]
+R_ECOAH9	2-Methylprop-2-enoyl-CoA (2-Methylbut-2-enoyl-CoA)	True	Isoleucine Catabolism	4.2.1.17	[c] : C03345 + C00001 <==> C04405
+R_TKT1	transketolase	True	Pentose Phosphate Cycle	2.2.1.1	[c] : C00117 + C00231 <==> C00661 + C05382
+R_MCMAT7	Tetradecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase	False	; Fatty acid metabolism 	2.3.1.41	[c] : C00080 + C01209 + C05761 --> C05762 + C00229 + C00011
+R_SOD	superoxide dismutase	False	; Adaptation, Protection 	1.15.1.1	[c] : 2 C00080 + 2 C00007 --> C00027 + C00007
+R_CYTBO3	cytochrome oxidase bo3 (ubiquinol-8: 2.5 protons)	False	Oxidative phosphorylation		2.5 C00080[c] + 0.5 C00007[c] + ubq8h2[c] --> 2.5 C00080[e] + C00001[c] + ubq8[c]
+R_NO3R1	Nitrate reductase (Ubiquinol-8)	False	Dentrification	1.7.99.4, 	2 C00080[c] + C00244[c] + ubq8h2[c] --> 2 C00080[e] + C00001[c] + C00088[c] + ubq8[c]
+R_orott	orottransport	True	Transport Database	.	C00295[c] <==> C00295[e]
+R_PA_CORE7s	Pseudomonas aeruginosa LPS lumped 2,4,and 6 heptokinases	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91718 + 3 C00002 --> C91717 + 3 C00008 + 3 C00080
+R_AICART	phosphoribosylaminoimidazolecarboxamide formyltransferase	True	Purine and Pyrimidine Biosynthesis	2.1.2.3	[c] : C00234 + C04677 <==> C04734 + C00101
+R_DKMD3M	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase (3-methylthiopropionate)	False	; Methionine metabolism 		[c] : C15606 + C00007 --> C08276 + C00055 + C00058
+R_st	stransport	False	Transport Database	.	C00087[e] --> C00087[c]
+R_LEUTAi	leucine transaminase (irreversible)	False	Branched Chain Amino Acid Biosynthesis	2.6.1.42	[c] : C00233 + C00025 --> C00026 + C00123
+R_NB-HSLs	N-butyryl-L-homoserine lactone synthase	False	Quorum sensing, AHL		[c] : C00019 + C05745 --> C00170 + C00229 + C00080 + C11837
+R_ETHAAL	ethanolamine ammonia-lyase	False	Cell Envelope Biosynthesis	4.3.1.7	[c] : C00189 --> C00084 + C01342
+R_PMDPHT	pyrimidine phosphatase	False	Riboflavin Metabolism		[c] : C04454 + C00001 --> C04732 + C00009
+R_PTA	phosphotransacetylase	False	Pyruvate metabolism	2.3.1.8	[c] : C00024 + C00009 --> C00227 + C00010
+R_fort	fortransport	False	Transport Database	.	C00058[c] --> C00058[e]
+R_NOSR	nitrous-oxide reductase precursor	False	Nitrogen metabolism		[c] : C00887 + C90627 --> C00001 + C00697 + C17569
+R_MCMAT6	Dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C00881 + C00080 + C01209 --> C05759 + C00229 + C00011
+R_RNTR4	ribonucleoside-triphosphate reductase (UTP)	False	Salvage Pathways	1.17.4.2	[c] : C00342 + C00075 --> C00460 + C00001 + C00343
+R_L-LACt4	L-lactate transport in via proton symport	False	Transport, Extracellular	TC-2.A.14	C00080[e] + C00186[e] --> C00080[c] + C00186[c]
+R_ADICs	phenazine-1-carboxylic acid synthesis, step 1	False	; Phenazine biosynthesis 		[c] : C00251 + C00064 --> C91708 + C00025
+R_FDH2	formate dehydrogenase (quinone-8: 2 protons)	False	Oxidative phosphorylation	1.2.2.1, 	C00058[c] + 3 C00080[c] + ubq8[c] --> C00011[c] + 2 C00080[e] + ubq8h2[c]
+R_FUMt4	fumarate transport in via proton symport (3 h+)	False	Transport, Extracellular	TC-2.A.56	C00122[e] + 3 C00080[e] --> C00122[c] + 3 C00080[c]
+R_BTMAT1	Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C04246 + C00080 + C00004 --> C05745 + C00003
+R_NTD10	5'-nucleotidase (XMP)	False	Salvage Pathways	3.1.3.5	[c] : C00001 + C00655 --> C00009 + C01762
+R_PRAI	phosphoribosylanthranilate isomerase	True	; Phenylalanine, tyrosine and tryptophan biosynthesis 	5.3.1.24	[c] : C04302 <==> C01302
+R_mobdt	mobdtransport	False	Transport Database	.	C06232[e] --> C06232[c]
+R_inst	instransport	False	Transport Database	.	C00294[e] --> C00294[c]
+R_FUMt6	fumarate transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.56	C00122[e] + C00080[e] <==> C00122[c] + C00080[c]
+R_PSCVT	3-phosphoshikimate 1-carboxyvinyltransferase	True	Aromatic Amino Acids	2.5.1.19	[c] : C00074 + C03175 <==> C01269 + C00009
+R_URIC	uricase	False	purine degradation	1.7.3.3	[c] : 2 C00001 + C00007 + C00366 --> C01551 + C00011 + C00027
+R_HMPK1	hydroxymethylpyrimidine kinase (ATP)	False	Thiamine Metabolism	2.7.1.49	[c] : C01279 + C00002 --> C04556 + C00008 + C00080
+R_DHFS	dihydrofolate synthase	False	Folate Metabolism	6.3.2.12	[c] : C00002 + C00921 + C00025 --> C00008 + C00415 + C00080 + C00009
+R_MTRI	5-methylthioribose-1-phosphate isomerase	True	Arginine, Putriscine, and Spermidine Metabolism	5.3.1.23	[c] : C04188 <==> C04582
+R_TDPGDH	dTDPglucose 4,6-dehydratase	False	Cell Envelope Biosynthesis- O-antigen	4.2.1.46	[c] : C00842 --> C11907 + C00001
+R_NTD2	5'-nucleotidase (UMP)	False	Salvage Pathways	3.1.3.5	[c] : C00001 + C00105 --> C00009 + C00299
+R_thymdt	thymdtransport	False	Transport Database	.	C00214[e] --> C00214[c]
+R_ILEDHr	isoleucine dehydrogenase	True	Branched Chain Amino Acid Biosynthesis	1.4.1.9	[c] : C00001 + C00407 + C00003 <==> C06008 + C00080 + C00004 + C01342
+R_XYLabc	D-xylose transport via ABC system	False	Transport, Extracellular	TC-3.A.1.2	C00002[c] + C00001[c] + C01394[e] --> C00008[c] + C00080[c] + C00009[c] + C01394[c]
+R_FTHFD	formyltetrahydrofolate deformylase	False	One Carbon Metabolism	3.5.1.10	[c] : C00234 + C00001 --> C00058 + C00080 + C00101
+R_ORNTA	ornithine transaminase	False	Arginine, Putriscine, and Spermidine Metabolism	2.6.1.13	[c] : C00026 + C00077 --> C00025 + C01165
+R_DAMVALs	delta-aminovalerate synthesis	False	Lysine Catabolism		[c] : 2 C00001 + C06181 --> C91705
+R_VALTRS	Valyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Valine, leucine and isoleucine biosynthesis 	6.1.1.9	[c] : C00002 + C01653 + C00183 --> C00020 + C00013 + C02554
+R_LEUTA	leucine transaminase	True	; Valine, leucine and isoleucine degradation ; Valine, leucine and isoleucine biosynthesis ; Pantothenate and CoA biosynthesis 	2.6.1.42	[c] : C00026 + C00123 <==> C00233 + C00025
+R_METS	methionine synthase	False	Methionine Metabolism	2.1.1.13	[c] : C00440 + C00155 --> C00080 + C00073 + C00101
+R_ACACT1r	acetyl-CoA C-acetyltransferase	True	Fatty Acid Metabolism	2.3.1.9	[c] : 2 C00024 <==> C00332 + C00010
+R_DKMD2K	1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase (2-keto-4-methylthiobutyrate)	False	; Methionine metabolism 		[c] : C15606 + C00007 --> C01180 + C00058
+R_MCMAT4	Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein]   C-acyltransferase (decarboxylating)	False	; Fatty acid biosynthesis (path 1) 	2.3.1.41	[c] : C00080 + C01209 + C05752 --> C05753 + C00229 + C00011
+R_HOCHL3	((3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	False	Fatty acyl elongation	4.2.1.58	[c] : C04620 --> C05751 + C00001
+R_QUINOR	quinone oxidoreductase	False	Oxidative phosphorylation		[c] : C00005 + C17569 --> C00006 + C91684
+R_METTRS	Methionyl-tRNA synthetase	False	; Methionine metabolism ; Aminoacyl-tRNA biosynthesis ; Selenoamino acid metabolism 	6.1.1.10	[c] : C00002 + C00073 + C01647 --> C00020 + C02430 + C00013
+R_so4t	so4transport	False	Transport Database	.	C00059[e] --> C00059[c]
+R_AIRC1	phosphoribosylaminoimidazole carboxylase (ATP-dependent)	False	Purine and Pyrimidine Biosynthesis	Undetermined	[c] : C03373 + C00002 + C00011 + C00001 --> C04751 + C00008 + 2 C00080 + C00009
+R_SUCOAS	succinyl-CoA synthetase (ADP-forming)	True	Citrate Cycle (TCA)	6.2.1.5	[c] : C00002 + C00010 + C00042 <==> C00008 + C00009 + C00091
+R_PGL	6-phosphogluconolactonase	False	Pentose Phosphate Cycle	3.1.1.31	[c] : C01236 + C00001 --> C00345 + C00080
+R_RHA4GLCNACPPUNDs	A-band O-antigen synthesis	False	Lipopolysaccharide biosynthesis, A-band O-antigen		[c] : C03117 + C91694 --> C00144 + C91693
+R_nh4t	nh4transport	True	Transport Database	.	C01342[c] <==> C01342[e]
+R_UAAGDS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase	False	Cell Envelope Biosynthesis	6.3.2.13	[c] : C00680 + C00002 + C00692 --> C00008 + C00080 + C00009 + C04877
+R_UDCPK	undecaprenol kinase	False	Cell Envelope Biosynthesis	2.7.1.66	[c] : C00002 + C01968 --> C00008 + C00080 + C00348
+R_AKGt2	2-oxoglutarate transport in via proton symport	False	; Aromatic compound catabolism 	TC-2.A.1.6	C00026[e] + C00080[e] --> C00026[c] + C00080[c]
+R_5CM2HMSDH	5-carboxy-2-hydroxymuconate semialdehyde dehydrogenase	True	; Aromatic compound catabolism 		[c] : C04642 + C00001 + C00003 <==> C04186 + C00080 + C00004
+R_HDMAT7	Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase	True	; Fatty acid metabolism 	1.3.1.10	[c] : C00003 + C02232 <==> C00080 + C05764 + C00004
+R_4AHD2	4a-hydroxytetrahydrobiopterin dehydratase;	True	; Phenylalanine metabolism 		[c] : C00642 <==> C00268 + C00001
+R_NH4OHD	NH4OH dissociation	True	spontaneous		[c] : C00080 + C01358 <==> C00001 + C01342
+R_ACOAD20	acyl-CoA dehydrogenase (2-methylbutnoyl-CoA)	False	Isoleucine Catabolism	1.3.99.2	[c] : 2 C01033 + C00007 --> 2 C03345 + 2 C00001
+R_CSND	Cytosine deaminase	False	Salvage Pathways	3.5.4.1	[c] : C00380 + C00080 + C00001 --> C01342 + C00106
+R_OHPBAT	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase	True	Pyridoxine Metabolism	2.6.1.52	[c] : C00025 + C06054 <==> C00026 + C06055
+R_YUMPS	yUMP synthetase	True	; Pyrimidine metabolism 	4.2.1.70	[c] : C00117 + C00106 <==> C00001 + C01168
+R_NH4t	ammonium transport via diffusion	True	Transport, Extracellular		C01342[e] <==> C01342[c]
+R_2AEPPNAT	2-aminoethylphosphonate:pyruvate aminotransferase	True	; Carbon compound catabolism 		[c] : C03557 + C00022 <==> C00041 + C03167
+R_RHA1GLCNACPPUNDs	Rha-(a1,3)-GlcNac-pyrophosphorylundecaprenol synthesis	False	Lipopolysaccharide biosynthesis, A-band O-antigen		[c] : C03117 + None --> C91695 + C00105
+R_FEDCabc	iron (III) dicitrate transport via ABC system	False	Transport, Extracellular		C00002[c] + 2 C00158[e] + C14819[e] + C00001[c] --> C00008[c] + 2 C00158[c] + C14819[c] + C00080[c] + C00009[c]
+R_UAPGR	UDP-N-acetylenolpyruvoylglucosamine reductase	False	Cell Envelope Biosynthesis	1.1.1.158	[c] : C00080 + C00005 + C04631 --> C00006 + C01050
+R_co2t	co2transport	True	Transport Database	.	C00011[c] <==> C00011[e]
+R_SDPTA	succinyldiaminopimelate transaminase	True	Threonine and Lysine Metabolism	2.6.1.17	[c] : C00026 + C04421 <==> C00025 + C04462
+R_GLCLCT	Gluconolactonase	True	Central Metabolism	3.1.1.17, 	C00198[e] + C00001[c] <==> glcn-D[e] + C00080[c]
+R_ARGabc	L-arginine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00062[e] + C00002[c] + C00001[c] --> C00008[c] + C00062[c] + C00080[c] + C00009[c]
+R_TMPPP	thiamine-phosphate diphosphorylase	False	Thiamine Metabolism	2.5.1.3	[c] : C04752 + C04327 + C00080 --> C00013 + C01081
+R_QULNS	quinolinate synthase	False	NAD Biosynthesis		[c] : C00111 + C05840 --> 2 C00001 + C00009 + C03722
+R_PPACAH	2-phosphonoacetaldehyde hydrolase	False	; Carbon compound catabolism 		[c] : C00001 + C03167 --> C00084 + C00009
+R_PC17M	precorrin-3B C17-methyltransferase	False	; Cobalamin biosynthesis 	2.1.1.131	[c] : C00019 + C06406 --> C00021 + 3 C00080 + C06407
+R_SGDS	Succinylglutamate desuccinylase	False	Arginine and proline metabolism ; 		[c] : C00001 + C05931 --> C00025 + C00042
+R_GMHEPK	D-glycero-D-manno-heptose 7-phosphate kinase	False	Lipopolysaccharide biosynthesis, core		[c] : C00002 + C07836 --> C00008 + C11472 + C00080
+R_KYNASE2	kynureninase	False	Quorum sensing, PQS	3.7.1.3	[c] : C00001 + C00328 --> C00041 + C00108
+R_UAG2E	UDP-N-acetylglucosamine 2-epimerase	True	Lipopolysaccharide biosynthesis, B-band O-antigen	5.1.3.14	[c] : C00043 <==> C01170
+R_NIabc	nickel transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00291[e] --> C00008[c] + C00080[c] + C00291[c] + C00009[c]
+R_FACOAL160t	fatty-acid--CoA ligase (hexadecanoate) transport	True	; Fatty acid metabolism 	6.2.1.3, 	C00002[c] + C00010[c] + C00249[e] <==> C00020[c] + C00154[c] + C00013[c]
+R_nadt	nadtransport	False	Transport Database	.	C00003[e] --> C00003[c]
+R_RPE	ribulose 5-phosphate 3-epimerase	True	Pentose Phosphate Cycle	5.1.3.1	[c] : C00199 <==> C00231
+R_2HMYRSACPs	S-2-hydroxymyristoyl-ACP synthase	False	Fatty Acid Synthesis		[c] : C05761 + 0.5 C00007 --> C91734
+R_SULabc	sulfate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.6	C00002[c] + C00001[c] + C00059[e] --> C00008[c] + C00080[c] + C00009[c] + C00059[c]
+R_GCALDt	Glycoaldehydye reversible transport	True	Transport, Extracellular		C00266[e] <==> C00266[c]
+R_UAGCVT	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	False	Cell Envelope Biosynthesis	2.5.1.7	[c] : C00074 + C00043 --> C00009 + C04631
+R_DAGK	diacylglycerol kinase	False	Cell Envelope Biosynthesis	2.7.1.107	[c] : C00641 + C00002 --> C00416 + C00008 + C00080
+R_2DHGLCNti	2-dehydro-D-gluconate transport (irreversible)	False	Transport, Extracellular		C06473[e] --> C06473[c]
+R_GLUt4i	Na+/glutamate symport	False	Transport, Extracellular		C00025[e] + C01330[e] --> C00025[c] + C01330[c]
+R_UDCPDP	undecaprenyl-diphosphatase	False	; Peptideglycan biosynthesis 	3.6.1.27	[c] : C00001 + C04574 --> C00080 + C00009 + C00348
+R_PERD	Erythronate 4-phosphate (4per) dehydrogenase	True	Pyridoxine Metabolism		[c] : C03393 + C00003 <==> C00080 + C00004 + C06054
+R_MDH2	Malate dehydrogenase (ubiquinone 8 as acceptor)	False	Citrate Cycle (TCA)	1.1.99.16	[c] : C00149 + C17569 --> C00036 + C90627
+R_DXPS	1-deoxy-D-xylulose 5-phosphate synthase	False	Cofactor and Prosthetic Group Biosynthesis		[c] : C00661 + C00080 + C00022 --> C00011 + C11437
+R_HDEHL4	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	False	; Fatty acid biosynthesis (path 1) 	4.2.1.58	[c] : C04619 --> C05754 + C00001
+R_2MBDT	S-(2-Methylbutanoyl)-dihydrolipoamide	False	; Citrate cycle (TCA cycle) ; Lysine degradation 	2.3.1	[c] : C05118 + C00010 --> C01033 + C00579
+R_COBALTt	cobalt transport out via antiport	False	Transport, Extracellular		C00175[c] + C00080[e] --> C00175[e] + C00080[c]
+R_ncamt	ncamtransport	False	Transport Database	.	C00153[e] --> C00153[c]
+R_UREA2t2	urea reversible transport via proton symport (2 H+)	True	Transport, Extracellular		2 C00080[e] + C00086[e] <==> 2 C00080[c] + C00086[c]
+R_PMANM	phosphomannomutase	True	Alternate Carbon Metabolism	5.4.2.8	[c] : C00636 <==> C00275
+R_FORMD	formimidoylglutamate deiminase	True	Energy metabolism		[c] : C00439 + C00001 <==> C01045 + C00080 + C00014
+R_MTHFD	methylenetetrahydrofolate dehydrogenase (NADP)	True	One Carbon Metabolism	1.5.1.5	[c] : C00143 + C00006 <==> C00445 + C00005
+R_MTHFC	methenyltetrahydrofolate cyclohydrolase	True	One Carbon Metabolism	3.5.4.9	[c] : C00001 + C00445 <==> C00234 + C00080
+R_UAGPT3	UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	False	Cell Envelope Biosynthesis		[c] : C00043 + C05897 --> C00080 + C05898 + C00015
+R_NADH12	NADH dehydrogenase (ubiquinone-8 )	False	Oxidative phosphorylation	1.6.5.3	[c] : C00080 + C00004 + C17569 --> C00003 + C90627
+R_PGCD	phosphoglycerate dehydrogenase	False	Serine & Glycine Biosynthesis	1.1.1.95	[c] : C00197 + C00003 --> C03232 + C00080 + C00004
+R_ABTNabc	Aerobactin transport via ABC system	False	Transport, Extracellular		C05554[e] + C00002[c] + C00001[c] --> C05554[c] + C00008[c] + C00080[c] + C00009[c]
+R_N2t	nitrogen transport diffusion	True	Transport, Extracellular		C00697[c] <==> C00697[e]
+R_HBUHL1	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	False	; Fatty acid biosynthesis (path 1) 	4.2.1.58	[c] : C04618 --> C04246 + C00001
+R_GK1	guanylate kinase (GMP:ATP)	True	Salvage Pathways	2.7.4.8	[c] : C00002 + C00144 <==> C00008 + C00035
+R_MECDPS	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase	False	Cofactor and Prosthetic Group Biosynthesis		[c] : C11436 --> C11453 + C00055
+R_NIR	nitrite reductase (NO forming)	False	; Nitrogen metabolism 		[c] : C00126 + 2 C00080 + C00088 --> C00125 + C00001 + C00533
+R_COBALTt5i	cobalt transport in/out via permease (no H+)	False	Transport, Extracellular	TC-1.A.35	C00175[e] --> C00175[c]
+R_1HPHEs	1-hydroxyphenazine synthase	False	; Phenazine biosynthesis 		[c] : C00080 + C00004 + C00007 + C91698 --> C05771 + C00011 + C00001 + C00003
+R_pydxt	pydxtransport	False	Transport Database	.	C00250[e] --> C00250[c]
+R_OPHBDC	3-octaprenyl-4-hydroxybenzoate carboxy-lyase	False	Quinone Biosynthesis, Ubiquinone		[c] : C05809 + C00080 --> C05810 + C00011
+R_PPNabc	phosphonate transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C06701[e] --> C00008[c] + C00080[c] + C00009[c] + C06701[c]
+R_DIAOX	Diamine oxidase	False	Lysine Catabolism	1.4.3.6	[c] : C01672 + C00007 --> C00080 + C00027 + C01342 + C06181
+R_LLEUD	L-leucine dehydrogenase	False	; Amino acid biosynthesis and metabolism 	1.4.1.9	[c] : C00233 + C00080 + C00004 + C01342 --> C00001 + C00123 + C00003
+R_PGMT	phosphoglucomutase	True	Glycolysis/Gluconeogenesis	5.4.2.2	[c] : C00103 <==> C00092
+R_phe_Lt	phe-Ltransport	False	Transport Database	.	C00079[e] --> C00079[c]
+R_PMPK	phosphomethylpyrimidine kinase	False	Thiamine Metabolism	2.7.4.7	[c] : C04556 + C00002 --> C04752 + C00008
+R_ARGORNt3	Arginine/ornithine antiporter	True	Transport, Extracellular	TC-2.A.3.2	C00062[e] + orn-L[c] <==> C00062[c] + orn-L[e]
+R_AHSERL	O-acetylhomoserine (thiol)-lyase	False	Glycine, serine and threonine metabolism ; ; Cysteine metabolism ; Methionine metabolism ; Selenoamino acid metabolism ; Sulfur metabolism ; Nitrogen metabolism 	4.2.99.10	[c] : C01077 + C00409 --> C00033 + C00080 + C00073
+R_MEPCT	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	False	Cofactor and Prosthetic Group Biosynthesis		[c] : C11434 + C00063 + C00080 --> C11435 + C00013
+R_NAPRT	NAPRTase	False	NAD Biosynthesis	2.4.2.11	[c] : C00080 + C00253 + C00119 --> C01185 + C00013
+R_HGBAMS	Hydrogenobyrinate a,c diamide synthase	False	; Cobalamin biosynthesis 		[c] : 2 C00002 + 2 C00064 + C00001 + C06399 --> 2 C00008 + 2 C00025 + C00080 + C06503 + C00013
+R_NADS2i	NAD synthase	False	; Nicotinate and nicotinamide metabolism ; Glutamate metabolism 	6.3.5.1	[c] : C00002 + C00857 + C00064 + C00001 --> C00020 + C00025 + C00080 + C00003 + C00013
+R_PYRt2	pyruvate reversible transport via proton symport	True	Transport, Extracellular		C00080[e] + C00022[e] <==> C00080[c] + C00022[c]
+R_phemet	phemetransport	False	Transport Database	.	C00032[e] --> C00032[c]
+R_clt	cltransport	False	Transport Database	.	C00698[e] --> C00698[c]
+R_PPCOAC	Propionyl-CoA carboxylase	False	; Acyclic isoprenoid catabolism 	6.4.1.3	[c] : C00002 + C00288 + C00100 --> C00008 + C00080 + C00683 + C00009
+R_G1SATi	glutamate-1-semialdehyde aminotransferase	False	Tetrapyrrole Biosynthesis	5.4.3.8	[c] : C03741 --> C00430
+R_AP4AHr	Ap4A hydrolase, reversible	True	; Purine metabolism 	3.6.1.41	[c] : C01260 + C00001 <==> 2 C00008 + 2 C00080
+R_PA_CORE3s	alpha 1,3-glucosyltransferase	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91722 + C00052 --> C01045 + C00015
+R_ANO2i	assimilatory nitrite reductase	False	; Nitrogen metabolism 		[c] : 4 C00080 + 3 C00004 + C00088 --> C00001 + 3 C00003 + C01358
+R_TDPDRE	dTDP-4-dehydrorhamnose 3,5-epimerase	True	Cell Envelope Biosynthesis- O-antigen	5.1.3.13	[c] : C11907 <==> C00688
+R_HIBD	3-hydroxyisobutyrate dehydrogenase	False	; Valine, leucine and isoleucine degradation 	1.1.1.31	[c] : C01188 + C00003 --> C00349 + C00080 + C00004
+R_UAMAGS	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase	False	Cell Envelope Biosynthesis	6.3.2.9	[c] : C00002 + C00217 + C01212 --> C00008 + C00080 + C00009 + C00692
+R_SUCCt2b	Succinate efflux via proton symport	False	Transport, Extracellular		C00080[c] + C00042[c] --> C00080[e] + C00042[e]
+R_adnt	adntransport	False	Transport Database	.	C00212[e] --> C00212[c]
+R_hco3t	hco3transport	True	Transport Database	.	C01353[c] <==> C01353[e]
+R_BTNL1	Biotin:CoA ligase (AMP-forming)	False	; Biosynthesis of cofactors, prosthetic groups and carriers 	6.3.4.15	[c] : C00002 + C00120 + C00080 --> C05921 + C00013
+R_malttrt	malttrtransport	False	Transport Database	.	C01835[e] --> C01835[c]
+R_PRMICIi	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase (irreversible)	False	Histidine Metabolism	5.3.1.16	[c] : C04896 --> C04916
+R_3DMUBQ9MT	3-demethylubiquinone-9 3-methyltransferase	True	; Ubiquinone biosynthesis 		[c] : C03226 + C00019 <==> C00021 + C00080 + C00399
+R_IPPMIa	3-isopropylmalate dehydratase	True	Branched Chain Amino Acid Biosynthesis	4.2.1.33	[c] : C04411 <==> C02631 + C00001
+R_IPPMIb	2-isopropylmalate hydratase	True	Branched Chain Amino Acid Biosynthesis		[c] : C02631 + C00001 <==> C02504
+R_RHLC	rhamnosyltransferase 2	False	Rhamnolipid synthesis		[c] : C00688 + C00080 + C91700 --> C00363 + C91701
+R_DAPE	diaminopimelate epimerase	True	Threonine and Lysine Metabolism	5.1.1.7	[c] : C00666 <==> C00680
+R_MGCOAH	methylglutaconyl-CoA hydratase	True	; Acyclic isoprenoid catabolism 		[c] : C03231 + C00001 <==> C00356
+R_MALt2	L-malate transport in via proton symport	False	Transport, Extracellular	TC-2.A.56	C00080[e] + C00711[e] --> C00080[c] + C00711[c]
+R_RBK	ribokinase	False	Alternate Carbon Metabolism	2.7.1.15	[c] : C00002 + C00121 --> C00008 + C00080 + C00117
+R_TKT2	transketolase	True	Pentose Phosphate Cycle	2.2.1.1	[c] : C00279 + C00231 <==> C00085 + C00661
+R_PQSs	probable FAD-dependent monooxygenase	False	Quorum sensing, PQS		[c] : C01352 + C91703 + C00007 --> C00016 + C00001 + C91696
+R_HOCR3	(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	False	Fatty acid biosynthesis	1.1.1.100	[c] : C05750 + C00080 + C00005 --> C04620 + C00006
+R_DHAD1	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)	False	Branched Chain Amino Acid Biosynthesis	4.2.1.9	[c] : C04272 --> C00141 + C00001
+R_HGBAMCOC	hydrogenobyrinic acid a,c-diamide cobaltochelatase	False	; Cobalamin biosynthesis 		[c] : C00002 + C00175 + C00001 + C06503 + C00004 --> C00008 + C06504 + C00080 + C00003 + C00009
+R_DHAD3	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	False	Branched Chain Amino Acid Biosynthesis	4.2.1.9	[c] : C06007 --> C06008 + C00001
+R_MMFNAcPPUNDs	Man(2NAc3N)(3,-CH3C=NH)A-(beta1,4)-Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-undecap synthesis	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : uacman2NAc3NAcA + C91682 --> C91681 + C00105
+R_ECOAHt2	Enoyl-CoA hydratase	True	Fatty acid biosynthesis	4.2.1.17	[c] : C00640 <==> C00001 + C00232
+R_UPPDC1	uroporphyrinogen decarboxylase (uroporphyrinogen III)	False	Tetrapyrrole Biosynthesis	4.1.1.37	[c] : 4 C00080 + C01051 --> 4 C00011 + C03263
+R_LEUt2	L-leucine transport in/out via proton symport	False	Transport, Extracellular		C00080[e] + C00123[e] --> C00080[c] + C00123[c]
+R_ABUTD	aminobutyraldehyde dehydrogenase	False	Amino Acid Degradation	1.2.1.19	[c] : C00555 + C00001 + C00003 --> C00334 + 2 C00080 + C00004
+R_CBPS	carbamoyl-phosphate synthase (glutamine-hydrolysing)	False	Arginine, Putriscine, and Spermidine Metabolism	6.3.5.5	[c] : 2 C00002 + C00064 + C00001 + C00288 --> 2 C00008 + C00169 + C00025 + 2 C00080 + C00009
+R_METAT	methionine adenosyltransferase	False	Methionine Metabolism	2.5.1.6	[c] : C00002 + C00001 + C00073 --> C00019 + C00009 + C00013
+R_acact	acactransport	False	Transport Database	.	C00164[c] --> C00164[e]
+R_acetonet	acetonetransport	False	Transport Database	.	C00207[c] --> C00207[e]
+R_PPPGO	protoporphyrinogen oxidase	False	Tetrapyrrole Biosynthesis	1.3.3.4	[c] : 1.5 C00007 + C01079 --> 3 C00001 + C02191
+R_OMPDC	orotidine-5'-phosphate decarboxylase	False	Purine and Pyrimidine Biosynthesis	4.1.1.23	[c] : C00080 + C01103 --> C00011 + C00105
+R_arg_Lt	arg-Ltransport	False	Transport Database	.	C00062[e] --> C00062[c]
+R_GLUabc	L-glutamate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00002[c] + C00025[e] + C00001[c] --> C00008[c] + C00025[c] + C00080[c] + C00009[c]
+R_spmdt	spmdtransport	False	Transport Database	.	C00315[e] --> C00315[c]
+R_HACD8	3-hydroxyacyl-CoA dehydrogenase (2-Methylacetoacetyl-CoA)	True	Isoleucine Catabolism	1.1.1.35	[c] : C04405 + C00003 <==> C03344 + C00080 + C00004
+R_HXPRT	hypoxanthine phosphoribosyltransferase (Hypoxanthine)	False	Salvage Pathways	2.4.2.8	[c] : C00262 + C00119 --> C00130 + C00013
+R_ADMDC	Adenosylmethionine decarboxylase	True	Arginine, Putriscine, and Spermidine Metabolism	4.1.1.50	[c] : C00019 + C00080 <==> C01137 + C00011
+R_ACOAD1	acyl-CoA dehydrogenase (butanoyl-CoA)	True	Lysine Catabolism	1.3.99.2	[c] : C00877 + C00080 + C00004 <==> C00136 + C00003
+R_CYSS	cysteine synthase	False	Cysteine Metabolism	4.2.99.8	[c] : C00979 + C00283 --> C00033 + C00097
+R_SERAT	serine O-acetyltransferase	True	Cysteine Metabolism	2.3.1.30	[c] : C00024 + C00065 <==> C00979 + C00010
+R_BTDt6-RR	Butanediol transport in/out via proton symport	True	Transport, Extracellular		C03044[e] + C00080[e] <==> C03044[c] + C00080[c]
+R_NPHS	naphthoate synthase	False	Quinone Biosynthesis, Menaquinone	4.1.3.36	[c] : C03160 --> C00010 + C03657
+R_ADCOBHEXS	adenosylcobyric acid synthase	False	; Cobalamin biosynthesis 		[c] : C06506 + 4 C00002 + 4 C00064 + 4 C00001 --> C06507 + 4 C00008 + 4 C00025 + 4 C00080 + 4 C00009
+R_chsterolt	chsteroltransport	False	Transport Database	.	C00187[e] --> C00187[c]
+R_URIDK3	uridylate kinase (dUMP)	True	Salvage Pathways	2.7.4.4	[c] : C00002 + C00365 <==> C00008 + C01346
+R_strch2t	strch2transport	False	Transport Database	.	C00369[e] --> C00369[c]
+R_PYDAMK	pyridoxal kinase (Pyridoxamine)	False	Pyridoxine Metabolism	2.7.1.35	[c] : C00002 + C00534 --> C00008 + C00080 + C00647
+R_THRS	threonine synthase	False	Threonine and Lysine Metabolism	4.2.3.1	[c] : C00001 + C01102 --> C00009 + C00188
+R_ADK1	adenylate kinase	True	Salvage Pathways	2.7.4.3	[c] : C00020 + C00002 <==> 2 C00008
+R_RNDR2	ribonucleoside-diphosphate reductase (GDP)	False	Salvage Pathways	1.17.4.1	[c] : C00035 + C00342 --> C00361 + C00001 + C00343
+R_ADK3	guanylate kinase (aMP:gTP)	True	Salvage Pathways	2.7.4.8	[c] : C00020 + C00044 <==> C00008 + C00035
+R_CYTK2	cytidylate kinase (dCMP)	True	Salvage Pathways	2.7.4.14	[c] : C00002 + C00239 <==> C00008 + C00705
+R_ADK4	adentylate kinase (ITP)	True	Salvage Pathways		[c] : C00020 + C00081 <==> C00008 + C00104
+R_ANS1	anthranilate synthase	False	Aromatic Amino Acids	4.1.3.27	[c] : C00251 + C00064 --> C00108 + C00025 + C00080 + C00022
+R_DHQD1	3-dehydroquinate dehydratase	True	Aromatic Amino Acids	4.2.1.10	[c] : C00944 <==> C02637 + C00001
+R_trp_Lt	trp-Ltransport	False	Transport Database	.	C00078[e] --> C00078[c]
+R_ALA_Dt6	D-alanine transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.3.1	C00133[e] + C00080[e] <==> C00133[c] + C00080[c]
+R_RIBabc	D-ribose transport via ABC system	False	Transport, Extracellular	TC-3.A.1.2	C00002[c] + C00001[c] + C00121[e] --> C00008[c] + C00080[c] + C00009[c] + C00121[c]
+R_OROTt2	orotate efflux via proton symport	False	Transport, Extracellular		C00080[c] + C00295[c] --> C00080[e] + C00295[e]
+R_AMAOT	adenosylmethionine-8-amino-7-oxononanoate transaminase	True	Biotin Biosynthesis	2.6.1.62	[c] : C01092 + C00019 <==> C04425 + C01037
+R_ENPHE1	enolase-phosphatase E-1	False	; Methionine metabolism 		[c] : C05512 + C00001 --> C15606 + 2 C00080 + C00009
+R_ZN2abc1	zinc transport out via ABC system	False	Transport, Extracellular	TC-3.A.1.15	C00002[c] + C00001[c] + C00038[c] --> C00008[c] + C00080[c] + C00009[c] + C00038[e]
+R_ZN2abc2	zinc transport in via ABC system	False	Transport, Extracellular	TC-3.A.1.15	C00002[c] + C00001[c] + C00038[e] --> C00008[c] + C00080[c] + C00009[c] + C00038[c]
+R_NAt7	sodium transport in/out via proton antiport (one H+)	True	Transport, Extracellular	TC-2.A.36	C00080[e] + C01330[c] <==> C00080[c] + C01330[e]
+R_UACMANAc2	UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : C03939 + uacman2NAc3NA --> C00229 + uacman2NAc3NAcA
+R_cys_Lt	cys-Ltransport	False	Transport Database	.	C00097[e] --> C00097[c]
+R_PTRCTA	Putrescine Transaminase	False	arginine catabolism		[c] : C00026 + C00134 --> C00555 + C00025
+R_MNabc	manganese transport via ABC system	False	Transport, Extracellular	TC-3.A.1.15	C00002[c] + C00001[c] + C00034[e] --> C00008[c] + C00080[c] + C00034[c] + C00009[c]
+R_MMSAD3	methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde)	False	Propanoate metabolism ; ; Valine, leucine and isoleucine degradation 	1.2.1.27	[c] : C00010 + C00222 + C00003 --> C00024 + C00011 + C00004
+R_25DOPs	delta-aminovalerate aminotransferase	False	Lysine Catabolism	2.6.1.48	[c] : C00026 + C91705 --> C00025 + C03273 + 2 C00080
+R_rib_Dt	rib-Dtransport	False	Transport Database	.	C00121[e] --> C00121[c]
+R_zn2t	zn2transport	False	Transport Database	.	C00038[e] --> C00038[c]
+R_RPI	ribose-5-phosphate isomerase	True	Pentose Phosphate Cycle	5.3.1.6	[c] : C00117 <==> C00199
+R_BLACT	beta-lactamase	True	; Adaptation, Protection 	3.5.2.6	[c] : C00001 + C00395 <==> C00080 + C06567
+R_BALAAT	beta-alanine--pyruvate transaminase	True	; Amino acid biosynthesis and metabolism 		[c] : C00041 + C00222 <==> C00099 + C00022
+R_ACS	acetyl-CoA synthetase	False	Propanoate metabolism ; Pyruvate metabolism ; Reductive carboxylate cycle (CO2 fixation) ; 	6.2.1.1	[c] : C00033 + C00002 + C00010 --> C00024 + C00020 + C00013
+R_SHCHF	sirohydrochlorin ferrochetalase	False	Tetrapyrrole Biosynthesis		[c] : C00023 + C05778 --> 2 C00080 + C00748
+R_IPPS	2-isopropylmalate synthase	False	Branched Chain Amino Acid Biosynthesis	4.1.3.12	[c] : C00141 + C00024 + C00001 --> C02504 + C00010 + C00080
+R_AHAI	acetohydroxy acid isomeroreductase	False	Branched Chain Amino Acid Biosynthesis	1.1.1.86	[c] : C06010 + C00080 + C00005 --> C04272 + C00006
+R_DHDPS	dihydrodipicolinate synthase	False	Threonine and Lysine Metabolism	4.2.1.52	[c] : C00441 + C00022 --> C03340 + C00080 + 2 C00001
+R_HPDOAi	NADPH:6,7-dihydropteridine oxidoreductase	False	; Phenylalanine metabolism 	1.5.1	[c] : C00268 + C00080 + C00005 --> C00006 + C00272
+R_CHOLD2	choline dehydrogenase (FAD-dependent)	False	Glycine, serine and threonine metabolism ; 	1.1.99.1	[c] : C00114 + C00016 --> C00576 + C01352
+R_ME2	malic enzyme (NADP)	False	Anaplerotic reactions	1.1.1.40	[c] : C00149 + C00006 --> C00011 + C00005 + C00022
+R_ASNS1	asparagine synthase (glutamine-hydrolysing)	False	Asparagine metabolism	6.3.5.4	[c] : C00049 + C00002 + C00064 + C00001 --> C00020 + C00152 + C00025 + C00080 + C00013
+R_ALCD19	alcohol dehydrogenase (glycerol)	True	Alternate Carbon Metabolism	1.1.1.1	[c] : C00577 + C00080 + C00004 <==> C00116 + C00003
+R_PA_UACAT	acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase	False	Lipopolysaccharide biosynthesis, Lipid A 	2.3.1.129	[c] : C04619 + C00043 --> C00229 + C91710
+R_ALATA_L	L-alanine transaminase	True	Alanine Biosynthesis	2.6.1.2	[c] : C00026 + C00041 <==> C00025 + C00022
+R_PROLBabc	proline betaine transport in via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C10172[e] --> C00008[c] + C00080[c] + C00009[c] + C10172[c]
+R_AHC	adenosylhomocysteinase	True	Methionine Metabolism	3.3.1.1	[c] : C00021 + C00001 <==> C00212 + C00155
+R_PFK_2	Phosphofructokinase	False	Alternate Carbon Metabolism	2.7.1.11	[c] : C00002 + C01097 --> C00008 + C00080 + C03785
+R_BTSr	biotin synthase	True	Biotin Biosynthesis	2.8.1.6	[c] : C01909 + 2 C00087 <==> C00120 + C00080 + C00283
+R_CS	citrate synthase	False	Citrate Cycle (TCA)	4.1.3.7	[c] : C00024 + C00001 + C00036 --> C00158 + C00010 + C00080
+R_glu_Lt	glu-Ltransport	False	Transport Database	.	C00025[e] --> C00025[c]
+R_GLCP	glycogen phosphorylase	False	Glycolysis/Gluconeogenesis	2.4.1.1	[c] : C00182 + C00009 --> C00103
+R_QGDH	quinoprotein glucose dehydrogenase	False	; Pentose phosphate cycle 		[c] : C00031 + C17569 --> C00198 + C90627
+R_HISabc	L-histidine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00135[e] --> C00008[c] + C00080[c] + C00135[c] + C00009[c]
+R_TRPt2	L-tryptophan transport in via proton symport	False	Transport, Extracellular	TC-2.A.3.1	C00080[e] + C00078[e] --> C00080[c] + C00078[c]
+R_FBP	fructose-bisphosphatase	False	Glycolysis/Gluconeogenesis	3.1.3.11	[c] : C00354 + C00001 --> C00085 + C00009
+R_ACACT1	acetyl-CoA C-acetyltransferase	False	Fatty acid metabolism ; Lysine degradation ; ; Pyruvate metabolism ; Propanoate metabolism ; Tryptophan metabolism ; Fatty acid biosynthesis (path 2) ; Butanoate metabolism 	2.3.1.9	[c] : 2 C00024 --> C00332 + C00010
+R_BTDD-RR	(R,R)-butanediol dehydrogenase	True	; Carbon compound catabolism 	1.1.1.4	[c] : C03044 + C00003 <==> C00810 + C00080 + C00004
+R_C4HLA	C4-homoserine lactone acylase	False	Quorum sensing, AHL		[c] : C00001 + C11837 --> C00246 + C00080 + C02926
+R_ACGK	acetylglutamate kinase	False	Arginine, Putriscine, and Spermidine Metabolism	2.7.2.8	[c] : C00624 + C00002 --> C04133 + C00008
+R_ACKr	acetate kinase	True	Pyruvate metabolism	2.7.2.1	[c] : C00033 + C00002 <==> C00227 + C00008
+R_GLYD	glycerate dehydrogenase	True	Glycine, serine and threonine metabolism	1.1.1.29	[c] : C00080 + C00168 + C00004 <==> C00258 + C00003
+R_GLUSy	glutamate synthase (NADPH)	False	Glutamate and Glutamine Biosynthesis	1.4.1.13	[c] : C00026 + C00064 + C00080 + C00005 --> 2 C00025 + C00006
+R_val_Lt	val-Ltransport	False	Transport Database	.	C00183[e] --> C00183[c]
+R_GLYBabc	glycine betaine transport via ABC system	False	Transport, Extracellular	TC-3.A.1.12	C00002[c] + C00719[e] + C00001[c] --> C00008[c] + C00719[c] + C00080[c] + C00009[c]
+R_ADPT	adenine phosphoribosyltransferase	False	Salvage Pathways	2.4.2.7	[c] : C00147 + C00119 --> C00020 + C00013
+R_dribt	dribtransport	False	Transport Database	.	C01801[e] --> C01801[c]
+R_FBA	fructose-bisphosphate aldolase	True	Glycolysis/Gluconeogenesis	4.1.2.13	[c] : C00354 <==> C00111 + C00661
+R_DHORD2	dihydoorotic acid dehydrogenase (quinone8)	False	Purine and Pyrimidine Biosynthesis	1.3.3.1	[c] : C00337 + C17569 --> C00295 + C90627
+R_OCOAT1r	3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate)	True	; Valine, leucine and isoleucine degradation ; Butanoate metabolism 	2.8.3.5	[c] : C00164 + C00091 <==> C00332 + C00042
+R_Cut1	Copper export via ATPase	False	Transport, Extracellular	TC-3.A.3	C00002[c] + C00070[c] + C00001[c] --> C00008[c] + C00070[e] + C00080[c] + C00009[c]
+R_Kt6	potassium transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.38	C00080[e] + C00238[e] <==> C00080[c] + C00238[c]
+R_HISTP	histidinol-phosphatase	False	Regulatory functions	3.1.3.15	[c] : C00001 + C01100 --> C00860 + C00009
+R_cellb	cellobiosetransport	False	Transport Database	.	C00185[e] --> C00185[c]
+R_ADD	adenine deaminase	False	purine degradation	3.5.4.2	[c] : C00147 + C00080 + C00001 --> C00262 + C01342
+R_IG3PS	Imidazole-glycerol-3-phosphate synthase	False	Histidine Metabolism		[c] : C00064 + C04916 --> C04677 + C04666 + C00025 + 2 C00080
+R_DMATT	dimethylallyltranstransferase	False	Isoprenoid Biosynthesis	2.5.1.1	[c] : C00235 + C00129 --> C00341 + C00013
+R_ADNK1	adenosine kinase	False	Salvage Pathways	2.7.1.20	[c] : C00212 + C00002 --> C00008 + C00020 + C00080
+R_ACt6	acetate transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.1.13	C00033[e] + C00080[e] <==> C00033[c] + C00080[c]
+R_ADNCYC	adenylate cyclase	False	Nucleotide Salvage Pathway	4.6.1.1	[c] : C00002 --> C00575 + C00013
+R_GLUSD	glutarate-semialdehyde dehydrogenase	False	Lysine Catabolism	1.2.1.20	[c] : C03273 + C00001 + C00003 --> C00489 + 2 C00080 + C00004
+R_PDXPP	Pyridoxine 5-phosphate phosphatase	False	Pyridoxine Metabolism		[c] : C00001 + C00627 --> C00009 + C00314
+R_HISTD	histidinol dehydrogenase	False	Histidine Metabolism	1.1.1.23	[c] : C00001 + C00860 + 2 C00003 --> 3 C00080 + C00135 + 2 C00004
+R_DAMOX_ALA	D-amino acid oxidase	False	Amino Acid Degradation	1.4.3.3	[c] : C00133 + C00001 + C00007 --> C00027 + C01342 + C00022
+R_leu_Lt	leu-Ltransport	False	Transport Database	.	C00123[e] --> C00123[c]
+R_thmt	thmtransport	False	Transport Database	.	C00378[e] --> C00378[c]
+R_CYSTRS	Cysteinyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Cysteine metabolism 	6.1.1.16	[c] : C00002 + C00097 + C01639 --> C00020 + C03125 + C00013
+R_OPHHX	2-Octaprenylphenol hydroxylase	False	Quinone Biosynthesis, Ubiquinone		[c] : C05810 + 0.5 C00007 --> C05811
+R_FRUpts	D-fructose transport via PEP:Pyr PTS	False	Transport, Extracellular		C10906[e] + C00074[c] --> C01094[c] + C00022[c]
+R_TYRTRS	Tyrosyl-tRNA synthetase	False	; Aminoacyl-tRNA biosynthesis ; Tryptophan metabolism 	6.1.1.1	[c] : C00002 + C00787 + C00082 --> C00020 + C00013 + C02839
+R_4ABUTNC	4-aminobutanoate cyclization reaction	False	arginine catabolism		[c] : C00555 --> C03912 + C00080 + C00001
+R_acaldt	acaldtransport	False	Transport Database	.	C00084[c] --> C00084[e]
+R_KAS15	b-ketoacyl synthase	False	; Fatty acid biosynthesis (path 1) 		[c] : C00024 + C00080 + C01209 --> C05744 + C00011 + C00010
+R_THPDH	NAD-dependent threonine 4-phosphate dehydrogenase	False	; Vitamin B6 metabolism 	1.1.1.262	[c] : C00003 + C06055 --> C07335 + C00080 + C00004
+R_XANDb	xanthine dehydrogenase	False	purine degradation	1.1.1.204	[c] : C00001 + C00003 + C00385 --> C00080 + C00004 + C00366
+R_CHLabc	choline transport via ABC system	False	Transport, Extracellular		C00002[c] + C00114[e] + C00001[c] --> C00008[c] + C00114[c] + C00080[c] + C00009[c]
+R_ALLTNt6	allantoin transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.39	C01551[e] + C00080[e] <==> C01551[c] + C00080[c]
+R_ME1x	malic enzyme (NAD)	False	Anaplerotic reactions	1.1.1.38	[c] : C00149 + C00003 --> C00011 + C00004 + C00022
+R_ureat	ureatransport	False	Transport Database	.	C00086[c] --> C00086[e]
+R_NNAT	nicotinate-nucleotide adenylyltransferase	False	NAD Biosynthesis	2.7.7.18	[c] : C00002 + C00080 + C01185 --> C00857 + C00013
+R_PSDC_PA	phosphatidylserine decarboxylase	False	Membrane Lipid Metabolism	4.1.1.65	[c] : 0.02 C00119 --> C00011 + 0.02 C00350
+R_OXDE	oxaloacetate decarboxylase;	False	Transport and binding proteins		[c] : C00080 + C00036 --> C00011 + C00022
+R_adet	adetransport	False	Transport Database	.	C00147[e] --> C00147[c]
+R_MMSAD1	methylmalonate-semialdehyde dehydrogenase	False	Propanoate metabolism ; ; Valine, leucine and isoleucine degradation 	1.2.1.27	[c] : C00349 + C00010 + C00003 --> C00011 + C00004 + C00100
+R_4AHD	4a-hydroxytetrahydrobiopterin dehydratase;	True	; Phenylalanine metabolism 		[c] : C91638 <==> C06487 + C00001
+R_ASPCT	aspartate carbamoyltransferase	False	Purine and Pyrimidine Biosynthesis	2.1.3.2	[c] : C00049 + C00169 --> C00438 + C00080 + C00009
+R_THRabc	L-threonine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00188[e] --> C00008[c] + C00080[c] + C00009[c] + C00188[c]
+R_strch1t	strch1transport	False	Transport Database	.	C00369[e] --> C00369[c]
+R_gthrdt	gthrdtransport	False	Transport Database	.	C00051[e] --> C00051[c]
+R_CDPDSPr_PA	CDPdiacylglycerol-serine O-phosphatidyltransferase reversible	True	Membrane Lipid Metabolism	2.7.8.8	[c] : 0.02 C00269 + C00065 <==> C00055 + C00080 + 0.02 C00119
+R_PGPPH_PA	Phosphatidylglycerophosphate phosphohydrolase	False	Membrane Lipid Metabolism	3.1.3.27	[c] : C00001 + 0.02 C03892 --> 0.02 C00344 + C00009
+R_L-LACD2	L-Lactate dehydrogenase (ubiquinone)	False	Oxidative phosphorylation	1.1.2.3	[c] : C00186 + C17569 --> C00022 + C90627
+R_HEMEOS	Heme O synthase	False	Tetrapyrrole Biosynthesis		[c] : C00448 + C00001 + C00032 --> C00080 + C15672 + C00013
+R_GART	Phosphoribosylglycinamide formyltransferase 2	False	Purine and Pyrimidine Biosynthesis	Undetermined	[c] : C00002 + C00058 + C03838 --> C00008 + C04376 + C00080 + C00009
+R_PA_LIPDA_2	Pseudomonas lipid A reaction 2	False	Lipopolysaccharide biosynthesis, Lipid A 		[c] : C91713 + 2 C00881 --> 2 C00229 + C91715
+R_ALATA_G2	Glutamine transaminase	False	Pyridoxine Metabolism		[c] : C00025 + C00018 --> C00026 + C00647
+R_GTHRD	glutathione-disulfide reductase	True	Glutathione Biosynthesis	1.8.1.7	[c] : 2 C00051 + C00006 <==> C00127 + C00080 + C00005
+R_GLCNt2ir	D-gluconate transport via proton symport	False	Transport, Extracellular		glcn-D[e] + C00080[e] --> glcn-D[c] + C00080[c]
+R_PA_COREs	Pseudomonas aeruginosa LPS lumped L-ala and CONH2 addition reaction	False	Lipopolysaccharide biosynthesis, core	Undetermined	[c] : C91717 + C00041 + C00169 --> C91716 + C00001 + C00009
+R_tyr_Lt	tyr-Ltransport	False	Transport Database	.	C00082[e] --> C00082[c]
+R_IPMD-2	3-isopropylmalate dehydrogenase 2	False	Branched Chain Amino Acid Biosynthesis	1.1.1.85	[c] : C04411 + C00003 --> C00233 + C00011 + C00004
+R_CLPNS_PA	cardiolipin synthetase	False	Phospholipid Biosynthesis		[c] : 0.02 C00269 + 0.02 C00344 --> 0.02 C05980 + C00055 + C00080
+R_PRASCS	phosphoribosylaminoimidazolesuccinocarboxamide synthase	True	Purine and Pyrimidine Biosynthesis	6.3.2.6	[c] : C04751 + C00049 + C00002 <==> C04823 + C00008 + C00080 + C00009
+R_OHEXAt2	2-oxohexanedioic acid transport in via proton symport	False	; Aromatic compound catabolism 	TC-2.A.1.6	C00080[e] + ohexa[e] --> C00080[c] + ohexa[c]
+R_CD2t	cadmium transport out via antiport	False	Transport, Extracellular		C01413[c] + C00080[e] --> C01413[e] + C00080[c]
+R_GUADr	guanine deaminase	True	; Purine metabolism 	3.5.4.3	[c] : C00242 + C00001 <==> C00014 + C00385
+R_DADA	Deoxyadenosine deaminase	False	Salvage Pathways		[c] : C00559 + C00080 + C00001 --> C05512 + C01342
+R_G1PACT	glucosamine-1-phosphate N-acetyltransferase	False	Cell Envelope Biosynthesis	2.3.1.157	[c] : C00024 + C06156 --> C04256 + C00010 + C00080
+R_N3OXDD-HSLs	N-(3-oxo-dodecanoyl)-L-homoserine lactone synthase	False	Quorum sensing, AHL		[c] : C05756 + C00019 --> C00170 + C00229 + C00080 + C91699
+R_DADK	deoxyadenylate kinase	True	Salvage Pathways	2.7.4.11	[c] : C00002 + C00360 <==> C00008 + C00206
+R_GUADB	guanidinobutyrase	True	Arginine and proline metabolism ; 		[c] : C01035 + C00001 <==> C00334 + C00086
+R_HEMAT2	Hexanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase	False	; Fatty acid biosynthesis (path 1) 	1.3.1.10	[c] : C05748 + C00080 + C00004 --> C05749 + C00003
+R_CHLt2	choline transport in via proton symport	False	Transport, Extracellular		C00114[e] + C00080[e] --> C00114[c] + C00080[c]
+R_GLUCYSL	glutamate-cysteine ligase	False	Glutathione Biosynthesis	6.3.2.2	[c] : C00002 + C00097 + C00025 --> C00008 + C00669 + C00080 + C00009
+R_CYCPO	cytochrome-c peroxidase	False	Oxidative phosphorylation	1.11.1.5	[c] : 2 C00126 + 2 C00080 + C00027 --> 2 C00125 + 2 C00001
+R_GLUPRT	glutamine phosphoribosyldiphosphate amidotransferase	False	Purine and Pyrimidine Biosynthesis	2.4.2.14	[c] : C00064 + C00001 + C00119 --> C00025 + C00013 + C03090
+R_E4PD	Erythrose 4-phosphate dehydrogenase	True	Pyridoxine Metabolism		[c] : C00279 + C00001 + C00003 <==> C03393 + 2 C00080 + C00004
+R_cu2t	cu2transport	False	Transport Database	.	C00070[e] --> C00070[c]
+R_MANabc	D-mannose transport via ABC system	False	Transport, Extracellular	TC-3.A.1.1	C00002[c] + C00001[c] + C00936[e] --> C00008[c] + C00080[c] + C00936[c] + C00009[c]
+R_ornt	orntransport	False	Transport Database	.	C00077[e] --> C00077[c]
+R_THRA2	glycine hydroxymethyltransferase	False	Glycine, serine and threonine metabolism ; Cyanoamino acid metabolism ; Lysine degradation ; ; Methane metabolism ; One carbon pool by folate 		[c] : C00084 + C00037 --> C00188
+R_SHSL1	O-succinylhomoserine lyase (L-cysteine)	False	Methionine Metabolism	4.2.99.9	[c] : C00097 + C01118 --> C02291 + C00080 + C00042
+R_SHSL2	O-succinylhomoserine lyase (H2S)	False	Sulfur metabolism ; Glycine, serine and threonine metabolism ; ; Methionine metabolism 	4.2.99.9	[c] : C00283 + C01118 --> C00155 + C00042
+R_SHSL5	O-acetylhomoserine lysase (L-cysteine)	False	Methionine Metabolism	4.2.99.9	[c] : C01077 + C00097 --> C00033 + C02291 + C00080
+R_PHEt6i	L-phenylalanine transport in/out via proton symport	False	Transport, Extracellular	TC-2.A.3.1	C00080[e] + C00079[e] --> C00080[c] + C00079[c]
+R_maltt	malttransport	False	Transport Database	.	C00208[e] --> C00208[c]
+R_ARGSS	argininosuccinate synthase	False	Arginine, Putriscine, and Spermidine Metabolism	6.3.4.5	[c] : C00049 + C00002 + C00327 --> C00020 + C03406 + C00080 + C00013
+R_F1PK	fructose-1-phosphate kinase	False	Alternate Carbon Metabolism	2.7.1.56	[c] : C00002 + C01094 --> C00008 + C00354 + C00080
+R_PSP_L	phosphoserine phosphatase (L-serine)	False	Serine & Glycine Biosynthesis	3.1.3.3	[c] : C00001 + C01005 --> C00009 + C00065
+R_DBTSr	dethiobiotin synthase	True	Biotin Biosynthesis	6.3.3.3	[c] : C00002 + C00011 + C01037 <==> C00008 + C01909 + 3 C00080 + C00009
+R_ALLTN	allantoinase	False	purine degradation	3.5.2.5	[c] : C01551 + C00001 --> C00499 + C00080
+R_GTPCII	GTP cyclohydrolase II	False	Riboflavin Metabolism	3.5.4.25	[c] : C00044 + 3 C00001 --> C01304 + C00058 + 2 C00080 + C00013
+R_2NPDO	2-Nitropropane Dioxygenase	True	; Nitrogen metabolism 		[c] : 2 C02116 + C00007 <==> 2 C00207 + 2 C00080 + 2 C00088
+R_ARGSL	argininosuccinate lyase	True	Arginine, Putriscine, and Spermidine Metabolism	4.3.2.1	[c] : C03406 <==> C00062 + C00122
+R_FUCNAcPPUNDs	Fuc2NAc-PP-undecap synthesis	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : C91689 + C00348 --> C91683 + C00105
+R_MTHPTGHM	5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase	False	Methionine Metabolism	2.1.1.14	[c] : C04489 + C00155 --> C00073 + C04144
+R_PA_LPS_Aabc	A-band LPS efflux transporter via ABC system	False	Transport, Extracellular	TC-3.A.1	PA_LPS_A[c] + C00002[c] + C00001[c] --> PA_LPS_A[e] + C00008[c] + C00080[c] + C00009[c]
+R_PPCK	phosphoenolpyruvate carboxykinase	False	Anaplerotic reactions	4.1.1.49	[c] : C00002 + C00036 --> C00008 + C00011 + C00074
+R_CATB	Muconate cycloisomerase	True	; Aromatic compound catabolism 	5.5.1.1	[c] : C04105 <==> C00080 + C02480
+R_ORNTAC	ornithine transacetylase	True	; Amino acid biosynthesis and metabolism 	2.3.1.35	[c] : C00437 + C00025 <==> C00624 + C00077
+R_LEUabc	L-leucine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00123[e] --> C00008[c] + C00080[c] + C00123[c] + C00009[c]
+R_SUCCt2_2	succinate transport via proton symport (2 H)	False	Transport, Extracellular		2 C00080[e] + C00042[e] --> 2 C00080[c] + C00042[c]
+R_ICHORSi	Isochorismate Synthase	False	Quinone Biosynthesis, Menaquinone		[c] : C00251 --> C00885
+R_24DAB4AT	L-2,4-diaminobutyrate:2-ketoglutarate 4-aminotransferase, PvdH	True	Pyoverdine synthesis ; 		[c] : C03283 + C00026 <==> C00441 + C00025
+R_celluloset	cellulosetransport	False	Transport Database	.	C00760[e] --> C00760[c]
+R_CYSTS	cystathionine b-synthase	False	Glycine, serine and threonine metabolism ; ; Cysteine metabolism 	4.2.1.22	[c] : C00155 + C00065 --> C02291 + C00001
+R_2HDDACPs	S-2-hydroxylauroyl-ACP synthase	False	Fatty Acid Synthesis		[c] : C00881 + 0.5 C00007 --> C91735
+R_PDX5PO	pyridoxine 5'-phosphate oxidase	True	Pyridoxine Metabolism	1.4.3.5	[c] : C00007 + C00627 <==> C00080 + C00027 + C00018
+R_HBUR1	(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase	False	Fatty acid biosynthesis	1.1.1.100	[c] : C05744 + C00080 + C00005 --> C04618 + C00006
+R_UACFUCs	UDP-N-acetyl fucosamine synthase	False	Lipopolysaccharide biosynthesis, B-band O-antigen		[c] : C00080 + C00005 + C00203 --> C00001 + C00006 + C91689
+R_ASPabc	L-aspartate transport via ABC system	False	Transport, Extracellular	TC-3.A.1.3	C00049[e] + C00002[c] + C00001[c] --> C00008[c] + C00049[c] + C00080[c] + C00009[c]
+R_PHCYTr_PA	phosphatidate cytidylyltransferase reversible	True	Membrane Lipid Metabolism	2.7.7.41	[c] : 0.02 C00416 + C00063 + C00080 <==> 0.02 C00269 + C00013
+R_HISTRS	Histidyl-tRNA synthetase	False	tRNA Charging	6.1.1.21	[c] : C00002 + C00135 + C01643 --> C00020 + C02988 + C00013
+R_PGI	glucose-6-phosphate isomerase	True	Glycolysis/Gluconeogenesis	5.3.1.9	[c] : C00092 <==> C00085
+R_XANt2	xanthine transport in via proton symport	False	Transport, Extracellular	TC-2.A.40	C00080[e] + C00385[e] --> C00080[c] + C00385[c]
+R_ADA	Adenosine deaminase	False	Salvage Pathways	3.5.4.4	[c] : C00212 + C00080 + C00001 --> C00294 + C01342
+R_AGMHE	ADP-D-glycero-D-manno-heptose epimerase	False	Lipopolysaccharide biosynthesis, core	5.1.3.20	[c] : C06397 --> C06398
+R_THRTRS	Threonyl-tRNA synthetase	False	Glycine, serine and threonine metabolism ; ; Aminoacyl-tRNA biosynthesis 	6.1.1.3	[c] : C00002 + C00188 + C01651 --> C00020 + C00013 + C02992
+R_SHCHD2	sirohydrochlorin dehydrogenase (NAD)	False	Tetrapyrrole Biosynthesis		[c] : C00003 + C02463 --> 2 C00080 + C00004 + C05778
+R_ALGNA	alginate o-acetyltransferase	False	; Alginate biosynthesis 		[c] : C03939 + C01768 --> C00229 + C91707
+R_THM2t2	Thiamine transport in via proton symport	False	Transport, Extracellular		C00080[e] + C00378[e] --> C00080[c] + C00378[c]
+R_ALGNE	alginate-c5-mannuronan-epimerase	False	; Alginate biosynthesis 		[c] : C01768 --> C01768
+R_b_D_glucoset	b-D-glucosetransport	False	Transport Database	.	C00221[e] --> C00221[c]
+R_LYSabc	L-lysine transport via ABC system	False	Transport, Extracellular		C00002[c] + C00001[c] + C00047[e] --> C00008[c] + C00080[c] + C00047[c] + C00009[c]
+R_PPA	inorganic diphosphatase	False	Anaplerotic reactions	3.6.1.1	[c] : C00001 + C00013 --> C00080 + 2 C00009
+R_KDOPP	3-deoxy-manno-octulosonate-8-phosphatase	False	Lipopolysaccharide biosynthesis, Lipid A 	3.1.3.45	[c] : C00001 + C04478 --> C01187 + C00009
+R_KDOPS	2-dehydro-3-deoxy-phosphooctonate aldolase	False	Lipopolysaccharide biosynthesis, Lipid A 	4.1.2.16	[c] : C01112 + C00001 + C00074 --> C04478 + C00009
+R_PPCDC	phosphopantothenoylcysteine decarboxylase	False	Coenzyme A Biosynthesis	4.1.1.36	[c] : C04352 + C00080 --> C00011 + C01134
+R_GHMT	glycine hydroxymethyltransferase	True	Serine & Glycine Biosynthesis	2.1.2.1	[c] : C00065 + C00101 <==> C00037 + C00001 + C00143
+R_MCOATA	Malonyl-CoA-ACP transacylase	True	Membrane Lipid Metabolism	2.3.1.39	[c] : C00229 + C00083 <==> C00010 + C01209
+R_CBIAT	Cobinamide adenyltransferase	True	Porphyrin and chlorophyll metabolism ; ; Cobalamin biosynthesis 	2.5.1.17	[c] : C00002 + C05774 + C00001 <==> C06508 + C00009 + C00013
+R_ni2t	ni2transport	False	Transport Database	.	C00291[e] --> C00291[c]
+R_TREpts	trehalose transport via PEP:Pyr PTS	False	Transport, Extracellular		C00074[c] + C01083[e] --> C00022[c] + C00689[c]
+R_DHFRi	dihydrofolate reductase (irreversible)	False	Folate Metabolism	1.5.1.3	[c] : C00415 + C00080 + C00005 --> C00006 + C00101
+R_ASPT	L-aspartase	False	Amino Acid Degradation	4.3.1.1	[c] : C00049 --> C00122 + C01342
+R_NNDPR	nicotinate-nucleotide diphosphorylase (carboxylating)	False	NAD Biosynthesis	2.4.2.19	[c] : 2 C00080 + C00119 + C03722 --> C00011 + C01185 + C00013
+R_sprmt	sprmtransport	False	Transport Database	.	C00750[e] --> C00750[c]
+R_ZN2t	zinc transport out via antiport	False	Transport, Extracellular		C00080[e] + C00038[c] --> C00080[c] + C00038[e]
+R_GLCNACPPUNDs	GlcNac-pyrophosphorylundecaprenol synthesis	False	Lipopolysaccharide biosynthesis, A-band O-antigen		[c] : C00043 + C00348 --> None + C00105
+R_PHETRS	Phenylalanyl-tRNA synthetase	False	; Phenylalanine, tyrosine and tryptophan biosynthesis ; Aminoacyl-tRNA biosynthesis 	6.1.1.20	[c] : C00002 + C00079 + C01648 --> C00020 + C03511 + C00013
+R_PRATPP	phosphoribosyl-ATP pyrophosphatase	False	Histidine Metabolism	3.6.1.31	[c] : C00001 + C02739 --> C00080 + C00013 + C02741
+R_act	actransport	True	Transport Database	.	C00033[c] <==> C00033[e]
+R_PRAIS	phosphoribosylaminoimidazole synthetase	False	Purine and Pyrimidine Biosynthesis	6.3.3.1	[c] : C00002 + C04640 --> C00008 + C03373 + C00080 + C00009
+R_ASPK	aspartate kinase	True	Threonine and Lysine Metabolism	2.7.2.4	[c] : C00049 + C00002 <==> C03082 + C00008
+R_AKGt6	2-oxoglutarate transport in/out via proton symport	True	Transport, Extracellular	TC-2.A.1.6	C00026[e] + C00080[e] <==> C00026[c] + C00080[c]
