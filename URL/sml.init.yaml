@@ -1,0 +1,1788 @@
+- model: sme.SmeReaction
+  pk: 1
+  fields:
+     rxnID: R08512
+     name: "R-sulfate-ester:glutathione R-transferase"
+     ec: 2.5.1.18
+     subsystem: "."
+     equation: "[c] : C16738 + gthrd <=> so4 + C02320"
+     gpr: "SMb_20005"
+     keggEq: Sulfuric monoester + Glutathione <=> Sulfate + R-S-Glutathione
+     keggEqCodes: C16738 + C00051 <=> C00059 + C02320
+     score: 3
+- model: sme.SmeReaction
+  pk: 2
+  fields:
+     rxnID: R08511
+     name: "R-nitrile:glutathione R-transferase"
+     ec: 2.5.1.18
+     subsystem: "."
+     equation: "[c] : C00726 + gthrd <=> C01326 + C02320"
+     gpr: "SMb_20005"
+     keggEq: Nitrile + Glutathione <=> Hydrogen cyanide + R-S-Glutathione
+     keggEqCodes: C00726 + C00051 <=> C01326 + C02320
+     score: 3
+- model: sme.SmeReaction
+  pk: 3
+  fields:
+     rxnID: R02021
+     name: "adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)"
+     ec: 1.8.4.8
+     subsystem: "rn00920 Sulfur metabolism"
+     equation: "[c] : trdrd + pap <=> trdox + so3 + C00054"
+     gpr: "SMc_00092"
+     keggEq: Thioredoxin + 3'-Phosphoadenylyl sulfate <=> Thioredoxin disulfide + Sulfite + Adenosine 3',5'-bisphosphate
+     keggEqCodes: C00342 + C00053 <=> C00343 + C00094 + C00054
+     score: 3
+- model: sme.SmeReaction
+  pk: 4
+  fields:
+     rxnID: R00089
+     name: "ATP diphosphate-lyase (cyclizing; 3',5'-cyclic-AMP-forming)"
+     ec: 4.6.1.1
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : atp <=> camp + ppi"
+     gpr: "SMb_20300"
+     keggEq: ATP <=> 3',5'-Cyclic AMP + Diphosphate
+     keggEqCodes: C00002 <=> C00575 + C00013
+     score: 3
+- model: sme.SmeReaction
+  pk: 5
+  fields:
+     rxnID: R08558
+     name: "."
+     ec: 1.1.1.1
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : chol + nadp <=> betald + nadph + h"
+     gpr: "SMb_20170"
+     keggEq: Choline + NADP+ <=> Betaine aldehyde + NADPH + H+
+     keggEqCodes: C00114 + C00006 <=> C00576 + C00005 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 6
+  fields:
+     rxnID: R08557
+     name: "."
+     ec: 1.1.1.1
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : chol + nad <=> betald + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: Choline + NAD+ <=> Betaine aldehyde + NADH + H+
+     keggEqCodes: C00114 + C00003 <=> C00576 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 7
+  fields:
+     rxnID: R02565
+     name: "p-cumic alcohol:NAD+ oxidoreductase"
+     ec: 1.2.1.8
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : betald + nad + h2o <=> glyb + nadh + 2 h"
+     gpr: "SMa_1731"
+     keggEq: Betaine aldehyde + NAD+ + H2O <=> Betaine + NADH + 2 H+
+     keggEqCodes: C00576 + C00003 + C00001 <=> C00719 + C00004 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 8
+  fields:
+     rxnID: R02566
+     name: "p-Cumic alcohol:NADP+ oxidoreductase"
+     ec: 1.2.1.8
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : betald + nadp + h2o <=> glyb + nadph + 2 h"
+     gpr: "SMa_1731"
+     keggEq: Betaine aldehyde + NADP+ + H2O <=> Betaine + NADPH + 2 H+
+     keggEqCodes: C00576 + C00006 + C00001 <=> C00719 + C00005 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 9
+  fields:
+     rxnID: R05286
+     name: "Chloroacetaldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C06754 + nad + h2o <=> C06755 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: Chloroacetaldehyde + NAD+ + H2O <=> Chloroacetic acid + NADH + H+
+     keggEqCodes: C06754 + C00003 + C00001 <=> C06755 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 10
+  fields:
+     rxnID: R00945
+     name: "5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase"
+     ec: 2.1.2.1
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : mlthf + gly + h2o <=> thf + ser-L"
+     gpr: "SMa_2135"
+     keggEq: 5,10-Methylenetetrahydrofolate + Glycine + H2O <=> Tetrahydrofolate + L-Serine
+     keggEqCodes: C00143 + C00037 + C00001 <=> C00101 + C00065
+     score: 3
+- model: sme.SmeReaction
+  pk: 11
+  fields:
+     rxnID: R00944
+     name: "10-Formyltetrahydrofolate amidohydrolase"
+     ec: 3.5.1.10
+     subsystem: "rn00630 Glyoxylate and dicarboxylate metabolism"
+     equation: "[c] : 10fthf + h2o <=> C00058 + thf"
+     gpr: "SMa_2141"
+     keggEq: 10-Formyltetrahydrofolate + H2O <=> Formate + Tetrahydrofolate
+     keggEqCodes: C00234 + C00001 <=> C00058 + C00101
+     score: 3
+- model: sme.SmeReaction
+  pk: 12
+  fields:
+     rxnID: R00552
+     name: "L-Arginine iminohydrolase"
+     ec: 3.5.3.6
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : arg-L + h2o <=> citr-L + nh4"
+     gpr: "SMa_0693"
+     keggEq: L-Arginine + H2O <=> L-Citrulline + Ammonia
+     keggEqCodes: C00062 + C00001 <=> C00327 + C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 13
+  fields:
+     rxnID: R00551
+     name: "L-Arginine amidinohydrolase"
+     ec: 3.5.3.1
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : arg-L + h2o <=> C00077 + urea"
+     gpr: "SMa_1711"
+     keggEq: L-Arginine + H2O <=> L-Ornithine + Urea
+     keggEqCodes: C00062 + C00001 <=> C00077 + C00086
+     score: 3
+- model: sme.SmeReaction
+  pk: 14
+  fields:
+     rxnID: R01738
+     name: "D-Gluconate:NAD+ 5-oxidoreductase"
+     ec: 1.1.1.69
+     subsystem: "."
+     equation: "[c] : C00257 + nad <=> C01062 + nadh + h"
+     gpr: "SMb_20692"
+     keggEq: D-Gluconic acid + NAD+ <=> 5-Dehydro-D-gluconate + NADH + H+
+     keggEqCodes: C00257 + C00003 <=> C01062 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 15
+  fields:
+     rxnID: R07070
+     name: "2,3-dihydro-2-S-glutathionyl-3-hydroxy bromobenzene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14840 + gthrd <=> C14848"
+     gpr: "SMb_20005"
+     keggEq: Bromobenzene-2,3-oxide + Glutathione <=> 2,3-Dihydro-2-S-glutathionyl-3-hydroxy bromobenzene
+     keggEqCodes: C14840 + C00051 <=> C14848
+     score: 3
+- model: sme.SmeReaction
+  pk: 16
+  fields:
+     rxnID: R02545
+     name: "meso-tartaric acid:NAD+ oxidoreductase"
+     ec: 1.1.1.93
+     subsystem: "rn00630 Glyoxylate and dicarboxylate metabolism"
+     equation: "[c] : C00552 + nad <=> C03459 + nadh + h"
+     gpr: "SMa_1846"
+     keggEq: meso-Tartaric acid + NAD+ <=> 2-Hydroxy-3-oxosuccinate + NADH + H+
+     keggEqCodes: C00552 + C00003 <=> C03459 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 17
+  fields:
+     rxnID: R08648
+     name: "pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)"
+     ec: 2.2.1.6
+     subsystem: "rn00290 Valine, leucine and isoleucine biosynthesis"
+     equation: "[c] : pyr + 2obut <=> C06006 + co2"
+     gpr: "SMa_0958"
+     keggEq: Pyruvate + 2-Oxobutanoate <=> (S)-2-Aceto-2-hydroxybutanoate + CO2
+     keggEqCodes: C00022 + C00109 <=> C06006 + C00011
+     score: 3
+- model: sme.SmeReaction
+  pk: 18
+  fields:
+     rxnID: R02851
+     name: "D-Lysine:2-oxocarboxylate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00310 Lysine degradation"
+     equation: "[c] : C00739 + C00161 <=> C03239 + C00405"
+     gpr: "SMa_0093"
+     keggEq: D-Lysine + 2-Oxo acid <=> 6-Amino-2-oxohexanoate + D-Amino acid
+     keggEqCodes: C00739 + C00161 <=> C03239 + C00405
+     score: 3
+- model: sme.SmeReaction
+  pk: 19
+  fields:
+     rxnID: R03595
+     name: "ATP:selenide, water phosphotransferase"
+     ec: 2.7.9.3
+     subsystem: "rn00450 Selenocompound metabolism"
+     equation: "[c] : atp + seln + h2o <=> amp + selnp + pi"
+     gpr: "SMa_0028"
+     keggEq: ATP + Hydrogen selenide + H2O <=> AMP + Selenophosphoric acid + Orthophosphate
+     keggEqCodes: C00002 + C01528 + C00001 <=> C00020 + C05172 + C00009
+     score: 3
+- model: sme.SmeReaction
+  pk: 20
+  fields:
+     rxnID: R01344
+     name: "D-alanine:2-oxo acid aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00473 D-Alanine metabolism"
+     equation: "[c] : C00405 + pyr <=> C00161 + ala-D"
+     gpr: "SMa_0093"
+     keggEq: D-Amino acid + Pyruvate <=> 2-Oxo acid + D-Alanine
+     keggEqCodes: C00405 + C00022 <=> C00161 + C00133
+     score: 3
+- model: sme.SmeReaction
+  pk: 21
+  fields:
+     rxnID: R01752
+     name: "D-Glyceraldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00561 Glycerolipid metabolism"
+     equation: "[c] : glyald + nad + h2o <=> glyc-R + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: D-Glyceraldehyde + NAD+ + H2O <=> D-Glycerate + NADH + H+
+     keggEqCodes: C00577 + C00003 + C00001 <=> C00258 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 22
+  fields:
+     rxnID: R04120
+     name: "peptide-L-methionine:thioredoxin-disulfide S-oxidoreductase [L-methionine (S)-S-oxide-forming]"
+     ec: 1.8.4.11
+     subsystem: "."
+     equation: "[c] : C03023 + trdox + h2o <=> C03895 + trdrd"
+     gpr: "SMa_1896"
+     keggEq: Peptide-L-methionine + Thioredoxin disulfide + H2O <=> Peptide-L-methionine (S)-S-oxide + Thioredoxin
+     keggEqCodes: C03023 + C00343 + C00001 <=> C03895 + C00342
+     score: 3
+- model: sme.SmeReaction
+  pk: 23
+  fields:
+     rxnID: R03869
+     name: "(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00280 Valine, leucine and isoleucine degradation"
+     equation: "[c] : C06002 + nad + h2o <=> C02170 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: (S)-Methylmalonate semialdehyde + NAD+ + H2O <=> Methylmalonate + NADH + H+
+     keggEqCodes: C06002 + C00003 + C00001 <=> C02170 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 24
+  fields:
+     rxnID: R04672
+     name: "(S)-2-Acetolactate pyruvate-lyase (carboxylating)"
+     ec: 2.2.1.6
+     subsystem: "."
+     equation: "[c] : C06010 + thmpp <=> C05125 + pyr"
+     gpr: "SMa_0958"
+     keggEq: (S)-2-Acetolactate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + Pyruvate
+     keggEqCodes: C06010 + C00068 <=> C05125 + C00022
+     score: 3
+- model: sme.SmeReaction
+  pk: 25
+  fields:
+     rxnID: R00785
+     name: "nitric-oxide:oxidized azurin oxidoreductase"
+     ec: 1.7.2.1
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : C00533 + h2o + C05357 <=> no2 + C05358 + h"
+     gpr: "SMa_1250"
+     keggEq: Nitric oxide + H2O + Oxidized azurin <=> Nitrite + Reduced azurin + H+
+     keggEqCodes: C00533 + C00001 + C05357 <=> C00088 + C05358 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 26
+  fields:
+     rxnID: R00784
+     name: "nitric-oxide:ferricytochrome-c2 oxidoreductase"
+     ec: 1.7.2.1
+     subsystem: "."
+     equation: "[c] : C00533 + h2o + C00997 <=> no2 + C01000 + h"
+     gpr: "SMa_1250"
+     keggEq: Nitric oxide + H2O + Ferricytochrome c2 <=> Nitrite + Ferrocytochrome c2 + H+
+     keggEqCodes: C00533 + C00001 + C00997 <=> C00088 + C01000 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 27
+  fields:
+     rxnID: R00783
+     name: "nitric-oxide:ferricytochrome-c oxidoreductase"
+     ec: 1.7.2.1
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : C00533 + h2o + ficytc <=> no2 + focytc + h"
+     gpr: "SMa_1250"
+     keggEq: Nitric oxide + H2O + Ferricytochrome c <=> Nitrite + Ferrocytochrome c + H+
+     keggEqCodes: C00533 + C00001 + C00125 <=> C00088 + C00126 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 28
+  fields:
+     rxnID: R06366
+     name: "Aldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00903 Limonene and pinene degradation"
+     equation: "[c] : C02576 + h2o + nad <=> C11924 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: Perillyl aldehyde + H2O + NAD+ <=> Perillic acid + NADH + H+
+     keggEqCodes: C02576 + C00001 + C00003 <=> C11924 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 29
+  fields:
+     rxnID: R04903
+     name: "5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00380 Tryptophan metabolism"
+     equation: "[c] : C05634 + nad + h2o <=> C05635 + h + nadh"
+     gpr: "SMb_20891"
+     keggEq: 5-Hydroxyindoleacetaldehyde + NAD+ + H2O <=> 5-Hydroxyindoleacetate + H+ + NADH
+     keggEqCodes: C05634 + C00003 + C00001 <=> C05635 + C00080 + C00004
+     score: 3
+- model: sme.SmeReaction
+  pk: 30
+  fields:
+     rxnID: R04805
+     name: "."
+     ec: 1.1.1.1
+     subsystem: "."
+     equation: "[c] : C05444 + nad <=> C05445 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: 3alpha,7alpha,26-Trihydroxy-5beta-cholestane + NAD+ <=> 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al + NADH + H+
+     keggEqCodes: C05444 + C00003 <=> C05445 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 31
+  fields:
+     rxnID: R08219
+     name: "selenophosphate:L-seryl-tRNASec selenium transferase"
+     ec: 2.9.1.1
+     subsystem: "rn00450 Selenocompound metabolism"
+     equation: "[c] : C06481 + selnp <=> C06482 + pi"
+     gpr: "SMa_0011"
+     keggEq: L-Seryl-tRNA(Sec) + Selenophosphoric acid <=> L-Selenocysteinyl-tRNA(Sec) + Orthophosphate
+     keggEqCodes: C06481 + C05172 <=> C06482 + C00009
+     score: 3
+- model: sme.SmeReaction
+  pk: 32
+  fields:
+     rxnID: R01466
+     name: "O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)"
+     ec: 4.2.3.1
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : phom + h2o <=> thr-L + pi"
+     gpr: "SMc_00077"
+     keggEq: O-Phospho-L-homoserine + H2O <=> L-Threonine + Orthophosphate
+     keggEqCodes: C01102 + C00001 <=> C00188 + C00009
+     score: 3
+- model: sme.SmeReaction
+  pk: 33
+  fields:
+     rxnID: R01582
+     name: "D-Phenylalanine:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00360 Phenylalanine metabolism"
+     equation: "[c] : C02265 + akg <=> phpyr + glu-D"
+     gpr: "SMa_0093"
+     keggEq: D-Phenylalanine + 2-Oxoglutarate <=> Phenylpyruvate + D-Glutamate
+     keggEqCodes: C02265 + C00026 <=> C00166 + C00217
+     score: 3
+- model: sme.SmeReaction
+  pk: 34
+  fields:
+     rxnID: R02165
+     name: "Nitrite:(acceptor) oxidoreductase"
+     ec: 1.7.99.4
+     subsystem: "."
+     equation: "[c] : C00390 + C00244 <=> C00399 + no2 + h2o"
+     gpr: "SMb_20986"
+     keggEq: Ubiquinol + Nitrate <=> Ubiquinone + Nitrite + H2O
+     keggEqCodes: C00390 + C00244 <=> C00399 + C00088 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 35
+  fields:
+     rxnID: R02166
+     name: "NADH:ubiquinone oxidoreductase"
+     ec: 1.6.5.3
+     subsystem: "."
+     equation: "[c] : C00390 + C00028 <=> C00399 + C00030"
+     gpr: "SMa_1516"
+     keggEq: Ubiquinol + Acceptor <=> Ubiquinone + Reduced acceptor
+     keggEqCodes: C00390 + C00028 <=> C00399 + C00030
+     score: 3
+- model: sme.SmeReaction
+  pk: 36
+  fields:
+     rxnID: R06917
+     name: "1-hydroxymethylnaphthalene:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00626 Naphthalene degradation"
+     equation: "[c] : C14089 + nad <=> C14090 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: 1-Hydroxymethylnaphthalene + NAD+ <=> 1-Naphthaldehyde + NADH + H+
+     keggEqCodes: C14089 + C00003 <=> C14090 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 37
+  fields:
+     rxnID: R00150
+     name: "ATP:carbamate phosphotransferase"
+     ec: 2.7.2.2
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : atp + nh4 + co2 <=> adp + cbp"
+     gpr: "SMa_0697"
+     keggEq: ATP + Ammonia + CO2 <=> ADP + Carbamoyl phosphate
+     keggEqCodes: C00002 + C00014 + C00011 <=> C00008 + C00169
+     score: 3
+- model: sme.SmeReaction
+  pk: 38
+  fields:
+     rxnID: R05724
+     name: "nitric oxide, NAD(P)H2:oxygen oxidoreductase"
+     ec: 1.14.12.17
+     subsystem: "."
+     equation: "[c] : 2 C00533 + 2 o2 + nadh + h <=> 2 C00244 + nad"
+     gpr: "SMa_1191"
+     keggEq: 2 Nitric oxide + 2 Oxygen + NADH + H+ <=> 2 Nitrate + NAD+
+     keggEqCodes: 2 C00533 + 2 C00007 + C00004 + C00080 <=> 2 C00244 + C00003
+     score: 3
+- model: sme.SmeReaction
+  pk: 39
+  fields:
+     rxnID: R05725
+     name: "nitric oxide, NADPH2:oxygen oxidoreductase"
+     ec: 1.14.12.17
+     subsystem: "."
+     equation: "[c] : 2 C00533 + 2 o2 + nadph + h <=> 2 C00244 + nadp"
+     gpr: "SMa_1191"
+     keggEq: 2 Nitric oxide + 2 Oxygen + NADPH + H+ <=> 2 Nitrate + NADP+
+     keggEqCodes: 2 C00533 + 2 C00007 + C00005 + C00080 <=> 2 C00244 + C00006
+     score: 3
+- model: sme.SmeReaction
+  pk: 40
+  fields:
+     rxnID: R10092
+     name: "carbonate hydro-lyase (carbon-dioxide-forming)"
+     ec: 4.2.1.1
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : hco3 + h <=> co2 + h2o"
+     gpr: "SMa_0045"
+     keggEq: HCO3- + H+ <=> CO2 + H2O
+     keggEqCodes: C00288 + C00080 <=> C00011 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 41
+  fields:
+     rxnID: R02957
+     name: "D-Glucuronolactone:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00053 Ascorbate and aldarate metabolism"
+     equation: "[c] : C02670 + nad + 2 h2o <=> C00818 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: D-Glucuronolactone + NAD+ + 2 H2O <=> D-Glucarate + NADH + H+
+     keggEqCodes: C02670 + C00003 + 2 C00001 <=> C00818 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 42
+  fields:
+     rxnID: R05390
+     name: "."
+     ec: 5.5.1.1
+     subsystem: "rn00361 Chlorocyclohexane and chlorobenzene degradation"
+     equation: "[c] : C03585 <=> C07090 + C01327 + co2"
+     gpr: "SMa_1461"
+     keggEq: 3-Chloro-cis,cis-muconate <=> Protoanemonin + Hydrochloric acid + CO2
+     keggEqCodes: C03585 <=> C07090 + C01327 + C00011
+     score: 3
+- model: sme.SmeReaction
+  pk: 43
+  fields:
+     rxnID: R04441
+     name: "(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase"
+     ec: 4.2.1.9
+     subsystem: "rn00290 Valine, leucine and isoleucine biosynthesis"
+     equation: "[c] : C04272 <=> 3mob + h2o"
+     gpr: "SMb_20115"
+     keggEq: (R)-2,3-Dihydroxy-3-methylbutanoate <=> 3-Methyl-2-oxobutanoic acid + H2O
+     keggEqCodes: C04272 <=> C00141 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 44
+  fields:
+     rxnID: R00378
+     name: "deoxythymidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)"
+     ec: 2.7.7.7
+     subsystem: "rn00240 Pyrimidine metabolism"
+     equation: "[c] : dttp + C00039 <=> ppi + C00039"
+     gpr: "SMb_21448"
+     keggEq: dTTP + DNA <=> Diphosphate + DNA
+     keggEqCodes: C00459 + C00039 <=> C00013 + C00039
+     score: 3
+- model: sme.SmeReaction
+  pk: 45
+  fields:
+     rxnID: R00376
+     name: "Deoxyguanosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)"
+     ec: 2.7.7.7
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : dgtp + C00039 <=> ppi + C00039"
+     gpr: "SMb_21448"
+     keggEq: dGTP + DNA <=> Diphosphate + DNA
+     keggEqCodes: C00286 + C00039 <=> C00013 + C00039
+     score: 3
+- model: sme.SmeReaction
+  pk: 46
+  fields:
+     rxnID: R00377
+     name: "Deoxycytidine triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)"
+     ec: 2.7.7.7
+     subsystem: "rn00240 Pyrimidine metabolism"
+     equation: "[c] : dctp + C00039 <=> ppi + C00039"
+     gpr: "SMb_21448"
+     keggEq: dCTP + DNA <=> Diphosphate + DNA
+     keggEqCodes: C00458 + C00039 <=> C00013 + C00039
+     score: 3
+- model: sme.SmeReaction
+  pk: 47
+  fields:
+     rxnID: R00375
+     name: "Deoxyadenosine 5'-triphosphate:DNA deoxynucleotidyltransferase (DNA-directed)"
+     ec: 2.7.7.7
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : datp + C00039 <=> ppi + C00039"
+     gpr: "SMb_21448"
+     keggEq: dATP + DNA <=> Diphosphate + DNA
+     keggEqCodes: C00131 + C00039 <=> C00013 + C00039
+     score: 3
+- model: sme.SmeReaction
+  pk: 48
+  fields:
+     rxnID: R01158
+     name: "L-histidinol:NAD+ oxidoreductase"
+     ec: 1.1.1.23
+     subsystem: "rn01230 Biosynthesis of amino acids"
+     equation: "[c] : histd + 2 nad + h2o <=> his-L + 2 nadh + 2 h"
+     gpr: "SMa_0398"
+     keggEq: L-Histidinol + 2 NAD+ + H2O <=> L-Histidine + 2 NADH + 2 H+
+     keggEqCodes: C00860 + 2 C00003 + C00001 <=> C00135 + 2 C00004 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 49
+  fields:
+     rxnID: R04880
+     name: "3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00350 Tyrosine metabolism"
+     equation: "[c] : C05576 + nad <=> C05577 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: 3,4-Dihydroxyphenylethyleneglycol + NAD+ <=> 3,4-Dihydroxymandelaldehyde + NADH + H+
+     keggEqCodes: C05576 + C00003 <=> C05577 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 50
+  fields:
+     rxnID: R01986
+     name: "4-Aminobutyraldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : 4abutn + nadp + h2o <=> 4abut + nadph + h"
+     gpr: "SMb_20891"
+     keggEq: 4-Aminobutyraldehyde + NADP+ + H2O <=> 4-Aminobutanoate + NADPH + H+
+     keggEqCodes: C00555 + C00006 + C00001 <=> C00334 + C00005 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 51
+  fields:
+     rxnID: R00585
+     name: "L-Serine:pyruvate aminotransferase"
+     ec: 2.6.1.51
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : ser-L + pyr <=> hpyr + ala-L"
+     gpr: "SMa_1495"
+     keggEq: L-Serine + Pyruvate <=> Hydroxypyruvate + L-Alanine
+     keggEqCodes: C00065 + C00022 <=> C00168 + C00041
+     score: 3
+- model: sme.SmeReaction
+  pk: 52
+  fields:
+     rxnID: R00588
+     name: "L-Serine:glyoxylate aminotransferase"
+     ec: 2.6.1.45
+     subsystem: "rn00260 Glycine, serine and threonine metabolism"
+     equation: "[c] : ser-L + glx <=> hpyr + gly"
+     gpr: "SMa_1495"
+     keggEq: L-Serine + Glyoxylate <=> Hydroxypyruvate + Glycine
+     keggEqCodes: C00065 + C00048 <=> C00168 + C00037
+     score: 3
+- model: sme.SmeReaction
+  pk: 53
+  fields:
+     rxnID: R02459
+     name: "D-Ornithine:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00472 D-Arginine and D-ornithine metabolism"
+     equation: "[c] : C00515 + C00161 <=> C01110 + C00405"
+     gpr: "SMa_0093"
+     keggEq: D-Ornithine + 2-Oxo acid <=> 5-Amino-2-oxopentanoic acid + D-Amino acid
+     keggEqCodes: C00515 + C00161 <=> C01110 + C00405
+     score: 3
+- model: sme.SmeReaction
+  pk: 54
+  fields:
+     rxnID: R05070
+     name: "(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase"
+     ec: 4.2.1.9
+     subsystem: "rn00290 Valine, leucine and isoleucine biosynthesis"
+     equation: "[c] : C06007 <=> 3mop + h2o"
+     gpr: "SMb_20115"
+     keggEq: (R)-2,3-Dihydroxy-3-methylpentanoate <=> (S)-3-Methyl-2-oxopentanoic acid + H2O
+     keggEqCodes: C06007 <=> C00671 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 55
+  fields:
+     rxnID: R07100
+     name: "trichloroethene:glutathione S-(1,2-dichlorovinyl)transferase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C06790 + gthrd <=> C14868 + C01327"
+     gpr: "SMb_20005"
+     keggEq: Trichloroethene + Glutathione <=> S-(1,2-Dichlorovinyl)glutathione + Hydrochloric acid
+     keggEqCodes: C06790 + C00051 <=> C14868 + C01327
+     score: 3
+- model: sme.SmeReaction
+  pk: 56
+  fields:
+     rxnID: R07105
+     name: "trichloroethanol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C06899 + nadh + h <=> C07490 + nad + h2o"
+     gpr: "SMb_20170"
+     keggEq: Chloral hydrate + NADH + H+ <=> Trichloroethanol + NAD+ + H2O
+     keggEqCodes: C06899 + C00004 + C00080 <=> C07490 + C00003 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 57
+  fields:
+     rxnID: R05050
+     name: "N4-Acetylaminobutanal:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : C05936 + nad + h2o <=> C02946 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: N4-Acetylaminobutanal + NAD+ + H2O <=> 4-Acetamidobutanoate + NADH + H+
+     keggEqCodes: C05936 + C00003 + C00001 <=> C02946 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 58
+  fields:
+     rxnID: R05053
+     name: "D-Aspartate:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : C00402 + C05946 <=> oaa + C05947"
+     gpr: "SMa_0093"
+     keggEq: D-Aspartate + D-4-Hydroxy-2-oxoglutarate <=> Oxaloacetate + L-erythro-4-Hydroxyglutamate
+     keggEqCodes: C00402 + C05946 <=> C00036 + C05947
+     score: 3
+- model: sme.SmeReaction
+  pk: 59
+  fields:
+     rxnID: R05237
+     name: "."
+     ec: 1.2.1.3
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C06613 + h2o <=> C06614 + 2 h"
+     gpr: "SMb_20891"
+     keggEq: trans-3-Chloroallyl aldehyde + H2O <=> trans-3-Chloroacrylic acid + 2 H+
+     keggEqCodes: C06613 + C00001 <=> C06614 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 60
+  fields:
+     rxnID: R05238
+     name: "."
+     ec: 1.2.1.3
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C16348 + h2o <=> C06615 + 2 h"
+     gpr: "SMb_20891"
+     keggEq: cis-3-Chloroallyl aldehyde + H2O <=> cis-3-Chloroacrylic acid + 2 H+
+     keggEqCodes: C16348 + C00001 <=> C06615 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 61
+  fields:
+     rxnID: R07168
+     name: "5-methyltetrahydrofolate:NAD+ oxidoreductase"
+     ec: 1.5.1.20
+     subsystem: "rn00670 One carbon pool by folate"
+     equation: "[c] : 5mthf + nad <=> mlthf + nadh + h"
+     gpr: "SMa_2143"
+     keggEq: 5-Methyltetrahydrofolate + NAD+ <=> 5,10-Methylenetetrahydrofolate + NADH + H+
+     keggEqCodes: C00440 + C00003 <=> C00143 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 62
+  fields:
+     rxnID: R01737
+     name: "ATP:D-Gluconate 6-phosphotransferase"
+     ec: 2.7.1.12
+     subsystem: "rn00030 Pentose phosphate pathway"
+     equation: "[c] : atp + C00257 <=> adp + 6pgc"
+     gpr: "SMb_21119"
+     keggEq: ATP + D-Gluconic acid <=> ADP + 6-Phospho-D-gluconate
+     keggEqCodes: C00002 + C00257 <=> C00008 + C00345
+     score: 3
+- model: sme.SmeReaction
+  pk: 63
+  fields:
+     rxnID: R00670
+     name: "L-ornithine carboxy-lyase (putrescine-forming)"
+     ec: 4.1.1.17
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : C00077 <=> ptrc + co2"
+     gpr: "SMa_0680"
+     keggEq: L-Ornithine <=> Putrescine + CO2
+     keggEqCodes: C00077 <=> C00134 + C00011
+     score: 3
+- model: sme.SmeReaction
+  pk: 64
+  fields:
+     rxnID: R06043
+     name: "UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase"
+     ec: 2.4.1.15
+     subsystem: "."
+     equation: "[c] : G10608 + g6p <=> G10619 + G09795"
+     gpr: "SMa_0233"
+     keggEq: UDP-D-glucose + D-Glucose 6-phosphate <=> UDP + Trehalose 6-phosphate
+     keggEqCodes: G10608 + C00092 <=> G10619 + G09795
+     score: 3
+- model: sme.SmeReaction
+  pk: 65
+  fields:
+     rxnID: R04782
+     name: "Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "."
+     equation: "[c] : C05360 + 2 C05359 + 2 h <=> C05361"
+     gpr: "SMa_0825"
+     keggEq: Diimine + 2 e- + 2 H+ <=> Hydrazine
+     keggEqCodes: C05360 + 2 C05359 + 2 C00080 <=> C05361
+     score: 3
+- model: sme.SmeReaction
+  pk: 66
+  fields:
+     rxnID: R04785
+     name: "L-Dehydroascorbate lactonohydrolase"
+     ec: 3.1.1.17
+     subsystem: "rn00053 Ascorbate and aldarate metabolism"
+     equation: "[c] : C05422 + h2o <=> C04575"
+     gpr: "SMb_20453"
+     keggEq: Dehydroascorbate + H2O <=> (4R,5S)-4,5,6-Trihydroxy-2,3-dioxohexanoate
+     keggEqCodes: C05422 + C00001 <=> C04575
+     score: 3
+- model: sme.SmeReaction
+  pk: 67
+  fields:
+     rxnID: R04190
+     name: "S-Adenosyl-L-methionine:protein-L-isoaspartate O-methyltransferase"
+     ec: 2.1.1.77
+     subsystem: "."
+     equation: "[c] : amet + C03306 <=> ahcys + C04311"
+     gpr: "SMa_1547"
+     keggEq: S-Adenosyl-L-methionine + Protein L-isoaspartate <=> S-Adenosyl-L-homocysteine + Protein L-isoaspartate methyl ester
+     keggEqCodes: C00019 + C03306 <=> C00021 + C04311
+     score: 3
+- model: sme.SmeReaction
+  pk: 68
+  fields:
+     rxnID: R08306
+     name: "2-phenyl-1,3-propanediol monocarbamate:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00982 Drug metabolism - cytochrome P450"
+     equation: "[c] : C16586 + nad <=> C16587 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: 2-Phenyl-1,3-propanediol monocarbamate + NAD+ <=> 3-Carbamoyl-2-phenylpropionaldehyde + NADH + H+
+     keggEqCodes: C16586 + C00003 <=> C16587 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 69
+  fields:
+     rxnID: R07083
+     name: "4,5-dihydro-4-hydroxy-5-S-glutathionyl-benzo[a]pyrene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14851 + gthrd <=> C14855"
+     gpr: "SMb_20005"
+     keggEq: Benzo[a]pyrene-4,5-oxide + Glutathione <=> 4,5-Dihydro-4-hydroxy-5-S-glutathionyl-benzo[a]pyrene
+     keggEqCodes: C14851 + C00051 <=> C14855
+     score: 3
+- model: sme.SmeReaction
+  pk: 70
+  fields:
+     rxnID: R07084
+     name: "7,8-dihydro-7-hydroxy-8-S-glutathionyl-benzo[a]pyrene hydrolase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14852 + gthrd <=> C14856 + h2o"
+     gpr: "SMb_20005"
+     keggEq: Benzo[a]pyrene-7,8-diol + Glutathione <=> 7,8-Dihydro-7-hydroxy-8-S-glutathionyl-benzo[a]pyrene + H2O
+     keggEqCodes: C14852 + C00051 <=> C14856 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 71
+  fields:
+     rxnID: R09229
+     name: "muconate cycloisomerase"
+     ec: 5.5.1.1
+     subsystem: "rn00623 Toluene degradation"
+     equation: "[c] : C04112 <=> C04558"
+     gpr: "SMa_1461"
+     keggEq: 3-Methyl-cis,cis-hexadienedioate <=> 3-Methylmuconolactone
+     keggEqCodes: C04112 <=> C04558
+     score: 3
+- model: sme.SmeReaction
+  pk: 72
+  fields:
+     rxnID: R04506
+     name: "3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "."
+     equation: "[c] : C05445 + nad + h2o <=> C04554 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al + NAD+ + H2O <=> 3alpha,7alpha-Dihydroxy-5beta-cholestanate + NADH + H+
+     keggEqCodes: C05445 + C00003 + C00001 <=> C04554 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 73
+  fields:
+     rxnID: R00509
+     name: "ATP:adenylylsulfate 3'-phosphotransferase"
+     ec: 2.7.1.25
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : atp + aps <=> adp + pap"
+     gpr: "SMb_21224"
+     keggEq: ATP + Adenylyl sulfate <=> ADP + 3'-Phosphoadenylyl sulfate
+     keggEqCodes: C00002 + C00224 <=> C00008 + C00053
+     score: 3
+- model: sme.SmeReaction
+  pk: 74
+  fields:
+     rxnID: R02802
+     name: "Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "."
+     equation: "[c] : C00697 + 2 C05359 + 2 h <=> C05360"
+     gpr: "SMa_0825"
+     keggEq: Nitrogen + 2 e- + 2 H+ <=> Diimine
+     keggEqCodes: C00697 + 2 C05359 + 2 C00080 <=> C05360
+     score: 3
+- model: sme.SmeReaction
+  pk: 75
+  fields:
+     rxnID: R00529
+     name: "ATP:sulfate adenylyltransferase"
+     ec: 2.7.7.4
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : atp + so4 <=> ppi + aps"
+     gpr: "SMb_21223"
+     keggEq: ATP + Sulfate <=> Diphosphate + Adenylyl sulfate
+     keggEqCodes: C00002 + C00059 <=> C00013 + C00224
+     score: 3
+- model: sme.SmeReaction
+  pk: 76
+  fields:
+     rxnID: R03012
+     name: "L-Histidinol:NAD+ oxidoreductase"
+     ec: 1.1.1.23
+     subsystem: "rn00340 Histidine metabolism"
+     equation: "[c] : histd + nad <=> C01929 + nadh + h"
+     gpr: "SMa_0398"
+     keggEq: L-Histidinol + NAD+ <=> L-Histidinal + NADH + H+
+     keggEqCodes: C00860 + C00003 <=> C01929 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 77
+  fields:
+     rxnID: R00280
+     name: "Nitric-oxide:acceptor oxidoreductase"
+     ec: 1.7.2.1
+     subsystem: "."
+     equation: "[c] : C00028 + 2 C00533 + 2 h2o <=> C00030 + 2 no2"
+     gpr: "SMa_1250"
+     keggEq: Acceptor + 2 Nitric oxide + 2 H2O <=> Reduced acceptor + 2 Nitrite
+     keggEqCodes: C00028 + 2 C00533 + 2 C00001 <=> C00030 + 2 C00088
+     score: 3
+- model: sme.SmeReaction
+  pk: 78
+  fields:
+     rxnID: R09409
+     name: "glutathione-S-transferase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C19586 + gthrd <=> C11278"
+     gpr: "SMb_20005"
+     keggEq: Aflatoxin B1-exo-8,9-epoxide + Glutathione <=> Aflatoxin B1exo-8,9-epoxide-GSH
+     keggEqCodes: C19586 + C00051 <=> C11278
+     score: 3
+- model: sme.SmeReaction
+  pk: 79
+  fields:
+     rxnID: R01395
+     name: "ATP:carbamate phosphotransferase"
+     ec: 2.7.2.2
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : atp + C01563 <=> adp + cbp"
+     gpr: "SMa_0697"
+     keggEq: ATP + Carbamate <=> ADP + Carbamoyl phosphate
+     keggEqCodes: C00002 + C01563 <=> C00008 + C00169
+     score: 3
+- model: sme.SmeReaction
+  pk: 80
+  fields:
+     rxnID: R01398
+     name: "Carbamoyl-phosphate:L-ornithine carbamoyltransferase"
+     ec: 2.1.3.3
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : cbp + C00077 <=> pi + citr-L"
+     gpr: "SMa_0695"
+     keggEq: Carbamoyl phosphate + L-Ornithine <=> Orthophosphate + L-Citrulline
+     keggEqCodes: C00169 + C00077 <=> C00009 + C00327
+     score: 3
+- model: sme.SmeReaction
+  pk: 81
+  fields:
+     rxnID: R03220
+     name: "Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)"
+     ec: 1.3.3.3
+     subsystem: "rn00860 Porphyrin and chlorophyll metabolism"
+     equation: "[c] : cpppg3 + o2 <=> pppg9 + 2 co2 + 2 h2o"
+     gpr: "SMc_00180"
+     keggEq: Coproporphyrinogen III + Oxygen <=> Protoporphyrinogen IX + 2 CO2 + 2 H2O
+     keggEqCodes: C03263 + C00007 <=> C01079 + 2 C00011 + 2 C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 82
+  fields:
+     rxnID: R05234
+     name: "cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C06612 + nad <=> C16348 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: cis-3-Chloro-2-propene-1-ol + NAD+ <=> cis-3-Chloroallyl aldehyde + NADH + H+
+     keggEqCodes: C06612 + C00003 <=> C16348 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 83
+  fields:
+     rxnID: R05233
+     name: "trans-3-Chloro-2-propene-1-ol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C06611 + nad <=> C06613 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: trans-3-Chloro-2-propene-1-ol + NAD+ <=> trans-3-Chloroallyl aldehyde + NADH + H+
+     keggEqCodes: C06611 + C00003 <=> C06613 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 84
+  fields:
+     rxnID: R00566
+     name: "L-arginine carboxy-lyase (agmatine-forming)"
+     ec: 4.1.1.19
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : arg-L <=> agm + co2"
+     gpr: "SMa_0680"
+     keggEq: L-Arginine <=> Agmatine + CO2
+     keggEqCodes: C00062 <=> C00179 + C00011
+     score: 3
+- model: sme.SmeReaction
+  pk: 85
+  fields:
+     rxnID: R09099
+     name: "5,10-methylenetetrahydromethanopterin:glycine hydroxymethyltransferase"
+     ec: 2.1.2.1
+     subsystem: "rn00680 Methane metabolism"
+     equation: "[c] : ser-L + C01217 <=> C04377 + gly + h2o"
+     gpr: "SMa_2135"
+     keggEq: L-Serine + 5,6,7,8-Tetrahydromethanopterin <=> 5,10-Methylenetetrahydromethanopterin + Glycine + H2O
+     keggEqCodes: C00065 + C01217 <=> C04377 + C00037 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 86
+  fields:
+     rxnID: R02678
+     name: "Indole-3-acetaldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00380 Tryptophan metabolism"
+     equation: "[c] : C00637 + nad + h2o <=> C00954 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: Indole-3-acetaldehyde + NAD+ + H2O <=> Indole-3-acetate + NADH + H+
+     keggEqCodes: C00637 + C00003 + C00001 <=> C00954 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 87
+  fields:
+     rxnID: R07003
+     name: "(1R)-glutathionyl-(2R)-hydroxy-1,2-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14787 + gthrd <=> C14793"
+     gpr: "SMb_20005"
+     keggEq: (1S,2R)-Naphthalene 1,2-oxide + Glutathione <=> (1R)-Glutathionyl-(2R)-hydroxy-1,2-dihydronaphthalene
+     keggEqCodes: C14787 + C00051 <=> C14793
+     score: 3
+- model: sme.SmeReaction
+  pk: 88
+  fields:
+     rxnID: R07002
+     name: "(1R)-hydroxy-(2R)-glutathionyl-1,2-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14786 + gthrd <=> C14791"
+     gpr: "SMb_20005"
+     keggEq: (1R,2S)-Naphthalene 1,2-oxide + Glutathione <=> (1R)-Hydroxy-(2R)-glutathionyl-1,2-dihydronaphthalene
+     keggEqCodes: C14786 + C00051 <=> C14791
+     score: 3
+- model: sme.SmeReaction
+  pk: 89
+  fields:
+     rxnID: R07004
+     name: "(1S)-hydroxy-(2S)-glutathionyl-1,2-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14787 + gthrd <=> C14792"
+     gpr: "SMb_20005"
+     keggEq: (1S,2R)-Naphthalene 1,2-oxide + Glutathione <=> (1S)-Hydroxy-(2S)-glutathionyl-1,2-dihydronaphthalene
+     keggEqCodes: C14787 + C00051 <=> C14792
+     score: 3
+- model: sme.SmeReaction
+  pk: 90
+  fields:
+     rxnID: R07069
+     name: "3,4-dihydro-3-hydroxy-4-S-glutathionyl bromobenzene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14839 + gthrd <=> C14847"
+     gpr: "SMb_20005"
+     keggEq: Bromobenzene-3,4-oxide + Glutathione <=> 3,4-Dihydro-3-hydroxy-4-S-glutathionyl bromobenzene
+     keggEqCodes: C14839 + C00051 <=> C14847
+     score: 3
+- model: sme.SmeReaction
+  pk: 91
+  fields:
+     rxnID: R01519
+     name: "D-Glucono-1,5-lactone lactonohydrolase"
+     ec: 3.1.1.17
+     subsystem: "rn00030 Pentose phosphate pathway"
+     equation: "[c] : g15lac + h2o <=> C00257"
+     gpr: "SMb_20453"
+     keggEq: D-Glucono-1,5-lactone + H2O <=> D-Gluconic acid
+     keggEqCodes: C00198 + C00001 <=> C00257
+     score: 3
+- model: sme.SmeReaction
+  pk: 92
+  fields:
+     rxnID: R05185
+     name: "reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : 16 atp + C00697 + 8 C00138 + 8 h + 16 h2o <=> 16 pi + 16 adp + 8 C00139 + 2 nh4 + h2"
+     gpr: "SMa_0825"
+     keggEq: 16 ATP + Nitrogen + 8 Reduced ferredoxin + 8 H+ + 16 H2O <=> 16 Orthophosphate + 16 ADP + 8 Oxidized ferredoxin + 2 Ammonia + Hydrogen
+     keggEqCodes: 16 C00002 + C00697 + 8 C00138 + 8 C00080 + 16 C00001 <=> 16 C00009 + 16 C00008 + 8 C00139 + 2 C00014 + C00282
+     score: 3
+- model: sme.SmeReaction
+  pk: 93
+  fields:
+     rxnID: R06989
+     name: "2,5-Dihydro-5-oxofuran-2-acetate lyase (decyclizing)"
+     ec: 5.5.1.1
+     subsystem: "rn00362 Benzoate degradation"
+     equation: "[c] : muc <=> C14610"
+     gpr: "SMa_1461"
+     keggEq: cis,cis-Muconate <=> (S)-5-Oxo-2,5-dihydrofuran-2-acetate
+     keggEqCodes: C02480 <=> C14610
+     score: 3
+- model: sme.SmeReaction
+  pk: 94
+  fields:
+     rxnID: R03050
+     name: "2-Acetolactate pyruvate-lyase (carboxylating)"
+     ec: 2.2.1.6
+     subsystem: "."
+     equation: "[c] : alac-S + thmpp <=> C05125 + pyr"
+     gpr: "SMa_0958"
+     keggEq: 2-Acetolactate + Thiamin diphosphate <=> 2-(alpha-Hydroxyethyl)thiamine diphosphate + Pyruvate
+     keggEqCodes: C00900 + C00068 <=> C05125 + C00022
+     score: 3
+- model: sme.SmeReaction
+  pk: 95
+  fields:
+     rxnID: R01740
+     name: "D-Gluconate:NADP+ 5-oxidoreductase"
+     ec: 1.1.1.69
+     subsystem: "."
+     equation: "[c] : C00257 + nadp <=> C01062 + nadph + h"
+     gpr: "SMb_20692"
+     keggEq: D-Gluconic acid + NADP+ <=> 5-Dehydro-D-gluconate + NADPH + H+
+     keggEqCodes: C00257 + C00006 <=> C01062 + C00005 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 96
+  fields:
+     rxnID: R00132
+     name: "carbonate hydro-lyase (carbon-dioxide-forming);"
+     ec: 4.2.1.1
+     subsystem: "."
+     equation: "[c] : C01353 <=> co2 + h2o"
+     gpr: "SMa_0045"
+     keggEq: Carbonic acid <=> CO2 + H2O
+     keggEqCodes: C01353 <=> C00011 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 97
+  fields:
+     rxnID: R07023
+     name: "1-nitro-7-hydroxy-8-glutathionyl-7,8-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14802 + gthrd <=> C14803"
+     gpr: "SMb_20005"
+     keggEq: 1-Nitronaphthalene-7,8-oxide + Glutathione <=> 1-Nitro-7-hydroxy-8-glutathionyl-7,8-dihydronaphthalene
+     keggEqCodes: C14802 + C00051 <=> C14803
+     score: 3
+- model: sme.SmeReaction
+  pk: 98
+  fields:
+     rxnID: R07026
+     name: "1-nitro-5-glutathionyl-6-hydroxy-5,6-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14800 + gthrd <=> C14806"
+     gpr: "SMb_20005"
+     keggEq: 1-Nitronaphthalene-5,6-oxide + Glutathione <=> 1-Nitro-5-glutathionyl-6-hydroxy-5,6-dihydronaphthalene
+     keggEqCodes: C14800 + C00051 <=> C14806
+     score: 3
+- model: sme.SmeReaction
+  pk: 99
+  fields:
+     rxnID: R07025
+     name: "1-nitro-5-hydroxy-6-glutathionyl-5,6-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14800 + gthrd <=> C14805"
+     gpr: "SMb_20005"
+     keggEq: 1-Nitronaphthalene-5,6-oxide + Glutathione <=> 1-Nitro-5-hydroxy-6-glutathionyl-5,6-dihydronaphthalene
+     keggEqCodes: C14800 + C00051 <=> C14805
+     score: 3
+- model: sme.SmeReaction
+  pk: 100
+  fields:
+     rxnID: R07024
+     name: "1-nitro-7-glutathionyl-8-hydroxy-7,8-dihydronaphthalene glutathione-lyase (epoxide-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14802 + gthrd <=> C14804"
+     gpr: "SMb_20005"
+     keggEq: 1-Nitronaphthalene-7,8-oxide + Glutathione <=> 1-Nitro-7-glutathionyl-8-hydroxy-7,8-dihydronaphthalene
+     keggEqCodes: C14802 + C00051 <=> C14804
+     score: 3
+- model: sme.SmeReaction
+  pk: 101
+  fields:
+     rxnID: R00798
+     name: "nitrite:acceptor oxidoreductase"
+     ec: 1.7.99.4
+     subsystem: "rn00910 Nitrogen metabolism"
+     equation: "[c] : no2 + C00028 + h2o <=> C00244 + C00030"
+     gpr: "SMb_20986"
+     keggEq: Nitrite + Acceptor + H2O <=> Nitrate + Reduced acceptor
+     keggEqCodes: C00088 + C00028 + C00001 <=> C00244 + C00030
+     score: 3
+- model: sme.SmeReaction
+  pk: 102
+  fields:
+     rxnID: R08310
+     name: "4-hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00982 Drug metabolism - cytochrome P450"
+     equation: "[c] : C16595 + nad <=> C16596 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: 4-Hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one + NAD+ <=> 5-Phenyl-1,3-oxazinane-2,4-dione + NADH + H+
+     keggEqCodes: C16595 + C00003 <=> C16596 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 103
+  fields:
+     rxnID: R05300
+     name: "4-Methylmuconolactone lyase (decyclizing)"
+     ec: 5.5.1.1
+     subsystem: "rn00623 Toluene degradation"
+     equation: "[c] : C04559 <=> C04112"
+     gpr: "SMa_1461"
+     keggEq: 4-Methylmuconolactone <=> 3-Methyl-cis,cis-hexadienedioate
+     keggEqCodes: C04559 <=> C04112
+     score: 3
+- model: sme.SmeReaction
+  pk: 104
+  fields:
+     rxnID: R03243
+     name: "5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.9
+     subsystem: "rn00340 Histidine metabolism"
+     equation: "[c] : hisp + akg <=> imacp + glu-L"
+     gpr: "SMa_0387"
+     keggEq: L-Histidinol phosphate + 2-Oxoglutarate <=> 3-(Imidazol-4-yl)-2-oxopropyl phosphate + L-Glutamate
+     keggEqCodes: C01100 + C00026 <=> C01267 + C00025
+     score: 3
+- model: sme.SmeReaction
+  pk: 105
+  fields:
+     rxnID: R05496
+     name: "reduced ferredoxin:acetylene oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "rn00625 Chloroalkane and chloroalkene degradation"
+     equation: "[c] : C01548 + C00138 + 2 h + atp + h2o <=> C06547 + C00139 + adp + pi"
+     gpr: "SMa_0825"
+     keggEq: Acetylene + Reduced ferredoxin + 2 H+ + ATP + H2O <=> Ethylene + Oxidized ferredoxin + ADP + Orthophosphate
+     keggEqCodes: C01548 + C00138 + 2 C00080 + C00002 + C00001 <=> C06547 + C00139 + C00008 + C00009
+     score: 3
+- model: sme.SmeReaction
+  pk: 106
+  fields:
+     rxnID: R02924
+     name: "D-Arginine:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00472 D-Arginine and D-ornithine metabolism"
+     equation: "[c] : C00792 + C00161 <=> C03771 + C00405"
+     gpr: "SMa_0093"
+     keggEq: D-Arginine + 2-Oxo acid <=> 5-Guanidino-2-oxopentanoate + D-Amino acid
+     keggEqCodes: C00792 + C00161 <=> C03771 + C00405
+     score: 3
+- model: sme.SmeReaction
+  pk: 107
+  fields:
+     rxnID: R06927
+     name: "(2-naphthyl)methanol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00626 Naphthalene degradation"
+     equation: "[c] : C02909 + nad <=> C14099 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: (2-Naphthyl)methanol + NAD+ <=> 2-Naphthaldehyde + NADH + H+
+     keggEqCodes: C02909 + C00003 <=> C14099 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 108
+  fields:
+     rxnID: R03522
+     name: "RX:glutathione R-transferase"
+     ec: 2.5.1.18
+     subsystem: "rn00480 Glutathione metabolism"
+     equation: "[c] : C01322 + gthrd <=> C00462 + C02320"
+     gpr: "SMb_20005"
+     keggEq: RX + Glutathione <=> Halide + R-S-Glutathione
+     keggEqCodes: C01322 + C00051 <=> C00462 + C02320
+     score: 3
+- model: sme.SmeReaction
+  pk: 109
+  fields:
+     rxnID: R01106
+     name: "nitrite:(acceptor) oxidoreductase"
+     ec: 1.7.99.4
+     subsystem: "."
+     equation: "[c] : 2 ficytc + no2 + h2o <=> C00244 + 2 focytc + 2 h"
+     gpr: "SMb_20986"
+     keggEq: 2 Ferricytochrome c + Nitrite + H2O <=> Nitrate + 2 Ferrocytochrome c + 2 H+
+     keggEqCodes: 2 C00125 + C00088 + C00001 <=> C00244 + 2 C00126 + 2 C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 110
+  fields:
+     rxnID: R09107
+     name: "N-acetyl-L-citrulline amidohydrolase"
+     ec: 3.5.1.16
+     subsystem: "rn00330 Arginine and proline metabolism"
+     equation: "[c] : C15532 + h2o <=> ac + citr-L"
+     gpr: "SMa_1836"
+     keggEq: N-Acetyl-L-citrulline + H2O <=> Acetate + L-Citrulline
+     keggEqCodes: C15532 + C00001 <=> C00033 + C00327
+     score: 3
+- model: sme.SmeReaction
+  pk: 111
+  fields:
+     rxnID: R00226
+     name: "pyruvate:pyruvate acetaldehydetransferase (decarboxylating);"
+     ec: 2.2.1.6
+     subsystem: "rn00290 Valine, leucine and isoleucine biosynthesis"
+     equation: "[c] : C06010 + co2 <=> 2 pyr"
+     gpr: "SMa_0958"
+     keggEq: (S)-2-Acetolactate + CO2 <=> 2 Pyruvate
+     keggEqCodes: C06010 + C00011 <=> 2 C00022
+     score: 3
+- model: sme.SmeReaction
+  pk: 112
+  fields:
+     rxnID: R03751
+     name: "epsilon-Caprolactone lactonohydrolase"
+     ec: 3.1.1.17
+     subsystem: "rn00930 Caprolactam degradation"
+     equation: "[c] : C01880 + h2o <=> C06103"
+     gpr: "SMb_20453"
+     keggEq: epsilon-Caprolactone + H2O <=> 6-Hydroxyhexanoic acid
+     keggEqCodes: C01880 + C00001 <=> C06103
+     score: 3
+- model: sme.SmeReaction
+  pk: 113
+  fields:
+     rxnID: R00153
+     name: "Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "."
+     equation: "[c] : C05361 + 2 C05359 + 2 h <=> 2 nh4"
+     gpr: "SMa_0825"
+     keggEq: Hydrazine + 2 e- + 2 H+ <=> 2 Ammonia
+     keggEqCodes: C05361 + 2 C05359 + 2 C00080 <=> 2 C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 114
+  fields:
+     rxnID: R04065
+     name: "Imidazole acetaldehyde:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00340 Histidine metabolism"
+     equation: "[c] : C05130 + nad + h2o <=> C02835 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: Imidazole-4-acetaldehyde + NAD+ + H2O <=> Imidazole-4-acetate + NADH + H+
+     keggEqCodes: C05130 + C00003 + C00001 <=> C02835 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 115
+  fields:
+     rxnID: R02737
+     name: "UDPglucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase"
+     ec: 2.4.1.15
+     subsystem: "rn00500 Starch and sucrose metabolism"
+     equation: "[c] : udpg + C00668 <=> udp + C00689"
+     gpr: "SMa_0233"
+     keggEq: UDP-glucose + alpha-D-Glucose 6-phosphate <=> UDP + alpha,alpha'-Trehalose 6-phosphate
+     keggEqCodes: C00029 + C00668 <=> C00015 + C00689
+     score: 3
+- model: sme.SmeReaction
+  pk: 116
+  fields:
+     rxnID: R01411
+     name: "5-Methylcytosine aminohydrolase"
+     ec: 3.5.4.1
+     subsystem: "rn00240 Pyrimidine metabolism"
+     equation: "[c] : C02376 + h2o <=> C00178 + nh4"
+     gpr: "SMb_20128"
+     keggEq: 5-Methylcytosine + H2O <=> Thymine + Ammonia
+     keggEqCodes: C02376 + C00001 <=> C00178 + C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 117
+  fields:
+     rxnID: R01148
+     name: "D-Alanine:2-oxoglutarate aminotransferase"
+     ec: 2.6.1.21
+     subsystem: "rn00473 D-Alanine metabolism"
+     equation: "[c] : ala-D + akg <=> pyr + glu-D"
+     gpr: "SMa_0093"
+     keggEq: D-Alanine + 2-Oxoglutarate <=> Pyruvate + D-Glutamate
+     keggEqCodes: C00133 + C00026 <=> C00022 + C00217
+     score: 3
+- model: sme.SmeReaction
+  pk: 118
+  fields:
+     rxnID: R02940
+     name: "2-Propyn-1-al:NAD+ oxidoreductase"
+     ec: 1.2.1.3
+     subsystem: "rn00640 Propanoate metabolism"
+     equation: "[c] : C05985 + nad + h2o <=> C00804 + nadh + h"
+     gpr: "SMb_20891"
+     keggEq: 2-Propynal + NAD+ + H2O <=> Propynoate + NADH + H+
+     keggEqCodes: C05985 + C00003 + C00001 <=> C00804 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 119
+  fields:
+     rxnID: R00624
+     name: "Secondary_alcohol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "."
+     equation: "[c] : C01612 + nad <=> C01450 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: Secondary alcohol + NAD+ <=> Ketone + NADH + H+
+     keggEqCodes: C01612 + C00003 <=> C01450 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 120
+  fields:
+     rxnID: R00974
+     name: "Cytosine aminohydrolase"
+     ec: 3.5.4.1
+     subsystem: "rn00240 Pyrimidine metabolism"
+     equation: "[c] : csn + h2o <=> ura + nh4"
+     gpr: "SMb_20128"
+     keggEq: Cytosine + H2O <=> Uracil + Ammonia
+     keggEqCodes: C00380 + C00001 <=> C00106 + C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 121
+  fields:
+     rxnID: R04673
+     name: "(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating)"
+     ec: 2.2.1.6
+     subsystem: "."
+     equation: "[c] : 2obut + C05125 <=> C06006 + thmpp"
+     gpr: "SMa_0958"
+     keggEq: 2-Oxobutanoate + 2-(alpha-Hydroxyethyl)thiamine diphosphate <=> (S)-2-Aceto-2-hydroxybutanoate + Thiamin diphosphate
+     keggEqCodes: C00109 + C05125 <=> C06006 + C00068
+     score: 3
+- model: sme.SmeReaction
+  pk: 122
+  fields:
+     rxnID: R03959
+     name: "2,5-Dihydro-5-oxofuran-2-acetate lyase (decyclizing)"
+     ec: 5.5.1.1
+     subsystem: "."
+     equation: "[c] : 25d5o2a <=> muc"
+     gpr: "SMa_1461"
+     keggEq: 2,5-Dihydro-5-oxofuran-2-acetate <=> cis,cis-Muconate
+     keggEqCodes: C04105 <=> C02480
+     score: 3
+- model: sme.SmeReaction
+  pk: 123
+  fields:
+     rxnID: R08280
+     name: "4-glutathionyl cyclophosphamide hydrolase"
+     ec: 2.5.1.18
+     subsystem: "rn00982 Drug metabolism - cytochrome P450"
+     equation: "[c] : C07645 + gthrd <=> C11583 + h2o"
+     gpr: "SMb_20005"
+     keggEq: Aldophosphamide + Glutathione <=> 4-Glutathionyl cyclophosphamide + H2O
+     keggEqCodes: C07645 + C00051 <=> C11583 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 124
+  fields:
+     rxnID: R08281
+     name: "alcophosphamide:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "rn00982 Drug metabolism - cytochrome P450"
+     equation: "[c] : C07645 + nadh + h <=> C16551 + nad"
+     gpr: "SMb_20170"
+     keggEq: Aldophosphamide + NADH + H+ <=> Alcophosphamide + NAD+
+     keggEqCodes: C07645 + C00004 + C00080 <=> C16551 + C00003
+     score: 3
+- model: sme.SmeReaction
+  pk: 125
+  fields:
+     rxnID: R01168
+     name: "L-histidine ammonia-lyase (urocanate-forming)"
+     ec: 4.3.1.3
+     subsystem: "rn00340 Histidine metabolism"
+     equation: "[c] : his-L <=> urcan + nh4"
+     gpr: "SMb_21165"
+     keggEq: L-Histidine <=> Urocanate + Ammonia
+     keggEqCodes: C00135 <=> C00785 + C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 126
+  fields:
+     rxnID: R01163
+     name: "L-histidinal:NAD+ oxidoreductase"
+     ec: 1.1.1.23
+     subsystem: "rn00340 Histidine metabolism"
+     equation: "[c] : C01929 + h2o + nad <=> his-L + nadh + h"
+     gpr: "SMa_0398"
+     keggEq: L-Histidinal + H2O + NAD+ <=> L-Histidine + NADH + H+
+     keggEqCodes: C01929 + C00001 + C00003 <=> C00135 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 127
+  fields:
+     rxnID: R05086
+     name: "O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)"
+     ec: 4.2.3.1
+     subsystem: "rn00750 Vitamin B6 metabolism"
+     equation: "[c] : phthr + h2o <=> 4hthr + pi"
+     gpr: "SMc_00077"
+     keggEq: O-Phospho-4-hydroxy-L-threonine + H2O <=> 4-Hydroxy-L-threonine + Orthophosphate
+     keggEqCodes: C06055 + C00001 <=> C06056 + C00009
+     score: 3
+- model: sme.SmeReaction
+  pk: 128
+  fields:
+     rxnID: R02279
+     name: "5-Dehydro-4-deoxy-D-glucarate hydro-lyase (decarboxylating)"
+     ec: 4.2.1.41
+     subsystem: "rn00053 Ascorbate and aldarate metabolism"
+     equation: "[c] : C00679 <=> C00433 + h2o + co2"
+     gpr: "SMa_1440"
+     keggEq: 5-Dehydro-4-deoxy-D-glucarate <=> 2,5-Dioxopentanoate + H2O + CO2
+     keggEqCodes: C00679 <=> C00433 + C00001 + C00011
+     score: 3
+- model: sme.SmeReaction
+  pk: 129
+  fields:
+     rxnID: R01209
+     name: "2,3-Dihydroxy-3-methylbutanoate hydro-lyase"
+     ec: 4.2.1.9
+     subsystem: "rn00770 Pantothenate and CoA biosynthesis"
+     equation: "[c] : 23dhmb <=> 3mob + h2o"
+     gpr: "SMb_20115"
+     keggEq: 2,3-Dihydroxy-3-methylbutanoate <=> 3-Methyl-2-oxobutanoic acid + H2O
+     keggEqCodes: C04039 <=> C00141 + C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 130
+  fields:
+     rxnID: R04929
+     name: "ATP:selenate adenylyltransferase"
+     ec: 2.7.7.4
+     subsystem: "rn00450 Selenocompound metabolism"
+     equation: "[c] : atp + C05697 <=> ppi + C05686"
+     gpr: "SMb_21223"
+     keggEq: ATP + Selenate <=> Diphosphate + Adenylylselenate
+     keggEqCodes: C00002 + C05697 <=> C00013 + C05686
+     score: 3
+- model: sme.SmeReaction
+  pk: 131
+  fields:
+     rxnID: R04928
+     name: "ATP:adenylylsulfate 3'-phosphotransferase"
+     ec: 2.7.1.25
+     subsystem: "."
+     equation: "[c] : atp + C05686 <=> adp + C05696"
+     gpr: "SMb_21224"
+     keggEq: ATP + Adenylylselenate <=> ADP + 3'-Phosphoadenylylselenate
+     keggEqCodes: C00002 + C05686 <=> C00008 + C05696
+     score: 3
+- model: sme.SmeReaction
+  pk: 132
+  fields:
+     rxnID: R00002
+     name: "Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "."
+     equation: "[c] : 16 atp + 16 h2o + 8 C00138 <=> 8 C05359 + 16 pi + 16 adp + 8 C00139"
+     gpr: "SMa_0825"
+     keggEq: 16 ATP + 16 H2O + 8 Reduced ferredoxin <=> 8 e- + 16 Orthophosphate + 16 ADP + 8 Oxidized ferredoxin
+     keggEqCodes: 16 C00002 + 16 C00001 + 8 C00138 <=> 8 C05359 + 16 C00009 + 16 C00008 + 8 C00139
+     score: 3
+- model: sme.SmeReaction
+  pk: 133
+  fields:
+     rxnID: R00006
+     name: "pyruvate:pyruvate acetaldehydetransferase (decarboxylating);"
+     ec: 2.2.1.6
+     subsystem: "rn00770 Pantothenate and CoA biosynthesis"
+     equation: "[c] : alac-S + co2 <=> 2 pyr"
+     gpr: "SMa_0958"
+     keggEq: 2-Acetolactate + CO2 <=> 2 Pyruvate
+     keggEqCodes: C00900 + C00011 <=> 2 C00022
+     score: 3
+- model: sme.SmeReaction
+  pk: 134
+  fields:
+     rxnID: R08116
+     name: "4-fluoromuconolactone lyase (decyclizing)"
+     ec: 5.5.1.1
+     subsystem: "rn00364 Fluorobenzoate degradation"
+     equation: "[c] : C16474 <=> C16476"
+     gpr: "SMa_1461"
+     keggEq: 3-Fluoro-cis,cis-muconate <=> 4-Fluoromuconolactone
+     keggEqCodes: C16474 <=> C16476
+     score: 3
+- model: sme.SmeReaction
+  pk: 135
+  fields:
+     rxnID: R06180
+     name: "."
+     ec: 1.1.1.93
+     subsystem: "rn00630 Glyoxylate and dicarboxylate metabolism"
+     equation: "[c] : C00898 + nad <=> C03459 + nadh + h"
+     gpr: "SMa_1846"
+     keggEq: (R,R)-Tartaric acid + NAD+ <=> 2-Hydroxy-3-oxosuccinate + NADH + H+
+     keggEqCodes: C00898 + C00003 <=> C03459 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 136
+  fields:
+     rxnID: R07116
+     name: "2-bromoacetaldehyde:glutathione S-(formylmethyl)transferase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14870 + gthrd <=> C14871 + C13645"
+     gpr: "SMb_20005"
+     keggEq: 2-Bromoacetaldehyde + Glutathione <=> S-(Formylmethyl)glutathione + Hydrobromic acid
+     keggEqCodes: C14870 + C00051 <=> C14871 + C13645
+     score: 3
+- model: sme.SmeReaction
+  pk: 137
+  fields:
+     rxnID: R07113
+     name: "1,2-dibromoethane:glutathione ethylenetransferase (episulfonium-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C11088 + gthrd + h <=> C14874 + 2 C13645"
+     gpr: "SMb_20005"
+     keggEq: 1,2-Dibromoethane + Glutathione + H+ <=> Glutathione episulfonium ion + 2 Hydrobromic acid
+     keggEqCodes: C11088 + C00051 + C00080 <=> C14874 + 2 C13645
+     score: 3
+- model: sme.SmeReaction
+  pk: 138
+  fields:
+     rxnID: R01224
+     name: "5-methyltetrahydrofolate:NADP+ oxidoreductase"
+     ec: 1.5.1.20
+     subsystem: "rn00670 One carbon pool by folate"
+     equation: "[c] : 5mthf + nadp <=> mlthf + nadph + h"
+     gpr: "SMa_2143"
+     keggEq: 5-Methyltetrahydrofolate + NADP+ <=> 5,10-Methylenetetrahydrofolate + NADPH + H+
+     keggEqCodes: C00440 + C00006 <=> C00143 + C00005 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 139
+  fields:
+     rxnID: R00067
+     name: "Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)"
+     ec: 1.18.6.1
+     subsystem: "."
+     equation: "[c] : 2 C05359 + 2 h <=> h2"
+     gpr: "SMa_0825"
+     keggEq: 2 e- + 2 H+ <=> Hydrogen
+     keggEqCodes: 2 C05359 + 2 C00080 <=> C00282
+     score: 3
+- model: sme.SmeReaction
+  pk: 140
+  fields:
+     rxnID: R00052
+     name: "chloride:hydrogen-peroxide oxidoreductase"
+     ec: 1.11.1.10
+     subsystem: "."
+     equation: "[c] : h2o2 + C01371 + C01327 <=> C01334 + 2 h2o"
+     gpr: "SMb_20054"
+     keggEq: Hydrogen peroxide + Alkane + Hydrochloric acid <=> RCl + 2 H2O
+     keggEqCodes: C00027 + C01371 + C01327 <=> C01334 + 2 C00001
+     score: 3
+- model: sme.SmeReaction
+  pk: 141
+  fields:
+     rxnID: R06226
+     name: "."
+     ec: 2.4.1.15
+     subsystem: "."
+     equation: "[c] : G10608 + C00668 <=> G10619 + G09795"
+     gpr: "SMa_0233"
+     keggEq: UDP-D-glucose + alpha-D-Glucose 6-phosphate <=> UDP + Trehalose 6-phosphate
+     keggEqCodes: G10608 + C00668 <=> G10619 + G09795
+     score: 3
+- model: sme.SmeReaction
+  pk: 142
+  fields:
+     rxnID: R01244
+     name: "Adenine aminohydrolase"
+     ec: 3.5.4.2
+     subsystem: "rn00230 Purine metabolism"
+     equation: "[c] : ade + h2o <=> hxan + nh4"
+     gpr: "SMb_21278"
+     keggEq: Adenine + H2O <=> Hypoxanthine + Ammonia
+     keggEqCodes: C00147 + C00001 <=> C00262 + C00014
+     score: 3
+- model: sme.SmeReaction
+  pk: 143
+  fields:
+     rxnID: R07092
+     name: "1,1-dichloroethylene-epoxide:glutathione S-(chloroepoxyethyl)transferase [2-(S-glutathionyl)acetyl-chloride-forming]"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14857 + gthrd <=> C14865 + C01327"
+     gpr: "SMb_20005"
+     keggEq: 1,1-Dichloroethylene epoxide + Glutathione <=> 2-(S-Glutathionyl)acetyl chloride + Hydrochloric acid
+     keggEqCodes: C14857 + C00051 <=> C14865 + C01327
+     score: 3
+- model: sme.SmeReaction
+  pk: 144
+  fields:
+     rxnID: R07093
+     name: "chloroacetyl-chloride:glutathione S-chloroacetyltransferase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14859 + gthrd <=> C14864 + C01327"
+     gpr: "SMb_20005"
+     keggEq: Chloroacetyl chloride + Glutathione <=> S-(2-Chloroacetyl)glutathione + Hydrochloric acid
+     keggEqCodes: C14859 + C00051 <=> C14864 + C01327
+     score: 3
+- model: sme.SmeReaction
+  pk: 145
+  fields:
+     rxnID: R07091
+     name: "S-(2,2-dichloro-1-hydroxy)ethyl-glutathione 2,2-dichloroacetaldehyde-lyase (glutathione-forming)"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14858 + gthrd <=> C14861"
+     gpr: "SMb_20005"
+     keggEq: 2,2-Dichloroacetaldehyde + Glutathione <=> S-(2,2-Dichloro-1-hydroxy)ethyl glutathione
+     keggEqCodes: C14858 + C00051 <=> C14861
+     score: 3
+- model: sme.SmeReaction
+  pk: 146
+  fields:
+     rxnID: R07094
+     name: "2-(S-glutathionyl)acetyl-chloride:glutathione 2-(S-glutathionyl)acetyltransferase"
+     ec: 2.5.1.18
+     subsystem: "rn00980 Metabolism of xenobiotics by cytochrome P450"
+     equation: "[c] : C14865 + gthrd <=> C14863 + C01327"
+     gpr: "SMb_20005"
+     keggEq: 2-(S-Glutathionyl)acetyl chloride + Glutathione <=> 2-(S-Glutathionyl)acetyl glutathione + Hydrochloric acid
+     keggEqCodes: C14865 + C00051 <=> C14863 + C01327
+     score: 3
+- model: sme.SmeReaction
+  pk: 147
+  fields:
+     rxnID: R07327
+     name: "alcohol:NAD+ oxidoreductase"
+     ec: 1.1.1.1
+     subsystem: "."
+     equation: "[c] : C00069 + nad <=> C01450 + nadh + h"
+     gpr: "SMb_20170"
+     keggEq: Alcohol + NAD+ <=> Ketone + NADH + H+
+     keggEqCodes: C00069 + C00003 <=> C01450 + C00004 + C00080
+     score: 3
+- model: sme.SmeReaction
+  pk: 148
+  fields:
+     rxnID: R00836
+     name: "UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase"
+     ec: 2.4.1.15
+     subsystem: "."
+     equation: "[c] : udpg + g6p <=> udp + C00689"
+     gpr: "SMa_0233"
+     keggEq: UDP-glucose + D-Glucose 6-phosphate <=> UDP + alpha,alpha'-Trehalose 6-phosphate
+     keggEqCodes: C00029 + C00092 <=> C00015 + C00689
+     score: 3
+- model: sme.SmeReaction
+  pk: 149
+  fields:
+     rxnID: R00519
+     name: "formate:NAD+ oxidoreductase"
+     ec: 1.2.1.2
+     subsystem: "rn00630 Glyoxylate and dicarboxylate metabolism"
+     equation: "[c] : C00058 + nad <=> h + co2 + nadh"
+     gpr: "SMa_0002"
+     keggEq: Formate + NAD+ <=> H+ + CO2 + NADH
+     keggEqCodes: C00058 + C00003 <=> C00080 + C00011 + C00004
+     score: 3
